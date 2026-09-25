@@ -1498,6 +1498,10 @@
 2026-09-26 01:07:07.420+02:00 [WARN ] GAME_FAIL worker=1 n=159 after_ms=2 err=deposit A: deposit submission failed after retries
 2026-09-26 01:07:08.791+02:00 [WARN ] GAME_FAIL worker=2 n=160 after_ms=1 err=deposit A: deposit submission failed after retries
 2026-09-26 01:07:08.791+02:00 [WARN ] GAME_FAIL worker=4 n=159 after_ms=1 err=deposit A: deposit submission failed after retries
+thread 'tokio-rt-worker' (666818) panicked at /home/box/.cargo/git/checkouts/vprogs-12fa1eb54d96a3a2/3a61c0b/l1/wallet/src/build/carrier.rs:62:5:
+funding UTXO amount 98596000 too small for extra outputs 100000000
+thread 'tokio-rt-worker' (666818) panicked at /home/box/.cargo/git/checkouts/vprogs-12fa1eb54d96a3a2/3a61c0b/l1/wallet/src/build/carrier.rs:62:5:
+funding UTXO amount 98595900 too small for extra outputs 100000000
 2026-09-26 01:07:23.831+02:00 [INFO ] GAME_SUBMITTED worker=0 n=161 id=ad8024d129078315f725e63d9e90a6006f789357c206716c17f9a642a00a6810 total_submit_ms=14022 deposit_a=1 deposit_b=2 create=1 join=1 turn_a=1 turn_b=4 withdraw=1
 2026-09-26 01:07:24.728+02:00 [INFO ] GAME_SUBMITTED worker=6 n=159 id=dc502b4c155e8bbeeaac94f9e7b59d228eb469b987d1356b26d17e3b0008c2e2 total_submit_ms=14015 deposit_a=1 deposit_b=1 create=0 join=2 turn_a=1 turn_b=0 withdraw=0
 2026-09-26 01:07:26.246+02:00 [INFO ] GAME_SUBMITTED worker=3 n=161 id=8601637f89ecdd814ffddda935587626480c5adf487f2da9fbbac01d459d4a28 total_submit_ms=14017 deposit_a=0 deposit_b=1 create=0 join=0 turn_a=2 turn_b=1 withdraw=0
@@ -1506,8 +1510,14 @@
 2026-09-26 01:07:27.809+02:00 [INFO ] GAME_SUBMITTED worker=2 n=161 id=5a50c41f660899ae4977d779fb28986fc96c3e941c1d11faa088eaa87d9c9fb0 total_submit_ms=14017 deposit_a=1 deposit_b=0 create=0 join=5 turn_a=0 turn_b=0 withdraw=1
 2026-09-26 01:07:27.809+02:00 [INFO ] GAME_SUBMITTED worker=4 n=160 id=a32527f8dc9ee2d3b8fe72056a0323c26eb2cbc9c8977f75af9e3208d6a52130 total_submit_ms=14017 deposit_a=0 deposit_b=0 create=0 join=5 turn_a=0 turn_b=0 withdraw=1
 2026-09-26 01:07:27.839+02:00 [INFO ] GAME_FINISHED worker=0 n=161 id=ad8024d129078315f725e63d9e90a6006f789357c206716c17f9a642a00a6810 state=First finish_wait_ms=4008 game_ms=18031
+thread 'tokio-rt-worker' (666816) panicked at /home/box/.cargo/git/checkouts/vprogs-12fa1eb54d96a3a2/3a61c0b/l1/wallet/src/build/carrier.rs:62:5:
+funding UTXO amount 98406300 too small for extra outputs 100000000
+thread 'tokio-rt-worker' (666812) panicked at /home/box/.cargo/git/checkouts/vprogs-12fa1eb54d96a3a2/3a61c0b/l1/wallet/src/build/carrier.rs:62:5:
+funding UTXO amount 98955500 too small for extra outputs 100000000
 2026-09-26 01:07:30.254+02:00 [INFO ] GAME_FINISHED worker=3 n=161 id=8601637f89ecdd814ffddda935587626480c5adf487f2da9fbbac01d459d4a28 state=First finish_wait_ms=4008 game_ms=18025
 2026-09-26 01:07:30.451+02:00 [INFO ] GAME_FINISHED worker=1 n=160 id=26f2f754bb89f25bceba8e0a699698d1eb3ba7277a9f4ee81bae752ba639ac0b state=First finish_wait_ms=4008 game_ms=18030
+thread 'tokio-rt-worker' (666816) panicked at /home/box/.cargo/git/checkouts/vprogs-12fa1eb54d96a3a2/3a61c0b/l1/wallet/src/build/carrier.rs:62:5:
+funding UTXO amount 98413100 too small for extra outputs 100000000
 2026-09-26 01:07:31.815+02:00 [INFO ] GAME_FINISHED worker=2 n=161 id=5a50c41f660899ae4977d779fb28986fc96c3e941c1d11faa088eaa87d9c9fb0 state=First finish_wait_ms=4005 game_ms=18023
 2026-09-26 01:07:31.815+02:00 [INFO ] GAME_FINISHED worker=4 n=160 id=a32527f8dc9ee2d3b8fe72056a0323c26eb2cbc9c8977f75af9e3208d6a52130 state=First finish_wait_ms=4005 game_ms=18023
 2026-09-26 01:07:44.276+02:00 [INFO ] GAME_SUBMITTED worker=3 n=162 id=40e4ca87370194fb12fcc42385f8c05cb55a19700684ef0100727e6e734c7963 total_submit_ms=14022 deposit_a=10 deposit_b=0 create=0 join=0 turn_a=0 turn_b=2 withdraw=1
@@ -1516,3 +1526,9 @@
 2026-09-26 01:07:47.280+02:00 [INFO ] GAME_FINISHED worker=3 n=162 id=40e4ca87370194fb12fcc42385f8c05cb55a19700684ef0100727e6e734c7963 state=First finish_wait_ms=3003 game_ms=17026
 2026-09-26 01:07:47.838+02:00 [INFO ] GAME_FINISHED worker=4 n=161 id=2c16696092e5fae5d19a4278f0b3e8f5ec9bcebc7abbc4a8ffc2f6b54a3e4fc6 state=First finish_wait_ms=2004 game_ms=16022
 2026-09-26 01:07:47.838+02:00 [INFO ] GAME_FINISHED worker=2 n=162 id=b7f9e82d28570a947fa7aac148319af58947fe13432bd1fab9561df5d9958c95 state=First finish_wait_ms=2004 game_ms=16023
+thread 'tokio-rt-worker' (666812) panicked at /home/box/.cargo/git/checkouts/vprogs-12fa1eb54d96a3a2/3a61c0b/l1/wallet/src/build/carrier.rs:62:5:
+funding UTXO amount 98416200 too small for extra outputs 100000000
+thread 'tokio-rt-worker' (666812) panicked at /home/box/.cargo/git/checkouts/vprogs-12fa1eb54d96a3a2/3a61c0b/l1/wallet/src/build/carrier.rs:62:5:
+funding UTXO amount 98955500 too small for extra outputs 100000000
+thread 'tokio-rt-worker' (666812) panicked at /home/box/.cargo/git/checkouts/vprogs-12fa1eb54d96a3a2/3a61c0b/l1/wallet/src/build/carrier.rs:62:5:
+funding UTXO amount 98595900 too small for extra outputs 100000000

@@ -66,6 +66,7 @@ Downtime 1153 s, of which 1115 s was the utxoindex resync. The utxoindex dir is 
 - Every game whose txs landed was reported final by the DA within 0-2 s of the last step.
 - All failures come from one cause: `already spent by transaction ... in the mempool`. ttflow's Wallet pays the normal bucket fee (532 sompi/g), which is below the storm fee. The previous step's tx stays in the mempool, and the next step picks the same UTXO again.
 - With step delay 0, 12 of 14 games failed even at low load.
+- At 01:07 all 8 ttloop-c workers panicked in `carrier.rs:62` because their funding UTXOs had fragmented below the 1 TKAS deposit (upstream issue 8). They restarted as ttloop-d with a 0.4 TKAS deposit and 0.2 stake.
 - Final totals are in `logs/ttloop-*.games.log`.
 
 ## Conclusion
@@ -85,7 +86,7 @@ Ours:
 - r2 was killed before its drain finished, so its not-executed tail is overstated.
 - Single node. There was an external sender (another agent) on tn10, and its traffic is not separated out here.
 
-Upstream: see [`upstream-issues/README.md`](upstream-issues/README.md). In short: stale master, no MSRV/toolchain/protoc docs, non-reproducible ELFs, a fee policy with no bump/RBF, UTXO reuse on the carrier path, 3 RPCs per tx, and a utxoindex resync with no progress output.
+Upstream: see [`upstream-issues/README.md`](upstream-issues/README.md). In short: stale master, no MSRV/toolchain/protoc docs, non-reproducible ELFs, a fee policy with no bump/RBF, UTXO reuse on the carrier path, 3 RPCs per tx, and a utxoindex resync with no progress output, and a carrier-builder panic on fragmented UTXOs.
 
 ## Ideas
 - Fee strategy in `vprogs_l1_wallet`: capped priority (e.g. min(priority, k x normal)), plus an RBF bump after N seconds in the mempool.
