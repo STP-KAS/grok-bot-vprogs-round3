@@ -1,0 +1,71 @@
+diff --git a/driver/Cargo.toml b/driver/Cargo.toml
+index 51c319d..c4b794f 100644
+--- a/driver/Cargo.toml
++++ b/driver/Cargo.toml
+@@ -14,6 +14,8 @@ path = "src/main.rs"
+ 
+ [dependencies]
+ ctrlc                           = { workspace = true }
++faster-hex                      = { workspace = true }
++serde_json                      = { workspace = true }
+ kaspa-addresses                 = { workspace = true }
+ kaspa-consensus-core            = { workspace = true }
+ kaspa-core                      = { workspace = true }
+diff --git a/driver/src/scenario.rs b/driver/src/scenario.rs
+index 091ac11..3b1673d 100644
+--- a/driver/src/scenario.rs
++++ b/driver/src/scenario.rs
+@@ -411,6 +411,53 @@ pub async fn run<C: RpcApi + ?Sized>(
+     })
+ }
+ 
++/// Round-3 load runner (grok-bot, 2026-09-26): one complete game on an already-initialized config,
++/// with fresh random players: deposits A and B, CreateGame, JoinGame, turn A, turn B, withdraw.
++/// Returns the game id and the wall-clock ms each step took to be accepted by the node.
++pub async fn play_one<C: RpcApi + ?Sized>(
++    client: &Arc<C>,
++    params: &Params,
++    cfg: &Config,
++) -> Result<(ResourceId, Vec<(&'static str, u128)>), String> {
++    let operator_keypair = Keypair::from_secret_key(secp256k1::SECP256K1, &cfg.private_key);
++    let wallet = Wallet::new(&**client, params, operator_keypair);
++    let lane_subnet = SubnetworkId::from_namespace(cfg.lane_id.to_be_bytes());
++    let ctx =
++        CarrierContext { wallet: &wallet, operator_keypair, subnetwork_id: lane_subnet, params };
++    let player_a = Bip340Signer::new();
++    let player_b = Bip340Signer::new();
++    let player_a_lock = LockEnum::Schnorr(SchnorrLockView { pubkey: &player_a.pubkey() });
++    let player_b_lock = LockEnum::Schnorr(SchnorrLockView { pubkey: &player_b.pubkey() });
++    let player_a_ilh = player_a_lock.id_hash();
++    let player_b_ilh = player_b_lock.id_hash();
++    let a = derive_user_resource(&player_a_ilh);
++    let b = derive_user_resource(&player_b_ilh);
++    let config_id = config_resource_id();
++    let game_id = derive_game_resource(&player_a_ilh, 0);
++    let covenant_id = cfg.covenant_id.as_bytes();
++    let mut t = Vec::new();
++    let mut s = std::time::Instant::now();
++    macro_rules! step {
++        ($name:expr, $fut:expr) => {{
++            $fut.await?;
++            t.push(($name, s.elapsed().as_millis()));
++            tokio::time::sleep(cfg.step_delay).await;
++            s = std::time::Instant::now();
++        }};
++    }
++    step!("deposit_a", submit_deposit("deposit A", &ctx, &build_deposit_payload(a, config_id, &player_a_lock), &covenant_id, cfg.deposit_amount));
++    step!("deposit_b", submit_deposit("deposit B", &ctx, &build_deposit_payload(b, config_id, &player_b_lock), &covenant_id, cfg.deposit_amount));
++    step!("create", submit_action("create game", &ctx, &build_create_game_payload(a, game_id, cfg.stake, cfg.rounds, Cell::X), |req| player_a.sign_digest(req.digest)));
++    step!("join", submit_action("join game", &ctx, &build_join_game_payload(b, game_id), |req| player_b.sign_digest(req.digest)));
++    step!("turn_a", submit_action("turn A", &ctx, &build_turn_a_payload(game_id, a, b), |req| player_a.sign_digest(req.digest)));
++    step!("turn_b", submit_action("turn B", &ctx, &build_turn_b_payload(game_id, a, b), |req| player_b.sign_digest(req.digest)));
++    let dest_spk = StandardSpk::PubKey(&player_a.pubkey());
++    let pot = cfg.stake.checked_mul(2).unwrap_or(cfg.stake);
++    step!("withdraw", submit_action("withdraw", &ctx, &build_withdraw_payload(a, config_id, pot, &dest_spk), |req| player_a.sign_digest(req.digest)));
++    let _ = s;
++    Ok((game_id, t))
++}
++
+ /// Helper for submitting signed lane action transactions with retry back-off.
+ async fn submit_action<C: RpcApi + ?Sized, S>(
+     label: &str,

@@ -1,0 +1,11 @@
+--- /workspace/tn10-break-test-2026-09-25/scripts/rwstorm.mjs.bak-2352	2026-09-25 23:52:28.076072525 +0200
++++ /workspace/tn10-break-test-2026-09-25/scripts/rwstorm.mjs	2026-09-25 23:52:28.076072525 +0200
+@@ -102,7 +102,7 @@
+ const RF = process.env.RATEFILE || (process.env.CONCFILE ? process.env.CONCFILE.replace(/\.conc$/, ".rate") : "/tmp/tps-storm.rate");
+ const readRate = () => { try { const v = Number(readFileSync(RF, "utf8").trim()); if (Number.isFinite(v)) RATE = v / (RF === "/tmp/tps-storm.rate" ? DT : 1); } catch { RATE = 1e9; } };
+ readRate(); setInterval(readRate, 2000);
+-async function token() { for (;;) { const now = Date.now(); tokens = Math.min(RATE, tokens + (now - lastTok) * RATE / 1000); lastTok = now; if (tokens >= 1) { tokens -= 1; return; } await sleep(Math.max(5, 1000 / Math.max(RATE, 1))); } }
++async function token() { for (;;) { if (stop()) return; const now = Date.now(); tokens = Math.min(RATE, tokens + (now - lastTok) * RATE / 1000); lastTok = now; if (tokens >= 1) { tokens -= 1; return; } await sleep(Math.max(5, 1000 / Math.max(RATE, 1))); } }
+ async function worker(k) { while (!stop()) { if (k >= CONC) { await sleep(300); continue; } await token(); await one(); } }
+ const cc = setInterval(() => { readConc(); readNodes(); }, 2000); readNodes();
+ const cmp = setInterval(() => { if (head > 200000) { q.splice(0, head); head = 0; } }, 5000);

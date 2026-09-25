@@ -1,0 +1,915 @@
+2026-09-26 00:45:25.977+02:00 [INFO ] GAME_SUBMITTED worker=2 n=1 id=7b4c530a69b88274a6739fa19c57237895d5cb69f8800f3bcf27b1fd1958a2f1 total_submit_ms=14017 deposit_a=0 deposit_b=0 create=1 join=0 turn_a=1 turn_b=1 withdraw=1
+2026-09-26 00:45:25.977+02:00 [INFO ] GAME_SUBMITTED worker=0 n=1 id=93c0c68fafd38a2100c03ae88a1011f7a4b8965989c5c3eb5b3ba7a573dbef1d total_submit_ms=14017 deposit_a=0 deposit_b=0 create=1 join=0 turn_a=1 turn_b=1 withdraw=1
+2026-09-26 00:45:25.977+02:00 [INFO ] GAME_SUBMITTED worker=3 n=1 id=3fb4b1f06a1ef353ab8e106cecda4c8e7f5a4eeb573535ac867762f4cfcea893 total_submit_ms=14017 deposit_a=0 deposit_b=0 create=2 join=0 turn_a=1 turn_b=1 withdraw=1
+2026-09-26 00:45:25.978+02:00 [INFO ] GAME_SUBMITTED worker=1 n=1 id=049d59f413f7b3c25f46a3e4089c5ac7f2e6b8761b0dd60b904327b83bf7acb0 total_submit_ms=14017 deposit_a=0 deposit_b=1 create=1 join=0 turn_a=1 turn_b=1 withdraw=1
+2026-09-26 00:45:25.978+02:00 [INFO ] GAME_FINISHED worker=3 n=1 id=3fb4b1f06a1ef353ab8e106cecda4c8e7f5a4eeb573535ac867762f4cfcea893 state=First finish_wait_ms=0 game_ms=14017
+2026-09-26 00:45:25.978+02:00 [INFO ] GAME_FINISHED worker=2 n=1 id=7b4c530a69b88274a6739fa19c57237895d5cb69f8800f3bcf27b1fd1958a2f1 state=First finish_wait_ms=0 game_ms=14017
+2026-09-26 00:45:25.978+02:00 [INFO ] GAME_FINISHED worker=0 n=1 id=93c0c68fafd38a2100c03ae88a1011f7a4b8965989c5c3eb5b3ba7a573dbef1d state=First finish_wait_ms=0 game_ms=14018
+2026-09-26 00:45:25.978+02:00 [INFO ] GAME_FINISHED worker=1 n=1 id=049d59f413f7b3c25f46a3e4089c5ac7f2e6b8761b0dd60b904327b83bf7acb0 state=First finish_wait_ms=0 game_ms=14018
+2026-09-26 00:45:40.018+02:00 [INFO ] GAME_SUBMITTED worker=0 n=2 id=9344360f9155a07ca117f0ef2d759343cd7c75af9e1baa688533dea8bfcad9aa total_submit_ms=14039 deposit_a=1 deposit_b=4 create=4 join=3 turn_a=7 turn_b=7 withdraw=1
+2026-09-26 00:45:40.018+02:00 [INFO ] GAME_SUBMITTED worker=1 n=2 id=ce12477ba1d6953d8594f46a914ee63c4ebe812463e0968246ecc203b9d11da5 total_submit_ms=14039 deposit_a=1 deposit_b=4 create=3 join=3 turn_a=6 turn_b=7 withdraw=1
+2026-09-26 00:45:40.018+02:00 [INFO ] GAME_SUBMITTED worker=3 n=2 id=f301b25d871d6da26cd2a3722f08b0a407832811836e4c36a626024ec9e6aed5 total_submit_ms=14040 deposit_a=1 deposit_b=5 create=2 join=6 turn_a=5 turn_b=7 withdraw=0
+2026-09-26 00:45:40.018+02:00 [INFO ] GAME_FINISHED worker=0 n=2 id=9344360f9155a07ca117f0ef2d759343cd7c75af9e1baa688533dea8bfcad9aa state=First finish_wait_ms=0 game_ms=14040
+2026-09-26 00:45:40.018+02:00 [INFO ] GAME_FINISHED worker=1 n=2 id=ce12477ba1d6953d8594f46a914ee63c4ebe812463e0968246ecc203b9d11da5 state=First finish_wait_ms=0 game_ms=14040
+2026-09-26 00:45:40.018+02:00 [INFO ] GAME_FINISHED worker=3 n=2 id=f301b25d871d6da26cd2a3722f08b0a407832811836e4c36a626024ec9e6aed5 state=First finish_wait_ms=0 game_ms=14040
+2026-09-26 00:45:40.026+02:00 [INFO ] GAME_SUBMITTED worker=2 n=2 id=cc5694673d62b6e5f2a4da20622d10a727482df56afd41e8f2263f1fd67a101b total_submit_ms=14048 deposit_a=4 deposit_b=3 create=2 join=4 turn_a=8 turn_b=17 withdraw=0
+2026-09-26 00:45:40.026+02:00 [INFO ] GAME_FINISHED worker=2 n=2 id=cc5694673d62b6e5f2a4da20622d10a727482df56afd41e8f2263f1fd67a101b state=First finish_wait_ms=0 game_ms=14048
+2026-09-26 00:45:54.056+02:00 [INFO ] GAME_SUBMITTED worker=3 n=3 id=f76a1c762bc47f2dc8487ba9f0f9457c2dccf62e00399c1f24cf9f7ae61bee8c total_submit_ms=14037 deposit_a=2 deposit_b=1 create=1 join=1 turn_a=3 turn_b=1 withdraw=5
+2026-09-26 00:45:54.056+02:00 [INFO ] GAME_SUBMITTED worker=2 n=3 id=2c2a209195992146d3207f6c155b7aafc32836f77bad911a502019ca516931cc total_submit_ms=14029 deposit_a=0 deposit_b=0 create=2 join=0 turn_a=1 turn_b=0 withdraw=4
+2026-09-26 00:45:54.056+02:00 [INFO ] GAME_SUBMITTED worker=1 n=3 id=806ddc10b7975239fbe6476fbf4def6a1e81e59c2a254ef5f568d9b605252ef8 total_submit_ms=14037 deposit_a=2 deposit_b=0 create=1 join=1 turn_a=3 turn_b=2 withdraw=5
+2026-09-26 00:45:54.056+02:00 [INFO ] GAME_SUBMITTED worker=0 n=3 id=2e5a0196de63bd10f1dd043e6083831794c530c2029450eceeb1693195ca0d2f total_submit_ms=14037 deposit_a=2 deposit_b=1 create=1 join=1 turn_a=3 turn_b=1 withdraw=5
+2026-09-26 00:45:54.058+02:00 [INFO ] GAME_FINISHED worker=1 n=3 id=806ddc10b7975239fbe6476fbf4def6a1e81e59c2a254ef5f568d9b605252ef8 state=First finish_wait_ms=1 game_ms=14039
+2026-09-26 00:45:54.058+02:00 [INFO ] GAME_FINISHED worker=0 n=3 id=2e5a0196de63bd10f1dd043e6083831794c530c2029450eceeb1693195ca0d2f state=First finish_wait_ms=2 game_ms=14040
+2026-09-26 00:45:54.058+02:00 [INFO ] GAME_FINISHED worker=3 n=3 id=f76a1c762bc47f2dc8487ba9f0f9457c2dccf62e00399c1f24cf9f7ae61bee8c state=First finish_wait_ms=2 game_ms=14039
+2026-09-26 00:45:54.058+02:00 [INFO ] GAME_FINISHED worker=2 n=3 id=2c2a209195992146d3207f6c155b7aafc32836f77bad911a502019ca516931cc state=First finish_wait_ms=2 game_ms=14031
+2026-09-26 00:46:08.075+02:00 [INFO ] GAME_SUBMITTED worker=1 n=4 id=f3a85855bf76c2afb4cd702c71ca9914a039fdb19f7b7b35aefcb06f6ae17730 total_submit_ms=14017 deposit_a=4 deposit_b=0 create=0 join=1 turn_a=0 turn_b=0 withdraw=0
+2026-09-26 00:46:08.077+02:00 [INFO ] GAME_SUBMITTED worker=2 n=4 id=f8dcd9b168c250e83314645f2302dfbc6179af88ea614ccf76709be3393e9544 total_submit_ms=14018 deposit_a=5 deposit_b=0 create=1 join=0 turn_a=1 turn_b=0 withdraw=0
+2026-09-26 00:46:08.094+02:00 [INFO ] GAME_SUBMITTED worker=3 n=4 id=eba925818c4ef7dc74a0bd7c789bf29e134e0d22220c9643cb8044e2b9403231 total_submit_ms=14036 deposit_a=26 deposit_b=0 create=0 join=0 turn_a=0 turn_b=0 withdraw=0
+2026-09-26 00:46:08.121+02:00 [INFO ] GAME_SUBMITTED worker=0 n=4 id=05b245416f12b94927dbaa966d003dd13f08a1b6343dc04f1110bcdaee45d85b total_submit_ms=14062 deposit_a=44 deposit_b=0 create=2 join=0 turn_a=4 turn_b=1 withdraw=0
+2026-09-26 00:46:09.078+02:00 [INFO ] GAME_FINISHED worker=1 n=4 id=f3a85855bf76c2afb4cd702c71ca9914a039fdb19f7b7b35aefcb06f6ae17730 state=First finish_wait_ms=1003 game_ms=15020
+2026-09-26 00:46:09.078+02:00 [INFO ] GAME_FINISHED worker=2 n=4 id=f8dcd9b168c250e83314645f2302dfbc6179af88ea614ccf76709be3393e9544 state=First finish_wait_ms=1001 game_ms=15020
+2026-09-26 00:46:09.097+02:00 [INFO ] GAME_FINISHED worker=3 n=4 id=eba925818c4ef7dc74a0bd7c789bf29e134e0d22220c9643cb8044e2b9403231 state=First finish_wait_ms=1002 game_ms=15038
+2026-09-26 00:46:09.123+02:00 [INFO ] GAME_FINISHED worker=0 n=4 id=05b245416f12b94927dbaa966d003dd13f08a1b6343dc04f1110bcdaee45d85b state=First finish_wait_ms=1001 game_ms=15064
+2026-09-26 00:46:23.116+02:00 [INFO ] GAME_SUBMITTED worker=1 n=5 id=daa70706df13bd1a8f1d7f7edaf6a52f1c514ef302eaa376fcc68e51daf75c43 total_submit_ms=14037 deposit_a=1 deposit_b=1 create=5 join=1 turn_a=1 turn_b=10 withdraw=7
+2026-09-26 00:46:23.117+02:00 [INFO ] GAME_FINISHED worker=1 n=5 id=daa70706df13bd1a8f1d7f7edaf6a52f1c514ef302eaa376fcc68e51daf75c43 state=First finish_wait_ms=0 game_ms=14038
+2026-09-26 00:46:23.118+02:00 [INFO ] GAME_SUBMITTED worker=2 n=5 id=d4cad4c7de6e19f76d9873a624a760f2752c2c92be07eb463d98227a85fd722c total_submit_ms=14039 deposit_a=2 deposit_b=1 create=5 join=2 turn_a=0 turn_b=10 withdraw=8
+2026-09-26 00:46:23.118+02:00 [INFO ] GAME_FINISHED worker=2 n=5 id=d4cad4c7de6e19f76d9873a624a760f2752c2c92be07eb463d98227a85fd722c state=First finish_wait_ms=0 game_ms=14040
+2026-09-26 00:46:23.207+02:00 [INFO ] GAME_SUBMITTED worker=3 n=5 id=8a4150c4c6b0eca938325b4b96cb0da8886196cbcdead2e36e7ccbe9a185ef7e total_submit_ms=14110 deposit_a=0 deposit_b=0 create=45 join=6 turn_a=9 turn_b=2 withdraw=40
+2026-09-26 00:46:23.207+02:00 [INFO ] GAME_FINISHED worker=3 n=5 id=8a4150c4c6b0eca938325b4b96cb0da8886196cbcdead2e36e7ccbe9a185ef7e state=First finish_wait_ms=0 game_ms=14110
+2026-09-26 00:46:23.236+02:00 [INFO ] GAME_SUBMITTED worker=0 n=5 id=1709c9263151f734300f1cc2b8b3d9a99b73a8abed45d6014246e556631f2228 total_submit_ms=14113 deposit_a=0 deposit_b=1 create=23 join=2 turn_a=12 turn_b=24 withdraw=43
+2026-09-26 00:46:23.236+02:00 [INFO ] GAME_FINISHED worker=0 n=5 id=1709c9263151f734300f1cc2b8b3d9a99b73a8abed45d6014246e556631f2228 state=First finish_wait_ms=0 game_ms=14113
+2026-09-26 00:46:37.145+02:00 [INFO ] GAME_SUBMITTED worker=2 n=6 id=7acc1bb3288a70568646f7f2ca6ba56a1dd3343383b8eb369ef660ab5728fe79 total_submit_ms=14026 deposit_a=2 deposit_b=1 create=4 join=2 turn_a=3 turn_b=2 withdraw=2
+2026-09-26 00:46:37.146+02:00 [INFO ] GAME_FINISHED worker=2 n=6 id=7acc1bb3288a70568646f7f2ca6ba56a1dd3343383b8eb369ef660ab5728fe79 state=First finish_wait_ms=0 game_ms=14027
+2026-09-26 00:46:37.148+02:00 [INFO ] GAME_SUBMITTED worker=1 n=6 id=6a10fd34401d29196cbe1893be8abd8816a4591ce65bf5ef0990ef3cab722ea0 total_submit_ms=14030 deposit_a=1 deposit_b=2 create=2 join=3 turn_a=5 turn_b=3 withdraw=3
+2026-09-26 00:46:37.148+02:00 [INFO ] GAME_FINISHED worker=1 n=6 id=6a10fd34401d29196cbe1893be8abd8816a4591ce65bf5ef0990ef3cab722ea0 state=First finish_wait_ms=0 game_ms=14030
+2026-09-26 00:46:37.239+02:00 [INFO ] GAME_SUBMITTED worker=3 n=6 id=0b563ba2d313a123e8f81345d8de0f9a969e979def7e7100714b419cefb3f5a4 total_submit_ms=14031 deposit_a=12 deposit_b=1 create=0 join=1 turn_a=4 turn_b=2 withdraw=1
+2026-09-26 00:46:37.239+02:00 [INFO ] GAME_FINISHED worker=3 n=6 id=0b563ba2d313a123e8f81345d8de0f9a969e979def7e7100714b419cefb3f5a4 state=First finish_wait_ms=0 game_ms=14031
+2026-09-26 00:46:37.272+02:00 [INFO ] GAME_SUBMITTED worker=0 n=6 id=a4fa36bb835a1cab808a0e6f496f7e0945390125331ac5e31f196942cd95912c total_submit_ms=14035 deposit_a=5 deposit_b=1 create=0 join=6 turn_a=8 turn_b=0 withdraw=4
+2026-09-26 00:46:37.272+02:00 [INFO ] GAME_FINISHED worker=0 n=6 id=a4fa36bb835a1cab808a0e6f496f7e0945390125331ac5e31f196942cd95912c state=First finish_wait_ms=0 game_ms=14035
+2026-09-26 00:46:51.188+02:00 [INFO ] GAME_SUBMITTED worker=2 n=7 id=9dc6219582e7d7b85c845fd4e019e1c549079ca1d2099a372fc4974d02b200f5 total_submit_ms=14041 deposit_a=1 deposit_b=3 create=3 join=8 turn_a=9 turn_b=2 withdraw=1
+2026-09-26 00:46:51.188+02:00 [INFO ] GAME_FINISHED worker=2 n=7 id=9dc6219582e7d7b85c845fd4e019e1c549079ca1d2099a372fc4974d02b200f5 state=First finish_wait_ms=0 game_ms=14041
+2026-09-26 00:46:51.192+02:00 [INFO ] GAME_SUBMITTED worker=1 n=7 id=bc19f3d3596263013470a743565ee13e1c87fb5331491f49505e700c873e89ba total_submit_ms=14044 deposit_a=0 deposit_b=5 create=5 join=3 turn_a=12 turn_b=3 withdraw=2
+2026-09-26 00:46:51.193+02:00 [INFO ] GAME_FINISHED worker=1 n=7 id=bc19f3d3596263013470a743565ee13e1c87fb5331491f49505e700c873e89ba state=First finish_wait_ms=0 game_ms=14044
+2026-09-26 00:46:51.276+02:00 [INFO ] GAME_SUBMITTED worker=3 n=7 id=acbe6673be96a3170bce049a83ec5ca71d4c61f720f455bee4476adffd5fcacc total_submit_ms=14036 deposit_a=1 deposit_b=0 create=1 join=0 turn_a=4 turn_b=0 withdraw=17
+2026-09-26 00:46:51.276+02:00 [INFO ] GAME_FINISHED worker=3 n=7 id=acbe6673be96a3170bce049a83ec5ca71d4c61f720f455bee4476adffd5fcacc state=First finish_wait_ms=0 game_ms=14036
+2026-09-26 00:46:51.304+02:00 [INFO ] GAME_SUBMITTED worker=0 n=7 id=d94fc1a513c9d6986d0bed2be1612a20843ddeb007a1b6f43e5baf24447ace1e total_submit_ms=14031 deposit_a=0 deposit_b=1 create=6 join=1 turn_a=10 turn_b=1 withdraw=1
+2026-09-26 00:46:51.304+02:00 [INFO ] GAME_FINISHED worker=0 n=7 id=d94fc1a513c9d6986d0bed2be1612a20843ddeb007a1b6f43e5baf24447ace1e state=First finish_wait_ms=0 game_ms=14032
+2026-09-26 00:47:05.207+02:00 [INFO ] GAME_SUBMITTED worker=2 n=8 id=aa375f1c61504cef84c94eef1ea1facbf16cb1894bb566e0e67776e827eba8a3 total_submit_ms=14018 deposit_a=0 deposit_b=3 create=0 join=1 turn_a=1 turn_b=0 withdraw=0
+2026-09-26 00:47:05.207+02:00 [INFO ] GAME_SUBMITTED worker=1 n=8 id=ae37d936a149d15b9c9043c608fb57b7a2f2f4406bc70c219e2f752f2d57c7aa total_submit_ms=14014 deposit_a=0 deposit_b=1 create=0 join=1 turn_a=1 turn_b=0 withdraw=0
+2026-09-26 00:47:05.208+02:00 [INFO ] GAME_FINISHED worker=1 n=8 id=ae37d936a149d15b9c9043c608fb57b7a2f2f4406bc70c219e2f752f2d57c7aa state=First finish_wait_ms=0 game_ms=14015
+2026-09-26 00:47:05.208+02:00 [INFO ] GAME_FINISHED worker=2 n=8 id=aa375f1c61504cef84c94eef1ea1facbf16cb1894bb566e0e67776e827eba8a3 state=First finish_wait_ms=0 game_ms=14019
+2026-09-26 00:47:05.325+02:00 [INFO ] GAME_SUBMITTED worker=3 n=8 id=532048e2b7dc2ff886d916fa14f70567e417f1ed088f6fe0eba6dbbf86251b58 total_submit_ms=14049 deposit_a=10 deposit_b=8 create=11 join=0 turn_a=0 turn_b=0 withdraw=0
+2026-09-26 00:47:05.325+02:00 [INFO ] GAME_FINISHED worker=3 n=8 id=532048e2b7dc2ff886d916fa14f70567e417f1ed088f6fe0eba6dbbf86251b58 state=First finish_wait_ms=0 game_ms=14049
+2026-09-26 00:47:05.342+02:00 [INFO ] GAME_SUBMITTED worker=0 n=8 id=ae5d1e26e5cca6e7d324ba1f73dd87b17e7228ed45885e3c260efa2a819a620a total_submit_ms=14037 deposit_a=8 deposit_b=13 create=2 join=1 turn_a=1 turn_b=0 withdraw=1
+2026-09-26 00:47:05.342+02:00 [INFO ] GAME_FINISHED worker=0 n=8 id=ae5d1e26e5cca6e7d324ba1f73dd87b17e7228ed45885e3c260efa2a819a620a state=First finish_wait_ms=0 game_ms=14037
+2026-09-26 00:47:19.229+02:00 [INFO ] GAME_SUBMITTED worker=1 n=9 id=ef8aac9c4c0f7a38f2c6414cb02b579af5e8e8ff8c0fa3f926fa03aabc97a378 total_submit_ms=14021 deposit_a=1 deposit_b=0 create=1 join=4 turn_a=2 turn_b=0 withdraw=0
+2026-09-26 00:47:19.229+02:00 [INFO ] GAME_SUBMITTED worker=2 n=9 id=a19602cb38e97ea2c03ac371220baabce3d0dc80597bb66b6898e33250becc76 total_submit_ms=14021 deposit_a=1 deposit_b=0 create=1 join=4 turn_a=1 turn_b=1 withdraw=0
+2026-09-26 00:47:19.230+02:00 [INFO ] GAME_FINISHED worker=1 n=9 id=ef8aac9c4c0f7a38f2c6414cb02b579af5e8e8ff8c0fa3f926fa03aabc97a378 state=First finish_wait_ms=0 game_ms=14021
+2026-09-26 00:47:19.230+02:00 [INFO ] GAME_FINISHED worker=2 n=9 id=a19602cb38e97ea2c03ac371220baabce3d0dc80597bb66b6898e33250becc76 state=First finish_wait_ms=0 game_ms=14021
+2026-09-26 00:47:19.454+02:00 [INFO ] GAME_SUBMITTED worker=0 n=9 id=988a2acacd6ca60b68c9b8a8b464db2cba54229054c89045475229579f803dc1 total_submit_ms=14112 deposit_a=0 deposit_b=0 create=0 join=42 turn_a=11 turn_b=9 withdraw=39
+2026-09-26 00:47:19.454+02:00 [INFO ] GAME_FINISHED worker=0 n=9 id=988a2acacd6ca60b68c9b8a8b464db2cba54229054c89045475229579f803dc1 state=First finish_wait_ms=0 game_ms=14112
+2026-09-26 00:47:19.455+02:00 [INFO ] GAME_SUBMITTED worker=3 n=9 id=7265cc4f458a8f8a81900311db7501072c6966615a5705868a3f92ba3006558b total_submit_ms=14129 deposit_a=0 deposit_b=3 create=0 join=52 turn_a=11 turn_b=9 withdraw=39
+2026-09-26 00:47:19.455+02:00 [INFO ] GAME_FINISHED worker=3 n=9 id=7265cc4f458a8f8a81900311db7501072c6966615a5705868a3f92ba3006558b state=First finish_wait_ms=0 game_ms=14129
+2026-09-26 00:47:33.265+02:00 [INFO ] GAME_SUBMITTED worker=1 n=10 id=c3fac92b0192b83ff5c1edcdebd383de047067c23d05722451c0b7c62e2c2e92 total_submit_ms=14034 deposit_a=0 deposit_b=0 create=1 join=1 turn_a=1 turn_b=20 withdraw=1
+2026-09-26 00:47:33.265+02:00 [INFO ] GAME_FINISHED worker=1 n=10 id=c3fac92b0192b83ff5c1edcdebd383de047067c23d05722451c0b7c62e2c2e92 state=First finish_wait_ms=0 game_ms=14035
+2026-09-26 00:47:33.268+02:00 [INFO ] GAME_SUBMITTED worker=2 n=10 id=4cad25c2e8b7687cb60a12e853811afaaecdad4c41d162350590ecc12b56392f total_submit_ms=14038 deposit_a=0 deposit_b=0 create=0 join=0 turn_a=1 turn_b=23 withdraw=1
+2026-09-26 00:47:33.268+02:00 [INFO ] GAME_FINISHED worker=2 n=10 id=4cad25c2e8b7687cb60a12e853811afaaecdad4c41d162350590ecc12b56392f state=First finish_wait_ms=0 game_ms=14038
+2026-09-26 00:47:33.469+02:00 [INFO ] GAME_SUBMITTED worker=3 n=10 id=9683a2c7fe9c1d724f7e4fede907f75bad64e05f941757a7b5e1d20835c3ec8b total_submit_ms=14013 deposit_a=1 deposit_b=0 create=1 join=0 turn_a=1 turn_b=1 withdraw=0
+2026-09-26 00:47:33.469+02:00 [INFO ] GAME_FINISHED worker=3 n=10 id=9683a2c7fe9c1d724f7e4fede907f75bad64e05f941757a7b5e1d20835c3ec8b state=First finish_wait_ms=0 game_ms=14014
+2026-09-26 00:47:33.469+02:00 [INFO ] GAME_SUBMITTED worker=0 n=10 id=56ce4de3d413a4bd0bfe169a27bbad60423c5f4cf795726ec28325b222882b5d total_submit_ms=14014 deposit_a=1 deposit_b=0 create=1 join=1 turn_a=1 turn_b=0 withdraw=0
+2026-09-26 00:47:33.470+02:00 [INFO ] GAME_FINISHED worker=0 n=10 id=56ce4de3d413a4bd0bfe169a27bbad60423c5f4cf795726ec28325b222882b5d state=First finish_wait_ms=0 game_ms=14015
+2026-09-26 00:47:47.300+02:00 [INFO ] GAME_SUBMITTED worker=2 n=11 id=55b5362f7955f1d034ba914f5b62e8c520c05235d1fbaa939da42f49103f897a total_submit_ms=14031 deposit_a=1 deposit_b=10 create=1 join=1 turn_a=7 turn_b=0 withdraw=1
+2026-09-26 00:47:47.300+02:00 [INFO ] GAME_SUBMITTED worker=1 n=11 id=8eb1997295c8c9b97ed8b75247f4655c86f07eaed247de8a800c68e5c0471f32 total_submit_ms=14035 deposit_a=1 deposit_b=10 create=1 join=0 turn_a=6 turn_b=0 withdraw=1
+2026-09-26 00:47:47.305+02:00 [INFO ] GAME_FINISHED worker=2 n=11 id=55b5362f7955f1d034ba914f5b62e8c520c05235d1fbaa939da42f49103f897a state=First finish_wait_ms=4 game_ms=14036
+2026-09-26 00:47:47.305+02:00 [INFO ] GAME_FINISHED worker=1 n=11 id=8eb1997295c8c9b97ed8b75247f4655c86f07eaed247de8a800c68e5c0471f32 state=First finish_wait_ms=4 game_ms=14039
+2026-09-26 00:47:47.517+02:00 [INFO ] GAME_SUBMITTED worker=3 n=11 id=1bc9ad0d592c9549e45d0efdc6fecf8ad09af5ec86afd4df3caaaffe2084e0a7 total_submit_ms=14047 deposit_a=8 deposit_b=0 create=0 join=16 turn_a=1 turn_b=13 withdraw=0
+2026-09-26 00:47:47.517+02:00 [INFO ] GAME_FINISHED worker=3 n=11 id=1bc9ad0d592c9549e45d0efdc6fecf8ad09af5ec86afd4df3caaaffe2084e0a7 state=First finish_wait_ms=0 game_ms=14048
+2026-09-26 00:47:47.520+02:00 [INFO ] GAME_SUBMITTED worker=0 n=11 id=8618e3101f5508222cbfdac8155759bb58cb94f4796117ffe67b7b11a08faf34 total_submit_ms=14050 deposit_a=7 deposit_b=0 create=1 join=19 turn_a=0 turn_b=11 withdraw=0
+2026-09-26 00:47:47.520+02:00 [INFO ] GAME_FINISHED worker=0 n=11 id=8618e3101f5508222cbfdac8155759bb58cb94f4796117ffe67b7b11a08faf34 state=First finish_wait_ms=0 game_ms=14050
+2026-09-26 00:48:01.332+02:00 [INFO ] GAME_SUBMITTED worker=1 n=12 id=23c1d627e0c2ee95065a340cf382a78962c86ca0a03c8a01a0ba3d84650e7d31 total_submit_ms=14027 deposit_a=8 deposit_b=2 create=0 join=0 turn_a=3 turn_b=1 withdraw=2
+2026-09-26 00:48:01.333+02:00 [INFO ] GAME_FINISHED worker=1 n=12 id=23c1d627e0c2ee95065a340cf382a78962c86ca0a03c8a01a0ba3d84650e7d31 state=First finish_wait_ms=0 game_ms=14027
+2026-09-26 00:48:01.333+02:00 [INFO ] GAME_SUBMITTED worker=2 n=12 id=5f6f9a06ce0650cc59b3a662fe13068dc9973c0791b2de2a8def518f63b2cc42 total_submit_ms=14027 deposit_a=9 deposit_b=2 create=0 join=1 turn_a=4 turn_b=1 withdraw=1
+2026-09-26 00:48:01.333+02:00 [INFO ] GAME_FINISHED worker=2 n=12 id=5f6f9a06ce0650cc59b3a662fe13068dc9973c0791b2de2a8def518f63b2cc42 state=First finish_wait_ms=0 game_ms=14028
+2026-09-26 00:48:01.547+02:00 [INFO ] GAME_SUBMITTED worker=3 n=12 id=d0dd15b33b0bd0ea00a1d6968e308fb4a1db7a2064931fd2f5b22fa7e9c0f9de total_submit_ms=14030 deposit_a=1 deposit_b=0 create=1 join=0 turn_a=6 turn_b=1 withdraw=4
+2026-09-26 00:48:01.548+02:00 [INFO ] GAME_FINISHED worker=3 n=12 id=d0dd15b33b0bd0ea00a1d6968e308fb4a1db7a2064931fd2f5b22fa7e9c0f9de state=First finish_wait_ms=0 game_ms=14030
+2026-09-26 00:48:01.556+02:00 [INFO ] GAME_SUBMITTED worker=0 n=12 id=e674fabedfb5309fc04da54ec3b468b9dded3a297a947b09ece2de27d8effcdc total_submit_ms=14035 deposit_a=4 deposit_b=0 create=1 join=10 turn_a=1 turn_b=1 withdraw=0
+2026-09-26 00:48:01.556+02:00 [INFO ] GAME_FINISHED worker=0 n=12 id=e674fabedfb5309fc04da54ec3b468b9dded3a297a947b09ece2de27d8effcdc state=First finish_wait_ms=0 game_ms=14035
+2026-09-26 00:48:15.370+02:00 [INFO ] GAME_SUBMITTED worker=2 n=13 id=4d759c40597ad4e0aebf71633bec0ab19e665a840e86d714f45342c0dfcb40c9 total_submit_ms=14036 deposit_a=0 deposit_b=1 create=1 join=1 turn_a=15 turn_b=6 withdraw=1
+2026-09-26 00:48:15.370+02:00 [INFO ] GAME_SUBMITTED worker=1 n=13 id=c5fd7c1134925225cf712978040c8e002edd544335a37993b0c0fd9f7c2e8f8c total_submit_ms=14036 deposit_a=1 deposit_b=1 create=0 join=1 turn_a=9 turn_b=13 withdraw=0
+2026-09-26 00:48:15.370+02:00 [INFO ] GAME_FINISHED worker=2 n=13 id=4d759c40597ad4e0aebf71633bec0ab19e665a840e86d714f45342c0dfcb40c9 state=First finish_wait_ms=0 game_ms=14036
+2026-09-26 00:48:15.370+02:00 [INFO ] GAME_FINISHED worker=1 n=13 id=c5fd7c1134925225cf712978040c8e002edd544335a37993b0c0fd9f7c2e8f8c state=First finish_wait_ms=0 game_ms=14037
+2026-09-26 00:48:15.564+02:00 [INFO ] GAME_SUBMITTED worker=3 n=13 id=e55e23214fc327406368662567e9cfb6df01ee82fa5127ca65dc4535f32c8c9d total_submit_ms=14016 deposit_a=1 deposit_b=0 create=0 join=1 turn_a=1 turn_b=0 withdraw=2
+2026-09-26 00:48:15.565+02:00 [INFO ] GAME_FINISHED worker=3 n=13 id=e55e23214fc327406368662567e9cfb6df01ee82fa5127ca65dc4535f32c8c9d state=First finish_wait_ms=0 game_ms=14017
+2026-09-26 00:48:15.579+02:00 [INFO ] GAME_SUBMITTED worker=0 n=13 id=93fb0cf67460cb2c33c034ffb79aa7e7de8b65a226796b171628c5eb09bc8210 total_submit_ms=14023 deposit_a=0 deposit_b=0 create=8 join=0 turn_a=0 turn_b=1 withdraw=2
+2026-09-26 00:48:15.580+02:00 [INFO ] GAME_FINISHED worker=0 n=13 id=93fb0cf67460cb2c33c034ffb79aa7e7de8b65a226796b171628c5eb09bc8210 state=First finish_wait_ms=0 game_ms=14023
+2026-09-26 00:48:29.434+02:00 [INFO ] GAME_SUBMITTED worker=1 n=14 id=55eb764ec4ad9113eead15bdeaae13e1ab381bbd66a915b1f70fce6525055695 total_submit_ms=14063 deposit_a=2 deposit_b=4 create=2 join=11 turn_a=3 turn_b=28 withdraw=1
+2026-09-26 00:48:29.434+02:00 [INFO ] GAME_FINISHED worker=1 n=14 id=55eb764ec4ad9113eead15bdeaae13e1ab381bbd66a915b1f70fce6525055695 state=First finish_wait_ms=0 game_ms=14064
+2026-09-26 00:48:29.447+02:00 [INFO ] GAME_SUBMITTED worker=2 n=14 id=fe6b13feeef0692de352f239d6d579cf64f22ffaa46b86b68713969350a4ba1e total_submit_ms=14077 deposit_a=1 deposit_b=4 create=2 join=11 turn_a=1 turn_b=43 withdraw=2
+2026-09-26 00:48:29.448+02:00 [INFO ] GAME_FINISHED worker=2 n=14 id=fe6b13feeef0692de352f239d6d579cf64f22ffaa46b86b68713969350a4ba1e state=First finish_wait_ms=0 game_ms=14077
+2026-09-26 00:48:29.629+02:00 [INFO ] GAME_SUBMITTED worker=0 n=14 id=b1c7002df9f85741be4d7c3b543076d8a2e946889488b72e0942bcc1ba136402 total_submit_ms=14049 deposit_a=0 deposit_b=1 create=9 join=26 turn_a=0 turn_b=0 withdraw=0
+2026-09-26 00:48:29.629+02:00 [INFO ] GAME_FINISHED worker=0 n=14 id=b1c7002df9f85741be4d7c3b543076d8a2e946889488b72e0942bcc1ba136402 state=First finish_wait_ms=0 game_ms=14049
+2026-09-26 00:48:29.650+02:00 [INFO ] GAME_SUBMITTED worker=3 n=14 id=d1e6f60537b940bf2eab031aff6a562bb252b1a0171846f2d9b550049e6ee50d total_submit_ms=14084 deposit_a=0 deposit_b=13 create=9 join=44 turn_a=1 turn_b=0 withdraw=1
+2026-09-26 00:48:29.650+02:00 [INFO ] GAME_FINISHED worker=3 n=14 id=d1e6f60537b940bf2eab031aff6a562bb252b1a0171846f2d9b550049e6ee50d state=First finish_wait_ms=0 game_ms=14085
+2026-09-26 00:48:43.502+02:00 [INFO ] GAME_SUBMITTED worker=1 n=15 id=e3e51624d88152197a74542df7ef77495d4b103a3e6304f7d56e738e6b457b79 total_submit_ms=14067 deposit_a=1 deposit_b=8 create=12 join=18 turn_a=8 turn_b=1 withdraw=3
+2026-09-26 00:48:43.503+02:00 [INFO ] GAME_FINISHED worker=1 n=15 id=e3e51624d88152197a74542df7ef77495d4b103a3e6304f7d56e738e6b457b79 state=First finish_wait_ms=1 game_ms=14069
+2026-09-26 00:48:43.520+02:00 [INFO ] GAME_SUBMITTED worker=2 n=15 id=cffb7a638d8ddd5b6306433cb87155729426aa851eaa754bf1f2cde3a20fa84e total_submit_ms=14072 deposit_a=12 deposit_b=2 create=14 join=22 turn_a=5 turn_b=0 withdraw=0
+2026-09-26 00:48:43.520+02:00 [INFO ] GAME_FINISHED worker=2 n=15 id=cffb7a638d8ddd5b6306433cb87155729426aa851eaa754bf1f2cde3a20fa84e state=First finish_wait_ms=0 game_ms=14072
+2026-09-26 00:48:43.701+02:00 [INFO ] GAME_SUBMITTED worker=0 n=15 id=4863e23cce5009bd767ec76d9fd75f7e2b4dcb27788765fed7bca5ac6c2de4be total_submit_ms=14071 deposit_a=12 deposit_b=16 create=25 join=1 turn_a=5 turn_b=1 withdraw=1
+2026-09-26 00:48:43.701+02:00 [INFO ] GAME_FINISHED worker=0 n=15 id=4863e23cce5009bd767ec76d9fd75f7e2b4dcb27788765fed7bca5ac6c2de4be state=First finish_wait_ms=0 game_ms=14071
+2026-09-26 00:48:43.757+02:00 [INFO ] GAME_SUBMITTED worker=3 n=15 id=6a43d062af91e7b6377a47cd43cadf55201f7772c99bb4cf6c3efc0fa18c0681 total_submit_ms=14107 deposit_a=26 deposit_b=27 create=2 join=1 turn_a=5 turn_b=13 withdraw=0
+2026-09-26 00:48:43.758+02:00 [INFO ] GAME_FINISHED worker=3 n=15 id=6a43d062af91e7b6377a47cd43cadf55201f7772c99bb4cf6c3efc0fa18c0681 state=First finish_wait_ms=0 game_ms=14107
+2026-09-26 00:48:57.521+02:00 [INFO ] GAME_SUBMITTED worker=1 n=16 id=0e45d53e26fd147d157a13a6bf42dedc2c751ba512fc6bd6e6e7f304988a172e total_submit_ms=14017 deposit_a=1 deposit_b=0 create=1 join=0 turn_a=2 turn_b=1 withdraw=2
+2026-09-26 00:48:57.522+02:00 [INFO ] GAME_FINISHED worker=1 n=16 id=0e45d53e26fd147d157a13a6bf42dedc2c751ba512fc6bd6e6e7f304988a172e state=First finish_wait_ms=0 game_ms=14018
+2026-09-26 00:48:57.581+02:00 [INFO ] GAME_SUBMITTED worker=2 n=16 id=ec526ddbc1d4f5ffbaa09d657a9dcc1fdcb5a3c47d0bbeb899c989a62bb95713 total_submit_ms=14061 deposit_a=9 deposit_b=3 create=8 join=0 turn_a=0 turn_b=1 withdraw=29
+2026-09-26 00:48:57.763+02:00 [INFO ] GAME_SUBMITTED worker=0 n=16 id=b97be03f6ecf9e64eec66043c946d2a3bcf1b5073c9c72bccc0c09eb1baa9d7e total_submit_ms=14061 deposit_a=20 deposit_b=0 create=0 join=8 turn_a=15 turn_b=3 withdraw=0
+2026-09-26 00:48:57.847+02:00 [INFO ] GAME_SUBMITTED worker=3 n=16 id=c4ee07222078d0ca7e128dd98d2f77702687251686fd775c35f4aecbf97b7a02 total_submit_ms=14088 deposit_a=5 deposit_b=1 create=6 join=47 turn_a=19 turn_b=1 withdraw=0
+2026-09-26 00:48:58.583+02:00 [INFO ] GAME_FINISHED worker=2 n=16 id=ec526ddbc1d4f5ffbaa09d657a9dcc1fdcb5a3c47d0bbeb899c989a62bb95713 state=First finish_wait_ms=1001 game_ms=15063
+2026-09-26 00:48:58.772+02:00 [INFO ] GAME_FINISHED worker=0 n=16 id=b97be03f6ecf9e64eec66043c946d2a3bcf1b5073c9c72bccc0c09eb1baa9d7e state=First finish_wait_ms=1009 game_ms=15071
+2026-09-26 00:48:58.848+02:00 [INFO ] GAME_FINISHED worker=3 n=16 id=c4ee07222078d0ca7e128dd98d2f77702687251686fd775c35f4aecbf97b7a02 state=First finish_wait_ms=1001 game_ms=15090
+2026-09-26 00:49:11.606+02:00 [INFO ] GAME_SUBMITTED worker=1 n=17 id=a4e9cd42a212f683b8cda8312f174d34e6b22a3541ba263c0d38ca72f327e1db total_submit_ms=14084 deposit_a=2 deposit_b=49 create=1 join=5 turn_a=13 turn_b=3 withdraw=1
+2026-09-26 00:49:11.608+02:00 [INFO ] GAME_FINISHED worker=1 n=17 id=a4e9cd42a212f683b8cda8312f174d34e6b22a3541ba263c0d38ca72f327e1db state=First finish_wait_ms=1 game_ms=14085
+2026-09-26 00:49:12.656+02:00 [INFO ] GAME_SUBMITTED worker=2 n=17 id=4c6938dcd5dd08c9c52543e05796fb73903067aa75021b55e175d05bc1bfccf9 total_submit_ms=14072 deposit_a=1 deposit_b=47 create=5 join=2 turn_a=1 turn_b=1 withdraw=6
+2026-09-26 00:49:12.657+02:00 [INFO ] GAME_FINISHED worker=2 n=17 id=4c6938dcd5dd08c9c52543e05796fb73903067aa75021b55e175d05bc1bfccf9 state=First finish_wait_ms=0 game_ms=14073
+2026-09-26 00:49:12.999+02:00 [INFO ] GAME_SUBMITTED worker=3 n=17 id=674637719bf822fc43cfc98f0747ccaae8dc369b7cf2b679fd337ffc05a71329 total_submit_ms=14151 deposit_a=0 deposit_b=7 create=0 join=1 turn_a=16 turn_b=1 withdraw=24
+2026-09-26 00:49:13.000+02:00 [INFO ] GAME_FINISHED worker=3 n=17 id=674637719bf822fc43cfc98f0747ccaae8dc369b7cf2b679fd337ffc05a71329 state=First finish_wait_ms=1 game_ms=14152
+2026-09-26 00:49:13.006+02:00 [INFO ] GAME_SUBMITTED worker=0 n=17 id=2f7a347a0bbaf76842513a46db49e956e5a48a2efa26be983af9b9e3af32fdbc total_submit_ms=14233 deposit_a=3 deposit_b=34 create=0 join=14 turn_a=131 turn_b=34 withdraw=5
+2026-09-26 00:49:13.006+02:00 [INFO ] GAME_FINISHED worker=0 n=17 id=2f7a347a0bbaf76842513a46db49e956e5a48a2efa26be983af9b9e3af32fdbc state=First finish_wait_ms=0 game_ms=14233
+2026-09-26 00:49:25.669+02:00 [INFO ] GAME_SUBMITTED worker=1 n=18 id=c00fb1c68931e9cb461b1d07374d64652932bb3232f95b9b1a9304a3280bdb94 total_submit_ms=14060 deposit_a=17 deposit_b=1 create=1 join=2 turn_a=26 turn_b=1 withdraw=3
+2026-09-26 00:49:25.670+02:00 [INFO ] GAME_FINISHED worker=1 n=18 id=c00fb1c68931e9cb461b1d07374d64652932bb3232f95b9b1a9304a3280bdb94 state=First finish_wait_ms=0 game_ms=14061
+2026-09-26 00:49:26.754+02:00 [INFO ] GAME_SUBMITTED worker=2 n=18 id=c016b53f551c7239cc1b3d633f34549ed271958ab36fd57ed110558318b47aa8 total_submit_ms=14097 deposit_a=19 deposit_b=9 create=13 join=5 turn_a=1 turn_b=7 withdraw=25
+2026-09-26 00:49:26.755+02:00 [INFO ] GAME_FINISHED worker=2 n=18 id=c016b53f551c7239cc1b3d633f34549ed271958ab36fd57ed110558318b47aa8 state=First finish_wait_ms=0 game_ms=14098
+2026-09-26 00:49:27.075+02:00 [INFO ] GAME_SUBMITTED worker=3 n=18 id=a73b9091bb0a6c09ca588d0a131356a529d3b8650e48cb2ba9539cad7829536d total_submit_ms=14075 deposit_a=5 deposit_b=22 create=11 join=8 turn_a=4 turn_b=0 withdraw=8
+2026-09-26 00:49:27.076+02:00 [INFO ] GAME_FINISHED worker=3 n=18 id=a73b9091bb0a6c09ca588d0a131356a529d3b8650e48cb2ba9539cad7829536d state=First finish_wait_ms=0 game_ms=14075
+2026-09-26 00:49:27.087+02:00 [INFO ] GAME_SUBMITTED worker=0 n=18 id=1b093a61de03749d910e4456553be47d4c94981ff76c7b29549a08eb1cd3f482 total_submit_ms=14081 deposit_a=2 deposit_b=22 create=17 join=2 turn_a=4 turn_b=1 withdraw=20
+2026-09-26 00:49:27.087+02:00 [INFO ] GAME_FINISHED worker=0 n=18 id=1b093a61de03749d910e4456553be47d4c94981ff76c7b29549a08eb1cd3f482 state=First finish_wait_ms=0 game_ms=14081
+2026-09-26 00:49:39.739+02:00 [INFO ] GAME_SUBMITTED worker=1 n=19 id=b5517c02ca379927adac1fc43fab904b4c697787cef69025a62b40386e06a7db total_submit_ms=14069 deposit_a=0 deposit_b=1 create=8 join=7 turn_a=3 turn_b=14 withdraw=23
+2026-09-26 00:49:40.752+02:00 [INFO ] GAME_FINISHED worker=1 n=19 id=b5517c02ca379927adac1fc43fab904b4c697787cef69025a62b40386e06a7db state=First finish_wait_ms=1013 game_ms=15082
+2026-09-26 00:49:40.798+02:00 [INFO ] GAME_SUBMITTED worker=2 n=19 id=bb0346ff6e3417681c4772259f7e92140733f02cf31b0822021f0b1d133291af total_submit_ms=14043 deposit_a=15 deposit_b=1 create=1 join=3 turn_a=10 turn_b=1 withdraw=1
+2026-09-26 00:49:40.799+02:00 [INFO ] GAME_FINISHED worker=2 n=19 id=bb0346ff6e3417681c4772259f7e92140733f02cf31b0822021f0b1d133291af state=First finish_wait_ms=0 game_ms=14043
+2026-09-26 00:49:41.117+02:00 [INFO ] GAME_SUBMITTED worker=0 n=19 id=a30876b737d66146cb53e01bf20d3252afb6539f560b606d05fe5f36b77be13c total_submit_ms=14029 deposit_a=9 deposit_b=0 create=3 join=1 turn_a=2 turn_b=1 withdraw=1
+2026-09-26 00:49:41.117+02:00 [INFO ] GAME_SUBMITTED worker=3 n=19 id=b805666e4e197e277a82dfc39261721609ad0a71c522d764ebec7f53048daf77 total_submit_ms=14041 deposit_a=21 deposit_b=0 create=3 join=1 turn_a=2 turn_b=0 withdraw=1
+2026-09-26 00:49:41.117+02:00 [INFO ] GAME_FINISHED worker=3 n=19 id=b805666e4e197e277a82dfc39261721609ad0a71c522d764ebec7f53048daf77 state=First finish_wait_ms=0 game_ms=14041
+2026-09-26 00:49:41.117+02:00 [INFO ] GAME_FINISHED worker=0 n=19 id=a30876b737d66146cb53e01bf20d3252afb6539f560b606d05fe5f36b77be13c state=First finish_wait_ms=0 game_ms=14029
+2026-09-26 00:49:54.981+02:00 [INFO ] GAME_SUBMITTED worker=2 n=20 id=ab46898c7ce3dca2f171951284405092422ca07aa82f31827f044921ebebba10 total_submit_ms=14181 deposit_a=30 deposit_b=8 create=15 join=7 turn_a=32 turn_b=0 withdraw=74
+2026-09-26 00:49:54.981+02:00 [INFO ] GAME_SUBMITTED worker=1 n=20 id=861b7f246c25a1f73dde5e7538b9d7640240c19d5a434392cfe9a37bb3ae4e25 total_submit_ms=14228 deposit_a=14 deposit_b=20 create=22 join=24 turn_a=13 turn_b=1 withdraw=117
+2026-09-26 00:49:54.983+02:00 [INFO ] GAME_FINISHED worker=2 n=20 id=ab46898c7ce3dca2f171951284405092422ca07aa82f31827f044921ebebba10 state=First finish_wait_ms=2 game_ms=14184
+2026-09-26 00:49:54.983+02:00 [INFO ] GAME_FINISHED worker=1 n=20 id=861b7f246c25a1f73dde5e7538b9d7640240c19d5a434392cfe9a37bb3ae4e25 state=First finish_wait_ms=2 game_ms=14230
+2026-09-26 00:49:55.160+02:00 [INFO ] GAME_SUBMITTED worker=3 n=20 id=e4d9c6a2dcb2a3cc338033f6c6dc3f7e57ea2a7380ffa6fa1a1f93b9369e34cc total_submit_ms=14043 deposit_a=22 deposit_b=1 create=5 join=2 turn_a=0 turn_b=2 withdraw=0
+2026-09-26 00:49:55.162+02:00 [INFO ] GAME_FINISHED worker=3 n=20 id=e4d9c6a2dcb2a3cc338033f6c6dc3f7e57ea2a7380ffa6fa1a1f93b9369e34cc state=First finish_wait_ms=1 game_ms=14045
+2026-09-26 00:49:55.215+02:00 [INFO ] GAME_SUBMITTED worker=0 n=20 id=4365e0799aff44395508e27cd193d844d0a4367378140e2446482871199bc6cd total_submit_ms=14097 deposit_a=21 deposit_b=1 create=17 join=31 turn_a=0 turn_b=13 withdraw=0
+2026-09-26 00:49:55.215+02:00 [INFO ] GAME_FINISHED worker=0 n=20 id=4365e0799aff44395508e27cd193d844d0a4367378140e2446482871199bc6cd state=First finish_wait_ms=0 game_ms=14098
+2026-09-26 00:50:09.045+02:00 [INFO ] GAME_SUBMITTED worker=2 n=21 id=ffcd1a71e1e30c52357bc96ed1236710d3acb2a7b9ef26d1c51e2f0050a3b607 total_submit_ms=14061 deposit_a=15 deposit_b=0 create=3 join=13 turn_a=1 turn_b=1 withdraw=13
+2026-09-26 00:50:09.046+02:00 [INFO ] GAME_FINISHED worker=2 n=21 id=ffcd1a71e1e30c52357bc96ed1236710d3acb2a7b9ef26d1c51e2f0050a3b607 state=First finish_wait_ms=0 game_ms=14062
+2026-09-26 00:50:09.047+02:00 [INFO ] GAME_SUBMITTED worker=1 n=21 id=49e73e3e6fa08663f61de5b522ec1b4af55eb9b2893ee7c7fde6453e83b06b84 total_submit_ms=14063 deposit_a=14 deposit_b=0 create=3 join=13 turn_a=1 turn_b=1 withdraw=16
+2026-09-26 00:50:09.047+02:00 [INFO ] GAME_FINISHED worker=1 n=21 id=49e73e3e6fa08663f61de5b522ec1b4af55eb9b2893ee7c7fde6453e83b06b84 state=First finish_wait_ms=0 game_ms=14063
+2026-09-26 00:50:09.218+02:00 [INFO ] GAME_SUBMITTED worker=3 n=21 id=3b06969ed9015ca29ba400ced59ba64d0d166fca1b7cb3eec5b54338bad3f53e total_submit_ms=14055 deposit_a=4 deposit_b=3 create=0 join=0 turn_a=1 turn_b=2 withdraw=35
+2026-09-26 00:50:09.219+02:00 [INFO ] GAME_FINISHED worker=3 n=21 id=3b06969ed9015ca29ba400ced59ba64d0d166fca1b7cb3eec5b54338bad3f53e state=First finish_wait_ms=0 game_ms=14056
+2026-09-26 00:50:09.330+02:00 [INFO ] GAME_SUBMITTED worker=0 n=21 id=81507c17eae2c050721ea92c2eb8069c06fdd1e8a5bc372669c96c90a0090503 total_submit_ms=14114 deposit_a=22 deposit_b=24 create=2 join=0 turn_a=0 turn_b=0 withdraw=46
+2026-09-26 00:50:09.331+02:00 [INFO ] GAME_FINISHED worker=0 n=21 id=81507c17eae2c050721ea92c2eb8069c06fdd1e8a5bc372669c96c90a0090503 state=First finish_wait_ms=0 game_ms=14115
+2026-09-26 00:50:13.060+02:00 [WARN ] GAME_FAIL worker=1 n=22 after_ms=4012 err=create game: transaction submission failed after retries
+2026-09-26 00:50:13.066+02:00 [WARN ] GAME_FAIL worker=2 n=22 after_ms=4020 err=create game: transaction submission failed after retries
+2026-09-26 00:50:23.338+02:00 [INFO ] GAME_SUBMITTED worker=3 n=22 id=613ffbaef90efd2860c0a8dd15d8e47bd3bbf3fcece2c323750b5874ff80dc53 total_submit_ms=14119 deposit_a=0 deposit_b=61 create=0 join=18 turn_a=7 turn_b=20 withdraw=1
+2026-09-26 00:50:23.338+02:00 [INFO ] GAME_FINISHED worker=3 n=22 id=613ffbaef90efd2860c0a8dd15d8e47bd3bbf3fcece2c323750b5874ff80dc53 state=First finish_wait_ms=0 game_ms=14119
+2026-09-26 00:50:23.464+02:00 [INFO ] GAME_SUBMITTED worker=0 n=22 id=f16f0e7168fd4b91b2b33b63e188db383ebd9863203d7a27fd1a35a7ab5ab9bd total_submit_ms=14133 deposit_a=2 deposit_b=11 create=0 join=24 turn_a=48 turn_b=36 withdraw=1
+2026-09-26 00:50:23.465+02:00 [INFO ] GAME_FINISHED worker=0 n=22 id=f16f0e7168fd4b91b2b33b63e188db383ebd9863203d7a27fd1a35a7ab5ab9bd state=First finish_wait_ms=0 game_ms=14133
+2026-09-26 00:50:29.396+02:00 [WARN ] GAME_FAIL worker=3 n=23 after_ms=6057 err=join game: transaction submission failed after retries
+2026-09-26 00:50:32.190+02:00 [INFO ] GAME_SUBMITTED worker=1 n=23 id=ab3e0f24c05393743a0004e585a301d1b009d5d87eba5a479c2c497f346a5e46 total_submit_ms=14129 deposit_a=13 deposit_b=16 create=16 join=13 turn_a=54 turn_b=2 withdraw=0
+2026-09-26 00:50:32.196+02:00 [INFO ] GAME_SUBMITTED worker=2 n=23 id=a34589663404240824a5e03f7fa9aa99c3b477ff6cab91d4712e7f5cf4d9a924 total_submit_ms=14129 deposit_a=35 deposit_b=4 create=24 join=9 turn_a=44 turn_b=0 withdraw=1
+2026-09-26 00:50:33.192+02:00 [INFO ] GAME_FINISHED worker=1 n=23 id=ab3e0f24c05393743a0004e585a301d1b009d5d87eba5a479c2c497f346a5e46 state=First finish_wait_ms=1001 game_ms=15130
+2026-09-26 00:50:33.198+02:00 [INFO ] GAME_FINISHED worker=2 n=23 id=a34589663404240824a5e03f7fa9aa99c3b477ff6cab91d4712e7f5cf4d9a924 state=First finish_wait_ms=1002 game_ms=15131
+2026-09-26 00:50:37.676+02:00 [INFO ] GAME_SUBMITTED worker=0 n=23 id=40594d812f82cb2574ff0f58af26f998ea0ab0e04853beccc68117bffb40bd95 total_submit_ms=14211 deposit_a=5 deposit_b=12 create=63 join=77 turn_a=5 turn_b=12 withdraw=19
+2026-09-26 00:50:37.678+02:00 [INFO ] GAME_FINISHED worker=0 n=23 id=40594d812f82cb2574ff0f58af26f998ea0ab0e04853beccc68117bffb40bd95 state=First finish_wait_ms=1 game_ms=14212
+2026-09-26 00:50:44.441+02:00 [WARN ] GAME_FAIL worker=3 n=24 after_ms=10043 err=turn B: transaction submission failed after retries
+2026-09-26 00:50:45.293+02:00 [WARN ] GAME_FAIL worker=1 n=24 after_ms=12100 err=withdraw: transaction submission failed after retries
+2026-09-26 00:50:45.297+02:00 [WARN ] GAME_FAIL worker=2 n=24 after_ms=12098 err=withdraw: transaction submission failed after retries
+2026-09-26 00:50:49.783+02:00 [WARN ] GAME_FAIL worker=0 n=24 after_ms=12104 err=withdraw: transaction submission failed after retries
+2026-09-26 00:50:56.354+02:00 [WARN ] GAME_FAIL worker=1 n=25 after_ms=6059 err=join game: transaction submission failed after retries
+2026-09-26 00:50:56.359+02:00 [WARN ] GAME_FAIL worker=2 n=25 after_ms=6059 err=join game: transaction submission failed after retries
+2026-09-26 00:50:56.799+02:00 [WARN ] GAME_FAIL worker=0 n=25 after_ms=2015 err=deposit B: deposit submission failed after retries
+2026-09-26 00:51:03.624+02:00 [INFO ] GAME_SUBMITTED worker=3 n=25 id=0ea4099e0952a48b4ec0650c08d9988643d2ebe8cd43fc1648a0a57189e07132 total_submit_ms=14181 deposit_a=10 deposit_b=10 create=6 join=74 turn_a=1 turn_b=23 withdraw=38
+2026-09-26 00:51:03.624+02:00 [INFO ] GAME_FINISHED worker=3 n=25 id=0ea4099e0952a48b4ec0650c08d9988643d2ebe8cd43fc1648a0a57189e07132 state=First finish_wait_ms=0 game_ms=14182
+2026-09-26 00:51:15.453+02:00 [INFO ] GAME_SUBMITTED worker=1 n=26 id=3ce7ff672ae7c914833a8f2e1e969ab7216af2ebf21c225d35712f3341b9dd26 total_submit_ms=14098 deposit_a=6 deposit_b=9 create=24 join=0 turn_a=33 turn_b=0 withdraw=8
+2026-09-26 00:51:15.459+02:00 [INFO ] GAME_FINISHED worker=1 n=26 id=3ce7ff672ae7c914833a8f2e1e969ab7216af2ebf21c225d35712f3341b9dd26 state=First finish_wait_ms=5 game_ms=14104
+2026-09-26 00:51:15.467+02:00 [INFO ] GAME_SUBMITTED worker=2 n=26 id=67a39f312c6d2602b49a01a4058377928fe70f6034e53a913f800457e722d252 total_submit_ms=14105 deposit_a=7 deposit_b=24 create=36 join=0 turn_a=16 turn_b=0 withdraw=5
+2026-09-26 00:51:15.468+02:00 [INFO ] GAME_FINISHED worker=2 n=26 id=67a39f312c6d2602b49a01a4058377928fe70f6034e53a913f800457e722d252 state=First finish_wait_ms=1 game_ms=14106
+2026-09-26 00:51:15.971+02:00 [INFO ] GAME_SUBMITTED worker=0 n=26 id=04398269075f683ad80be3fa94cdabe37069a95857029bbcdc69dd9215809ecc total_submit_ms=14170 deposit_a=7 deposit_b=21 create=18 join=53 turn_a=45 turn_b=8 withdraw=4
+2026-09-26 00:51:15.971+02:00 [INFO ] GAME_FINISHED worker=0 n=26 id=04398269075f683ad80be3fa94cdabe37069a95857029bbcdc69dd9215809ecc state=First finish_wait_ms=0 game_ms=14170
+2026-09-26 00:51:17.754+02:00 [INFO ] GAME_SUBMITTED worker=3 n=26 id=8afbdfa38199bccbf9caf46f218d5f2bcf506f94e40d9f6f40703e6a0b3f1060 total_submit_ms=14129 deposit_a=38 deposit_b=10 create=0 join=39 turn_a=1 turn_b=3 withdraw=27
+2026-09-26 00:51:17.754+02:00 [INFO ] GAME_FINISHED worker=3 n=26 id=8afbdfa38199bccbf9caf46f218d5f2bcf506f94e40d9f6f40703e6a0b3f1060 state=First finish_wait_ms=0 game_ms=14130
+2026-09-26 00:51:29.605+02:00 [INFO ] GAME_SUBMITTED worker=2 n=27 id=bca8d07968e218ca0631494edc6b90edbe977433541e0542320de62168300993 total_submit_ms=14136 deposit_a=13 deposit_b=24 create=26 join=2 turn_a=35 turn_b=7 withdraw=16
+2026-09-26 00:51:29.606+02:00 [INFO ] GAME_SUBMITTED worker=1 n=27 id=adf9ad71cf7fe82a4e6832f3ad88fc3f3b659a42a1a4665db5f659bbf5130988 total_submit_ms=14146 deposit_a=8 deposit_b=18 create=13 join=1 turn_a=63 turn_b=11 withdraw=18
+2026-09-26 00:51:29.606+02:00 [INFO ] GAME_FINISHED worker=2 n=27 id=bca8d07968e218ca0631494edc6b90edbe977433541e0542320de62168300993 state=First finish_wait_ms=1 game_ms=14138
+2026-09-26 00:51:29.611+02:00 [INFO ] GAME_FINISHED worker=1 n=27 id=adf9ad71cf7fe82a4e6832f3ad88fc3f3b659a42a1a4665db5f659bbf5130988 state=First finish_wait_ms=4 game_ms=14151
+2026-09-26 00:51:30.061+02:00 [INFO ] GAME_SUBMITTED worker=0 n=27 id=b721d05adcffe04ea2f1bafef7d9cc0e570f88f744974d33ffe89a67ccb705c4 total_submit_ms=14089 deposit_a=0 deposit_b=9 create=14 join=18 turn_a=18 turn_b=0 withdraw=13
+2026-09-26 00:51:31.064+02:00 [INFO ] GAME_FINISHED worker=0 n=27 id=b721d05adcffe04ea2f1bafef7d9cc0e570f88f744974d33ffe89a67ccb705c4 state=First finish_wait_ms=1002 game_ms=15092
+2026-09-26 00:51:31.905+02:00 [INFO ] GAME_SUBMITTED worker=3 n=27 id=9452c0747dedfe7f2ba97edbc1c070180a4e38b17e06f167a78e3a9035226c12 total_submit_ms=14151 deposit_a=23 deposit_b=11 create=16 join=34 turn_a=6 turn_b=34 withdraw=10
+2026-09-26 00:51:32.909+02:00 [INFO ] GAME_FINISHED worker=3 n=27 id=9452c0747dedfe7f2ba97edbc1c070180a4e38b17e06f167a78e3a9035226c12 state=First finish_wait_ms=1002 game_ms=15154
+2026-09-26 00:51:33.634+02:00 [WARN ] GAME_FAIL worker=2 n=28 after_ms=4027 err=create game: transaction submission failed after retries
+2026-09-26 00:51:33.638+02:00 [WARN ] GAME_FAIL worker=1 n=28 after_ms=4026 err=create game: transaction submission failed after retries
+2026-09-26 00:51:45.151+02:00 [INFO ] GAME_SUBMITTED worker=0 n=28 id=ec659121534d52abec55cda871117324e2bbe4a225e5a4b786df7fde260e161d total_submit_ms=14087 deposit_a=3 deposit_b=36 create=0 join=21 turn_a=1 turn_b=9 withdraw=5
+2026-09-26 00:51:45.152+02:00 [INFO ] GAME_FINISHED worker=0 n=28 id=ec659121534d52abec55cda871117324e2bbe4a225e5a4b786df7fde260e161d state=First finish_wait_ms=0 game_ms=14088
+2026-09-26 00:51:48.989+02:00 [INFO ] GAME_SUBMITTED worker=3 n=28 id=02e1100a1a0748fa03029c5dc28d60af961286b54f3bbe41609a1c517b11d7cb total_submit_ms=16080 deposit_a=31 deposit_b=2006 create=15 join=9 turn_a=0 turn_b=5 withdraw=1
+2026-09-26 00:51:49.993+02:00 [INFO ] GAME_FINISHED worker=3 n=28 id=02e1100a1a0748fa03029c5dc28d60af961286b54f3bbe41609a1c517b11d7cb state=First finish_wait_ms=1003 game_ms=17083
+2026-09-26 00:51:52.006+02:00 [WARN ] GAME_FAIL worker=3 n=29 after_ms=2013 err=deposit B: deposit submission failed after retries
+2026-09-26 00:51:52.875+02:00 [INFO ] GAME_SUBMITTED worker=1 n=29 id=f71731e7de24440dd07ea69c2b8e14c4d522021c420ce6e2fd05fe2e5216c76a total_submit_ms=14236 deposit_a=67 deposit_b=9 create=12 join=8 turn_a=36 turn_b=6 withdraw=87
+2026-09-26 00:51:52.889+02:00 [INFO ] GAME_SUBMITTED worker=2 n=29 id=0e0a6e8887d4268d16b1938c7c166095d2721a935cb13fd00a51801b8f9b2829 total_submit_ms=14253 deposit_a=60 deposit_b=25 create=7 join=7 turn_a=46 turn_b=6 withdraw=89
+2026-09-26 00:51:53.877+02:00 [INFO ] GAME_FINISHED worker=1 n=29 id=f71731e7de24440dd07ea69c2b8e14c4d522021c420ce6e2fd05fe2e5216c76a state=First finish_wait_ms=1002 game_ms=15239
+2026-09-26 00:51:53.895+02:00 [INFO ] GAME_FINISHED worker=2 n=29 id=0e0a6e8887d4268d16b1938c7c166095d2721a935cb13fd00a51801b8f9b2829 state=First finish_wait_ms=1005 game_ms=15259
+2026-09-26 00:51:59.218+02:00 [INFO ] GAME_SUBMITTED worker=0 n=29 id=cfd0482d5e93d79bfb5f6439af090c6c8865b1ba524c58b0506d952b0195d787 total_submit_ms=14065 deposit_a=14 deposit_b=0 create=11 join=2 turn_a=2 turn_b=0 withdraw=25
+2026-09-26 00:51:59.226+02:00 [INFO ] GAME_FINISHED worker=0 n=29 id=cfd0482d5e93d79bfb5f6439af090c6c8865b1ba524c58b0506d952b0195d787 state=First finish_wait_ms=7 game_ms=14073
+2026-09-26 00:52:07.943+02:00 [INFO ] GAME_SUBMITTED worker=2 n=30 id=761c8e29bd296255d3d542aae067e6b54483ceae4b2e80a3822dae13c23240a7 total_submit_ms=14047 deposit_a=10 deposit_b=3 create=2 join=4 turn_a=12 turn_b=1 withdraw=5
+2026-09-26 00:52:07.943+02:00 [INFO ] GAME_FINISHED worker=2 n=30 id=761c8e29bd296255d3d542aae067e6b54483ceae4b2e80a3822dae13c23240a7 state=First finish_wait_ms=0 game_ms=14048
+2026-09-26 00:52:07.995+02:00 [INFO ] GAME_SUBMITTED worker=1 n=30 id=c8ebb9369290f92936335264dd305b6c94b4ba64b2e19f5d18a19dea398b79b7 total_submit_ms=14118 deposit_a=5 deposit_b=13 create=3 join=40 turn_a=18 turn_b=21 withdraw=2
+2026-09-26 00:52:07.996+02:00 [INFO ] GAME_FINISHED worker=1 n=30 id=c8ebb9369290f92936335264dd305b6c94b4ba64b2e19f5d18a19dea398b79b7 state=First finish_wait_ms=1 game_ms=14119
+2026-09-26 00:52:11.176+02:00 [INFO ] GAME_SUBMITTED worker=3 n=30 id=18f62530b9d34c872e344474b909b30a60b72763815cdfdc66988c5ebd157ea5 total_submit_ms=14166 deposit_a=21 deposit_b=47 create=8 join=5 turn_a=1 turn_b=56 withdraw=13
+2026-09-26 00:52:12.178+02:00 [INFO ] GAME_FINISHED worker=3 n=30 id=18f62530b9d34c872e344474b909b30a60b72763815cdfdc66988c5ebd157ea5 state=First finish_wait_ms=1002 game_ms=15168
+2026-09-26 00:52:13.339+02:00 [INFO ] GAME_SUBMITTED worker=0 n=30 id=0e7c1dbc9358e42390b8d6733f67b7f9c8bfd240f79cc60a0ef4831506476dbc total_submit_ms=14113 deposit_a=25 deposit_b=10 create=24 join=2 turn_a=38 turn_b=1 withdraw=0
+2026-09-26 00:52:13.339+02:00 [INFO ] GAME_FINISHED worker=0 n=30 id=0e7c1dbc9358e42390b8d6733f67b7f9c8bfd240f79cc60a0ef4831506476dbc state=First finish_wait_ms=0 game_ms=14113
+2026-09-26 00:52:22.041+02:00 [INFO ] GAME_SUBMITTED worker=2 n=31 id=3619a0b5569b1bee85f91260cb210e0f86eeee867c8fbed4afea539237e3c371 total_submit_ms=14097 deposit_a=13 deposit_b=11 create=10 join=2 turn_a=12 turn_b=3 withdraw=35
+2026-09-26 00:52:22.123+02:00 [INFO ] GAME_SUBMITTED worker=1 n=31 id=932cb886e2abedc4699342596339d995b9e8b8a25e425bd1ed0d8f7a25531b2e total_submit_ms=14126 deposit_a=16 deposit_b=0 create=25 join=5 turn_a=18 turn_b=9 withdraw=34
+2026-09-26 00:52:23.042+02:00 [INFO ] GAME_FINISHED worker=2 n=31 id=3619a0b5569b1bee85f91260cb210e0f86eeee867c8fbed4afea539237e3c371 state=First finish_wait_ms=1001 game_ms=15099
+2026-09-26 00:52:23.128+02:00 [INFO ] GAME_FINISHED worker=1 n=31 id=932cb886e2abedc4699342596339d995b9e8b8a25e425bd1ed0d8f7a25531b2e state=First finish_wait_ms=1004 game_ms=15131
+2026-09-26 00:52:26.358+02:00 [INFO ] GAME_SUBMITTED worker=3 n=31 id=0cb729afba5293a89a8e335c4b780c08ffdb540fa18011caa05af8a07eb0174b total_submit_ms=14179 deposit_a=9 deposit_b=6 create=21 join=14 turn_a=20 turn_b=51 withdraw=33
+2026-09-26 00:52:26.366+02:00 [INFO ] GAME_FINISHED worker=3 n=31 id=0cb729afba5293a89a8e335c4b780c08ffdb540fa18011caa05af8a07eb0174b state=First finish_wait_ms=8 game_ms=14188
+2026-09-26 00:52:27.467+02:00 [INFO ] GAME_SUBMITTED worker=0 n=31 id=279d8a4ac5483ae1a5346873885635dc7e581640bcd6022c94187256422e5b78 total_submit_ms=14127 deposit_a=0 deposit_b=36 create=18 join=18 turn_a=2 turn_b=34 withdraw=7
+2026-09-26 00:52:27.468+02:00 [INFO ] GAME_FINISHED worker=0 n=31 id=279d8a4ac5483ae1a5346873885635dc7e581640bcd6022c94187256422e5b78 state=First finish_wait_ms=0 game_ms=14128
+2026-09-26 00:52:31.136+02:00 [WARN ] GAME_FAIL worker=2 n=32 after_ms=8093 err=turn A: transaction submission failed after retries
+2026-09-26 00:52:37.223+02:00 [INFO ] GAME_SUBMITTED worker=1 n=32 id=34c77f876b8f189f8c2944349c5ce0932ed683879b993735a44d58dd30747e76 total_submit_ms=14094 deposit_a=3 deposit_b=10 create=12 join=51 turn_a=0 turn_b=2 withdraw=5
+2026-09-26 00:52:37.223+02:00 [INFO ] GAME_FINISHED worker=1 n=32 id=34c77f876b8f189f8c2944349c5ce0932ed683879b993735a44d58dd30747e76 state=First finish_wait_ms=0 game_ms=14095
+2026-09-26 00:52:40.484+02:00 [INFO ] GAME_SUBMITTED worker=3 n=32 id=fdc4b5435459b99a41e3c13e58ffc1f0c8227f09a90398b5c60d90f9e22d4d6b total_submit_ms=14117 deposit_a=27 deposit_b=15 create=1 join=34 turn_a=3 turn_b=1 withdraw=26
+2026-09-26 00:52:40.485+02:00 [INFO ] GAME_FINISHED worker=3 n=32 id=fdc4b5435459b99a41e3c13e58ffc1f0c8227f09a90398b5c60d90f9e22d4d6b state=First finish_wait_ms=1 game_ms=14119
+2026-09-26 00:52:41.546+02:00 [INFO ] GAME_SUBMITTED worker=0 n=32 id=77e1a6111d0a708e1baf965cf12b20ab91c516b245ad0d11f181515d87dd1415 total_submit_ms=14077 deposit_a=1 deposit_b=13 create=11 join=12 turn_a=6 turn_b=0 withdraw=4
+2026-09-26 00:52:41.546+02:00 [INFO ] GAME_FINISHED worker=0 n=32 id=77e1a6111d0a708e1baf965cf12b20ab91c516b245ad0d11f181515d87dd1415 state=First finish_wait_ms=0 game_ms=14078
+2026-09-26 00:52:45.315+02:00 [WARN ] GAME_FAIL worker=1 n=33 after_ms=8091 err=turn A: transaction submission failed after retries
+2026-09-26 00:52:50.432+02:00 [INFO ] GAME_SUBMITTED worker=2 n=33 id=29825dac5714c205fd7740852056359541ebb27fa53a1a03ba5bddfb70dadf99 total_submit_ms=14294 deposit_a=9 deposit_b=29 create=155 join=35 turn_a=4 turn_b=33 withdraw=11
+2026-09-26 00:52:50.432+02:00 [INFO ] GAME_FINISHED worker=2 n=33 id=29825dac5714c205fd7740852056359541ebb27fa53a1a03ba5bddfb70dadf99 state=First finish_wait_ms=0 game_ms=14295
+2026-09-26 00:52:54.664+02:00 [INFO ] GAME_SUBMITTED worker=3 n=33 id=c9584e5eed3489188af8484ab722082d08b2394871c7a47282e21b1644567b1c total_submit_ms=14178 deposit_a=21 deposit_b=67 create=3 join=50 turn_a=10 turn_b=7 withdraw=4
+2026-09-26 00:52:54.664+02:00 [INFO ] GAME_FINISHED worker=3 n=33 id=c9584e5eed3489188af8484ab722082d08b2394871c7a47282e21b1644567b1c state=First finish_wait_ms=0 game_ms=14178
+2026-09-26 00:52:55.646+02:00 [INFO ] GAME_SUBMITTED worker=0 n=33 id=dced80951e41adc6980e20a049e9719832e9e99455cba557f52290981a945d34 total_submit_ms=14099 deposit_a=15 deposit_b=8 create=0 join=13 turn_a=36 turn_b=3 withdraw=7
+2026-09-26 00:52:55.646+02:00 [INFO ] GAME_FINISHED worker=0 n=33 id=dced80951e41adc6980e20a049e9719832e9e99455cba557f52290981a945d34 state=First finish_wait_ms=0 game_ms=14099
+2026-09-26 00:53:00.460+02:00 [WARN ] GAME_FAIL worker=1 n=34 after_ms=10142 err=turn B: transaction submission failed after retries
+2026-09-26 00:53:00.536+02:00 [WARN ] GAME_FAIL worker=2 n=34 after_ms=10103 err=turn B: transaction submission failed after retries
+2026-09-26 00:53:00.693+02:00 [WARN ] GAME_FAIL worker=3 n=34 after_ms=6029 err=join game: transaction submission failed after retries
+2026-09-26 00:53:09.754+02:00 [INFO ] GAME_SUBMITTED worker=0 n=34 id=594ef7af0769a5e4a2268c86e7ca9b42d977c37d3feeae8704d6292c135f20bd total_submit_ms=14107 deposit_a=55 deposit_b=2 create=4 join=9 turn_a=18 turn_b=4 withdraw=1
+2026-09-26 00:53:09.754+02:00 [INFO ] GAME_FINISHED worker=0 n=34 id=594ef7af0769a5e4a2268c86e7ca9b42d977c37d3feeae8704d6292c135f20bd state=First finish_wait_ms=0 game_ms=14108
+2026-09-26 00:53:19.511+02:00 [INFO ] GAME_SUBMITTED worker=1 n=35 id=0b6a28c57786982b12300d33f10e6f8220061d318d2215443b6894283531d981 total_submit_ms=14050 deposit_a=0 deposit_b=3 create=1 join=1 turn_a=12 turn_b=6 withdraw=13
+2026-09-26 00:53:19.512+02:00 [INFO ] GAME_FINISHED worker=1 n=35 id=0b6a28c57786982b12300d33f10e6f8220061d318d2215443b6894283531d981 state=First finish_wait_ms=1 game_ms=14051
+2026-09-26 00:53:19.643+02:00 [INFO ] GAME_SUBMITTED worker=2 n=35 id=72ad161567c5308b4c02038aa1c4ae1ad2fad4be4d9ec0108a3eef974805e936 total_submit_ms=14105 deposit_a=0 deposit_b=45 create=1 join=1 turn_a=9 turn_b=37 withdraw=0
+2026-09-26 00:53:19.648+02:00 [INFO ] GAME_FINISHED worker=2 n=35 id=72ad161567c5308b4c02038aa1c4ae1ad2fad4be4d9ec0108a3eef974805e936 state=First finish_wait_ms=4 game_ms=14110
+2026-09-26 00:53:19.744+02:00 [INFO ] GAME_SUBMITTED worker=3 n=35 id=dfebe69115c5ebdee91de3171f6ada9c9cb78874f38115ee89def621794f196d total_submit_ms=14049 deposit_a=4 deposit_b=10 create=1 join=0 turn_a=8 turn_b=11 withdraw=5
+2026-09-26 00:53:19.744+02:00 [INFO ] GAME_FINISHED worker=3 n=35 id=dfebe69115c5ebdee91de3171f6ada9c9cb78874f38115ee89def621794f196d state=First finish_wait_ms=0 game_ms=14049
+2026-09-26 00:53:23.882+02:00 [INFO ] GAME_SUBMITTED worker=0 n=35 id=16a82c40a04f6cbd9beff1fc8139363dbd97a6bd8b15f6fe768b68cff59dd2a1 total_submit_ms=14127 deposit_a=0 deposit_b=0 create=5 join=9 turn_a=1 turn_b=95 withdraw=0
+2026-09-26 00:53:23.886+02:00 [INFO ] GAME_FINISHED worker=0 n=35 id=16a82c40a04f6cbd9beff1fc8139363dbd97a6bd8b15f6fe768b68cff59dd2a1 state=First finish_wait_ms=3 game_ms=14131
+2026-09-26 00:53:33.598+02:00 [INFO ] GAME_SUBMITTED worker=1 n=36 id=b0842c75f43ab49e8131cb6899ea3b41c38bc13b6c90d8033e775757d6a30f6a total_submit_ms=14086 deposit_a=28 deposit_b=11 create=16 join=13 turn_a=3 turn_b=1 withdraw=0
+2026-09-26 00:53:33.769+02:00 [INFO ] GAME_SUBMITTED worker=2 n=36 id=e035091232edb2ec1faad2a31d69cab1d85d392e20611459bc69fe39bfdbd6df total_submit_ms=14120 deposit_a=15 deposit_b=27 create=14 join=9 turn_a=15 turn_b=29 withdraw=1
+2026-09-26 00:53:34.018+02:00 [INFO ] GAME_SUBMITTED worker=3 n=36 id=4ce681b6cf48609b19e6927be49d3f7264cc50b8a6e7c3e71fb405e914562754 total_submit_ms=14273 deposit_a=134 deposit_b=0 create=5 join=84 turn_a=1 turn_b=36 withdraw=0
+2026-09-26 00:53:34.775+02:00 [INFO ] GAME_FINISHED worker=2 n=36 id=e035091232edb2ec1faad2a31d69cab1d85d392e20611459bc69fe39bfdbd6df state=First finish_wait_ms=1006 game_ms=15126
+2026-09-26 00:53:35.022+02:00 [INFO ] GAME_FINISHED worker=3 n=36 id=4ce681b6cf48609b19e6927be49d3f7264cc50b8a6e7c3e71fb405e914562754 state=First finish_wait_ms=1004 game_ms=15277
+2026-09-26 00:53:35.601+02:00 [INFO ] GAME_FINISHED worker=1 n=36 id=b0842c75f43ab49e8131cb6899ea3b41c38bc13b6c90d8033e775757d6a30f6a state=First finish_wait_ms=2002 game_ms=16088
+2026-09-26 00:53:36.785+02:00 [WARN ] GAME_FAIL worker=2 n=37 after_ms=2010 err=deposit B: deposit submission failed after retries
+2026-09-26 00:53:38.044+02:00 [INFO ] GAME_SUBMITTED worker=0 n=36 id=ca2fed2e272ad6320fae17b47670bb2d777a227439fde50003aae988f30d6913 total_submit_ms=14157 deposit_a=23 deposit_b=62 create=1 join=36 turn_a=1 turn_b=9 withdraw=12
+2026-09-26 00:53:38.044+02:00 [INFO ] GAME_FINISHED worker=0 n=36 id=ca2fed2e272ad6320fae17b47670bb2d777a227439fde50003aae988f30d6913 state=First finish_wait_ms=0 game_ms=14158
+2026-09-26 00:53:41.125+02:00 [WARN ] GAME_FAIL worker=3 n=37 after_ms=6102 err=join game: transaction submission failed after retries
+2026-09-26 00:53:49.666+02:00 [INFO ] GAME_SUBMITTED worker=1 n=37 id=abb7b4e2597b5f966d30125210846ddfaf0ee06ed6a8192b8a5964cdb2b8287b total_submit_ms=14065 deposit_a=8 deposit_b=5 create=16 join=3 turn_a=11 turn_b=6 withdraw=3
+2026-09-26 00:53:49.667+02:00 [INFO ] GAME_FINISHED worker=1 n=37 id=abb7b4e2597b5f966d30125210846ddfaf0ee06ed6a8192b8a5964cdb2b8287b state=First finish_wait_ms=1 game_ms=14066
+2026-09-26 00:53:52.106+02:00 [INFO ] GAME_SUBMITTED worker=0 n=37 id=5e834a3a07ceb7093d83ab7a9242f489689c438e119f7607e230ccc80e166eb3 total_submit_ms=14061 deposit_a=1 deposit_b=1 create=1 join=9 turn_a=22 turn_b=0 withdraw=15
+2026-09-26 00:53:53.114+02:00 [INFO ] GAME_FINISHED worker=0 n=37 id=5e834a3a07ceb7093d83ab7a9242f489689c438e119f7607e230ccc80e166eb3 state=First finish_wait_ms=1008 game_ms=15069
+2026-09-26 00:53:55.923+02:00 [INFO ] GAME_SUBMITTED worker=2 n=38 id=e7fde4e11e7e8ccf68addf418780a24205f219c894ebaf869046281e46c1fd3e total_submit_ms=14136 deposit_a=1 deposit_b=40 create=0 join=11 turn_a=6 turn_b=24 withdraw=43
+2026-09-26 00:53:56.925+02:00 [INFO ] GAME_FINISHED worker=2 n=38 id=e7fde4e11e7e8ccf68addf418780a24205f219c894ebaf869046281e46c1fd3e state=First finish_wait_ms=1002 game_ms=15138
+2026-09-26 00:54:00.206+02:00 [INFO ] GAME_SUBMITTED worker=3 n=38 id=95bf2f9b2949c29ee065e47e30d25a23ab67013c9d26a1dc20badeee4b4855fe total_submit_ms=14077 deposit_a=5 deposit_b=19 create=4 join=11 turn_a=12 turn_b=0 withdraw=11
+2026-09-26 00:54:00.206+02:00 [INFO ] GAME_FINISHED worker=3 n=38 id=95bf2f9b2949c29ee065e47e30d25a23ab67013c9d26a1dc20badeee4b4855fe state=First finish_wait_ms=0 game_ms=14077
+2026-09-26 00:54:03.896+02:00 [INFO ] GAME_SUBMITTED worker=1 n=38 id=8389819a759dd30dfa91c37d8b95c3230f570f4538b4c6d5c9c539b8ccba6463 total_submit_ms=14228 deposit_a=45 deposit_b=2 create=12 join=9 turn_a=86 turn_b=42 withdraw=19
+2026-09-26 00:54:04.899+02:00 [INFO ] GAME_FINISHED worker=1 n=38 id=8389819a759dd30dfa91c37d8b95c3230f570f4538b4c6d5c9c539b8ccba6463 state=First finish_wait_ms=1002 game_ms=15231
+2026-09-26 00:54:07.157+02:00 [INFO ] GAME_SUBMITTED worker=0 n=38 id=5ee3e422d4c12c949237c1f72613f50a44cb7a50402c014f61fde31e11f27614 total_submit_ms=14042 deposit_a=1 deposit_b=1 create=0 join=18 turn_a=0 turn_b=3 withdraw=4
+2026-09-26 00:54:07.157+02:00 [INFO ] GAME_FINISHED worker=0 n=38 id=5ee3e422d4c12c949237c1f72613f50a44cb7a50402c014f61fde31e11f27614 state=First finish_wait_ms=0 game_ms=14043
+2026-09-26 00:54:11.034+02:00 [INFO ] GAME_SUBMITTED worker=2 n=39 id=11e8319a661dab34b9883978b7b2619295cfcb57df132a9f9499bee635de3349 total_submit_ms=14108 deposit_a=1 deposit_b=7 create=4 join=20 turn_a=10 turn_b=42 withdraw=7
+2026-09-26 00:54:11.034+02:00 [INFO ] GAME_FINISHED worker=2 n=39 id=11e8319a661dab34b9883978b7b2619295cfcb57df132a9f9499bee635de3349 state=First finish_wait_ms=0 game_ms=14108
+2026-09-26 00:54:14.313+02:00 [INFO ] GAME_SUBMITTED worker=3 n=39 id=b6a9eb2fee1f26ecf0a8aba67dbbbdabddb6528059ff6b5720248d7cf5d41d39 total_submit_ms=14107 deposit_a=4 deposit_b=15 create=30 join=2 turn_a=17 turn_b=11 withdraw=16
+2026-09-26 00:54:14.313+02:00 [INFO ] GAME_FINISHED worker=3 n=39 id=b6a9eb2fee1f26ecf0a8aba67dbbbdabddb6528059ff6b5720248d7cf5d41d39 state=First finish_wait_ms=0 game_ms=14107
+2026-09-26 00:54:14.314+02:00 [WARN ] GAME_FAIL worker=3 n=40 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:54:18.990+02:00 [INFO ] GAME_SUBMITTED worker=1 n=39 id=0b6fc2fdea0a8cdc54a773556e108700fcdeb14020fe51ac9e8f3fdf8c4d4647 total_submit_ms=14090 deposit_a=14 deposit_b=29 create=9 join=6 turn_a=12 turn_b=1 withdraw=6
+2026-09-26 00:54:18.994+02:00 [INFO ] GAME_FINISHED worker=1 n=39 id=0b6fc2fdea0a8cdc54a773556e108700fcdeb14020fe51ac9e8f3fdf8c4d4647 state=First finish_wait_ms=4 game_ms=14094
+2026-09-26 00:54:21.280+02:00 [INFO ] GAME_SUBMITTED worker=0 n=39 id=c4cb53b2f55465daffe0a6a51491cccc280a710a67ec7faf04e0483e7261cbc9 total_submit_ms=14122 deposit_a=4 deposit_b=59 create=6 join=9 turn_a=6 turn_b=22 withdraw=6
+2026-09-26 00:54:22.282+02:00 [INFO ] GAME_FINISHED worker=0 n=39 id=c4cb53b2f55465daffe0a6a51491cccc280a710a67ec7faf04e0483e7261cbc9 state=First finish_wait_ms=1002 game_ms=15125
+2026-09-26 00:54:23.327+02:00 [WARN ] GAME_FAIL worker=3 n=41 after_ms=4011 err=create game: transaction submission failed after retries
+2026-09-26 00:54:25.178+02:00 [INFO ] GAME_SUBMITTED worker=2 n=40 id=81079058e0b7f01a7fd4b0bf0f4d0f3c833b602eadbacc6df3d647abe1ba38d2 total_submit_ms=14144 deposit_a=3 deposit_b=6 create=16 join=21 turn_a=57 turn_b=28 withdraw=1
+2026-09-26 00:54:25.178+02:00 [INFO ] GAME_FINISHED worker=2 n=40 id=81079058e0b7f01a7fd4b0bf0f4d0f3c833b602eadbacc6df3d647abe1ba38d2 state=First finish_wait_ms=0 game_ms=14144
+2026-09-26 00:54:28.349+02:00 [WARN ] GAME_FAIL worker=0 n=40 after_ms=6066 err=join game: transaction submission failed after retries
+2026-09-26 00:54:33.202+02:00 [INFO ] GAME_SUBMITTED worker=1 n=40 id=4908c584d1bc1693d8718447326e3a9185687e317cca4fddd25a4a074e66f0cd total_submit_ms=14207 deposit_a=67 deposit_b=14 create=26 join=6 turn_a=55 turn_b=3 withdraw=19
+2026-09-26 00:54:34.208+02:00 [INFO ] GAME_FINISHED worker=1 n=40 id=4908c584d1bc1693d8718447326e3a9185687e317cca4fddd25a4a074e66f0cd state=First finish_wait_ms=1005 game_ms=15213
+2026-09-26 00:54:39.314+02:00 [INFO ] GAME_SUBMITTED worker=2 n=41 id=347b3eebcf471c844093a330506317adae758c622802c9bb728c3b5d2819e602 total_submit_ms=14135 deposit_a=12 deposit_b=77 create=0 join=13 turn_a=12 turn_b=10 withdraw=0
+2026-09-26 00:54:40.316+02:00 [INFO ] GAME_FINISHED worker=2 n=41 id=347b3eebcf471c844093a330506317adae758c622802c9bb728c3b5d2819e602 state=First finish_wait_ms=1002 game_ms=15138
+2026-09-26 00:54:40.388+02:00 [WARN ] GAME_FAIL worker=3 n=42 after_ms=12060 err=withdraw: transaction submission failed after retries
+2026-09-26 00:54:41.443+02:00 [WARN ] GAME_FAIL worker=0 n=41 after_ms=8092 err=turn A: transaction submission failed after retries
+2026-09-26 00:54:42.281+02:00 [WARN ] GAME_FAIL worker=1 n=41 after_ms=8073 err=turn A: transaction submission failed after retries
+2026-09-26 00:54:42.384+02:00 [WARN ] GAME_FAIL worker=2 n=42 after_ms=2067 err=deposit B: deposit submission failed after retries
+2026-09-26 00:54:47.434+02:00 [WARN ] GAME_FAIL worker=2 n=43 after_ms=48 err=deposit A: deposit submission failed after retries
+2026-09-26 00:54:47.450+02:00 [WARN ] GAME_FAIL worker=3 n=43 after_ms=2060 err=deposit B: deposit submission failed after retries
+2026-09-26 00:54:48.496+02:00 [WARN ] GAME_FAIL worker=0 n=42 after_ms=2051 err=deposit B: deposit submission failed after retries
+2026-09-26 00:54:49.311+02:00 [WARN ] GAME_FAIL worker=1 n=42 after_ms=2028 err=deposit B: deposit submission failed after retries
+2026-09-26 00:54:52.453+02:00 [WARN ] GAME_FAIL worker=3 n=44 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:54:53.501+02:00 [WARN ] GAME_FAIL worker=0 n=43 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:54:54.337+02:00 [WARN ] GAME_FAIL worker=1 n=43 after_ms=25 err=deposit A: deposit submission failed after retries
+2026-09-26 00:54:54.482+02:00 [WARN ] GAME_FAIL worker=2 n=44 after_ms=2047 err=deposit B: deposit submission failed after retries
+2026-09-26 00:54:57.457+02:00 [WARN ] GAME_FAIL worker=3 n=45 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:54:58.513+02:00 [WARN ] GAME_FAIL worker=0 n=44 after_ms=10 err=deposit A: deposit submission failed after retries
+2026-09-26 00:54:59.348+02:00 [WARN ] GAME_FAIL worker=1 n=44 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 00:54:59.491+02:00 [WARN ] GAME_FAIL worker=2 n=45 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:04.478+02:00 [WARN ] GAME_FAIL worker=3 n=46 after_ms=2016 err=deposit B: deposit submission failed after retries
+2026-09-26 00:55:04.541+02:00 [WARN ] GAME_FAIL worker=2 n=46 after_ms=47 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:05.685+02:00 [WARN ] GAME_FAIL worker=0 n=45 after_ms=2170 err=deposit B: deposit submission failed after retries
+2026-09-26 00:55:06.431+02:00 [WARN ] GAME_FAIL worker=1 n=45 after_ms=2081 err=deposit B: deposit submission failed after retries
+2026-09-26 00:55:09.491+02:00 [WARN ] GAME_FAIL worker=3 n=47 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:09.547+02:00 [WARN ] GAME_FAIL worker=2 n=47 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:10.702+02:00 [WARN ] GAME_FAIL worker=0 n=46 after_ms=13 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:11.462+02:00 [WARN ] GAME_FAIL worker=1 n=46 after_ms=30 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:14.495+02:00 [WARN ] GAME_FAIL worker=3 n=48 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:15.726+02:00 [WARN ] GAME_FAIL worker=0 n=47 after_ms=22 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:16.465+02:00 [WARN ] GAME_FAIL worker=1 n=47 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:16.578+02:00 [WARN ] GAME_FAIL worker=2 n=48 after_ms=2029 err=deposit B: deposit submission failed after retries
+2026-09-26 00:55:19.520+02:00 [WARN ] GAME_FAIL worker=3 n=49 after_ms=23 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:20.745+02:00 [WARN ] GAME_FAIL worker=0 n=48 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:21.482+02:00 [WARN ] GAME_FAIL worker=1 n=48 after_ms=15 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:21.591+02:00 [WARN ] GAME_FAIL worker=2 n=49 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:26.545+02:00 [WARN ] GAME_FAIL worker=3 n=50 after_ms=2023 err=deposit B: deposit submission failed after retries
+2026-09-26 00:55:26.613+02:00 [WARN ] GAME_FAIL worker=2 n=50 after_ms=20 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:27.790+02:00 [WARN ] GAME_FAIL worker=0 n=49 after_ms=2045 err=deposit B: deposit submission failed after retries
+2026-09-26 00:55:28.523+02:00 [WARN ] GAME_FAIL worker=1 n=49 after_ms=2038 err=deposit B: deposit submission failed after retries
+2026-09-26 00:55:31.567+02:00 [WARN ] GAME_FAIL worker=3 n=51 after_ms=22 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:31.639+02:00 [WARN ] GAME_FAIL worker=2 n=51 after_ms=24 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:32.797+02:00 [WARN ] GAME_FAIL worker=0 n=50 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:33.536+02:00 [WARN ] GAME_FAIL worker=1 n=50 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:36.588+02:00 [WARN ] GAME_FAIL worker=3 n=52 after_ms=20 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:36.649+02:00 [WARN ] GAME_FAIL worker=2 n=52 after_ms=6 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:37.802+02:00 [WARN ] GAME_FAIL worker=0 n=51 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:38.541+02:00 [WARN ] GAME_FAIL worker=1 n=51 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:41.604+02:00 [WARN ] GAME_FAIL worker=3 n=53 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:41.702+02:00 [WARN ] GAME_FAIL worker=2 n=53 after_ms=51 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:42.807+02:00 [WARN ] GAME_FAIL worker=0 n=52 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:43.575+02:00 [WARN ] GAME_FAIL worker=1 n=52 after_ms=32 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:46.617+02:00 [WARN ] GAME_FAIL worker=3 n=54 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:46.708+02:00 [WARN ] GAME_FAIL worker=2 n=54 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:47.815+02:00 [WARN ] GAME_FAIL worker=0 n=53 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:48.595+02:00 [WARN ] GAME_FAIL worker=1 n=53 after_ms=18 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:51.621+02:00 [WARN ] GAME_FAIL worker=3 n=55 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:51.712+02:00 [WARN ] GAME_FAIL worker=2 n=55 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:52.818+02:00 [WARN ] GAME_FAIL worker=0 n=54 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:53.598+02:00 [WARN ] GAME_FAIL worker=1 n=54 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:56.629+02:00 [WARN ] GAME_FAIL worker=3 n=56 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:56.715+02:00 [WARN ] GAME_FAIL worker=2 n=56 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:57.821+02:00 [WARN ] GAME_FAIL worker=0 n=55 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:55:58.602+02:00 [WARN ] GAME_FAIL worker=1 n=55 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:01.657+02:00 [WARN ] GAME_FAIL worker=3 n=57 after_ms=26 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:01.720+02:00 [WARN ] GAME_FAIL worker=2 n=57 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:02.864+02:00 [WARN ] GAME_FAIL worker=0 n=56 after_ms=41 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:03.609+02:00 [WARN ] GAME_FAIL worker=1 n=56 after_ms=6 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:06.663+02:00 [WARN ] GAME_FAIL worker=3 n=58 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:06.723+02:00 [WARN ] GAME_FAIL worker=2 n=58 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:07.866+02:00 [WARN ] GAME_FAIL worker=0 n=57 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:08.623+02:00 [WARN ] GAME_FAIL worker=1 n=57 after_ms=12 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:11.709+02:00 [WARN ] GAME_FAIL worker=3 n=59 after_ms=44 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:11.728+02:00 [WARN ] GAME_FAIL worker=2 n=59 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:12.876+02:00 [WARN ] GAME_FAIL worker=0 n=58 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:13.627+02:00 [WARN ] GAME_FAIL worker=1 n=58 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:16.720+02:00 [WARN ] GAME_FAIL worker=3 n=60 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:16.734+02:00 [WARN ] GAME_FAIL worker=2 n=60 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:17.879+02:00 [WARN ] GAME_FAIL worker=0 n=59 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:18.633+02:00 [WARN ] GAME_FAIL worker=1 n=59 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:21.723+02:00 [WARN ] GAME_FAIL worker=3 n=61 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:21.736+02:00 [WARN ] GAME_FAIL worker=2 n=61 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:22.881+02:00 [WARN ] GAME_FAIL worker=0 n=60 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:23.681+02:00 [WARN ] GAME_FAIL worker=1 n=60 after_ms=43 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:26.787+02:00 [WARN ] GAME_FAIL worker=2 n=62 after_ms=49 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:26.788+02:00 [WARN ] GAME_FAIL worker=3 n=62 after_ms=60 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:27.908+02:00 [WARN ] GAME_FAIL worker=0 n=61 after_ms=25 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:28.685+02:00 [WARN ] GAME_FAIL worker=1 n=61 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:31.804+02:00 [WARN ] GAME_FAIL worker=3 n=63 after_ms=15 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:31.809+02:00 [WARN ] GAME_FAIL worker=2 n=63 after_ms=20 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:32.912+02:00 [WARN ] GAME_FAIL worker=0 n=62 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:33.688+02:00 [WARN ] GAME_FAIL worker=1 n=62 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:36.824+02:00 [WARN ] GAME_FAIL worker=3 n=64 after_ms=19 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:36.824+02:00 [WARN ] GAME_FAIL worker=2 n=64 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:37.921+02:00 [WARN ] GAME_FAIL worker=0 n=63 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:38.708+02:00 [WARN ] GAME_FAIL worker=1 n=63 after_ms=18 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:41.827+02:00 [WARN ] GAME_FAIL worker=2 n=65 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:41.827+02:00 [WARN ] GAME_FAIL worker=3 n=65 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:42.925+02:00 [WARN ] GAME_FAIL worker=0 n=64 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:43.713+02:00 [WARN ] GAME_FAIL worker=1 n=64 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:46.928+02:00 [WARN ] GAME_FAIL worker=3 n=66 after_ms=100 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:46.929+02:00 [WARN ] GAME_FAIL worker=2 n=66 after_ms=101 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:47.941+02:00 [WARN ] GAME_FAIL worker=0 n=65 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:48.715+02:00 [WARN ] GAME_FAIL worker=1 n=65 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:51.932+02:00 [WARN ] GAME_FAIL worker=2 n=67 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:51.933+02:00 [WARN ] GAME_FAIL worker=3 n=67 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:52.988+02:00 [WARN ] GAME_FAIL worker=0 n=66 after_ms=45 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:53.720+02:00 [WARN ] GAME_FAIL worker=1 n=66 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:56.956+02:00 [WARN ] GAME_FAIL worker=3 n=68 after_ms=21 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:56.956+02:00 [WARN ] GAME_FAIL worker=2 n=68 after_ms=21 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:58.142+02:00 [WARN ] GAME_FAIL worker=0 n=67 after_ms=152 err=deposit A: deposit submission failed after retries
+2026-09-26 00:56:58.726+02:00 [WARN ] GAME_FAIL worker=1 n=67 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:01.986+02:00 [WARN ] GAME_FAIL worker=2 n=69 after_ms=28 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:01.986+02:00 [WARN ] GAME_FAIL worker=3 n=69 after_ms=28 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:03.179+02:00 [WARN ] GAME_FAIL worker=0 n=68 after_ms=33 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:03.729+02:00 [WARN ] GAME_FAIL worker=1 n=68 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:06.992+02:00 [WARN ] GAME_FAIL worker=3 n=70 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:07.001+02:00 [WARN ] GAME_FAIL worker=2 n=70 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:08.197+02:00 [WARN ] GAME_FAIL worker=0 n=69 after_ms=16 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:08.738+02:00 [WARN ] GAME_FAIL worker=1 n=69 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:12.005+02:00 [WARN ] GAME_FAIL worker=3 n=71 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:12.014+02:00 [WARN ] GAME_FAIL worker=2 n=71 after_ms=8 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:13.214+02:00 [WARN ] GAME_FAIL worker=0 n=70 after_ms=17 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:13.751+02:00 [WARN ] GAME_FAIL worker=1 n=70 after_ms=10 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:17.010+02:00 [WARN ] GAME_FAIL worker=3 n=72 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:17.019+02:00 [WARN ] GAME_FAIL worker=2 n=72 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:18.220+02:00 [WARN ] GAME_FAIL worker=0 n=71 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:18.756+02:00 [WARN ] GAME_FAIL worker=1 n=71 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:22.017+02:00 [WARN ] GAME_FAIL worker=3 n=73 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:22.025+02:00 [WARN ] GAME_FAIL worker=2 n=73 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:23.447+02:00 [WARN ] GAME_FAIL worker=0 n=72 after_ms=226 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:23.769+02:00 [WARN ] GAME_FAIL worker=1 n=72 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:27.024+02:00 [WARN ] GAME_FAIL worker=3 n=74 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:27.034+02:00 [WARN ] GAME_FAIL worker=2 n=74 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:28.451+02:00 [WARN ] GAME_FAIL worker=0 n=73 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:28.770+02:00 [WARN ] GAME_FAIL worker=1 n=73 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:32.037+02:00 [WARN ] GAME_FAIL worker=2 n=75 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:32.037+02:00 [WARN ] GAME_FAIL worker=3 n=75 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:33.456+02:00 [WARN ] GAME_FAIL worker=0 n=74 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:33.774+02:00 [WARN ] GAME_FAIL worker=1 n=74 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:37.040+02:00 [WARN ] GAME_FAIL worker=3 n=76 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:37.040+02:00 [WARN ] GAME_FAIL worker=2 n=76 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:38.466+02:00 [WARN ] GAME_FAIL worker=0 n=75 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:38.777+02:00 [WARN ] GAME_FAIL worker=1 n=75 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:42.045+02:00 [WARN ] GAME_FAIL worker=2 n=77 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:42.045+02:00 [WARN ] GAME_FAIL worker=3 n=77 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:43.470+02:00 [WARN ] GAME_FAIL worker=0 n=76 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:43.809+02:00 [WARN ] GAME_FAIL worker=1 n=76 after_ms=31 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:47.049+02:00 [WARN ] GAME_FAIL worker=3 n=78 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:47.049+02:00 [WARN ] GAME_FAIL worker=2 n=78 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:48.480+02:00 [WARN ] GAME_FAIL worker=0 n=77 after_ms=8 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:48.814+02:00 [WARN ] GAME_FAIL worker=1 n=77 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:52.054+02:00 [WARN ] GAME_FAIL worker=2 n=79 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:52.054+02:00 [WARN ] GAME_FAIL worker=3 n=79 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:53.483+02:00 [WARN ] GAME_FAIL worker=0 n=78 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:53.817+02:00 [WARN ] GAME_FAIL worker=1 n=78 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:57.065+02:00 [WARN ] GAME_FAIL worker=3 n=80 after_ms=8 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:57.065+02:00 [WARN ] GAME_FAIL worker=2 n=80 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:58.487+02:00 [WARN ] GAME_FAIL worker=0 n=79 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:57:58.822+02:00 [WARN ] GAME_FAIL worker=1 n=79 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:02.068+02:00 [WARN ] GAME_FAIL worker=2 n=81 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:02.069+02:00 [WARN ] GAME_FAIL worker=3 n=81 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:03.490+02:00 [WARN ] GAME_FAIL worker=0 n=80 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:03.827+02:00 [WARN ] GAME_FAIL worker=1 n=80 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:07.071+02:00 [WARN ] GAME_FAIL worker=3 n=82 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:07.071+02:00 [WARN ] GAME_FAIL worker=2 n=82 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:08.493+02:00 [WARN ] GAME_FAIL worker=0 n=81 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:08.830+02:00 [WARN ] GAME_FAIL worker=1 n=81 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:12.099+02:00 [WARN ] GAME_FAIL worker=3 n=83 after_ms=28 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:12.100+02:00 [WARN ] GAME_FAIL worker=2 n=83 after_ms=27 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:13.500+02:00 [WARN ] GAME_FAIL worker=0 n=82 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:13.840+02:00 [WARN ] GAME_FAIL worker=1 n=82 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:17.108+02:00 [WARN ] GAME_FAIL worker=2 n=84 after_ms=6 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:17.109+02:00 [WARN ] GAME_FAIL worker=3 n=84 after_ms=8 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:18.504+02:00 [WARN ] GAME_FAIL worker=0 n=83 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:18.842+02:00 [WARN ] GAME_FAIL worker=1 n=83 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:22.143+02:00 [WARN ] GAME_FAIL worker=2 n=85 after_ms=33 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:22.143+02:00 [WARN ] GAME_FAIL worker=3 n=85 after_ms=32 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:23.506+02:00 [WARN ] GAME_FAIL worker=0 n=84 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:23.845+02:00 [WARN ] GAME_FAIL worker=1 n=84 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:27.146+02:00 [WARN ] GAME_FAIL worker=2 n=86 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:27.146+02:00 [WARN ] GAME_FAIL worker=3 n=86 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:28.508+02:00 [WARN ] GAME_FAIL worker=0 n=85 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:28.847+02:00 [WARN ] GAME_FAIL worker=1 n=85 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:32.175+02:00 [WARN ] GAME_FAIL worker=2 n=87 after_ms=27 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:32.175+02:00 [WARN ] GAME_FAIL worker=3 n=87 after_ms=27 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:33.523+02:00 [WARN ] GAME_FAIL worker=0 n=86 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:33.852+02:00 [WARN ] GAME_FAIL worker=1 n=86 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:37.195+02:00 [WARN ] GAME_FAIL worker=3 n=88 after_ms=18 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:37.196+02:00 [WARN ] GAME_FAIL worker=2 n=88 after_ms=19 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:38.526+02:00 [WARN ] GAME_FAIL worker=0 n=87 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:38.858+02:00 [WARN ] GAME_FAIL worker=1 n=87 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:42.199+02:00 [WARN ] GAME_FAIL worker=3 n=89 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:42.199+02:00 [WARN ] GAME_FAIL worker=2 n=89 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:43.529+02:00 [WARN ] GAME_FAIL worker=0 n=88 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:43.861+02:00 [WARN ] GAME_FAIL worker=1 n=88 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:47.201+02:00 [WARN ] GAME_FAIL worker=2 n=90 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:47.201+02:00 [WARN ] GAME_FAIL worker=3 n=90 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:48.532+02:00 [WARN ] GAME_FAIL worker=0 n=89 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:48.865+02:00 [WARN ] GAME_FAIL worker=1 n=89 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:52.204+02:00 [WARN ] GAME_FAIL worker=2 n=91 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:52.204+02:00 [WARN ] GAME_FAIL worker=3 n=91 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:53.536+02:00 [WARN ] GAME_FAIL worker=0 n=90 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:53.880+02:00 [WARN ] GAME_FAIL worker=1 n=90 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:57.206+02:00 [WARN ] GAME_FAIL worker=2 n=92 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:57.206+02:00 [WARN ] GAME_FAIL worker=3 n=92 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:58.537+02:00 [WARN ] GAME_FAIL worker=0 n=91 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:58:58.883+02:00 [WARN ] GAME_FAIL worker=1 n=91 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:02.210+02:00 [WARN ] GAME_FAIL worker=2 n=93 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:02.211+02:00 [WARN ] GAME_FAIL worker=3 n=93 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:03.541+02:00 [WARN ] GAME_FAIL worker=0 n=92 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:03.884+02:00 [WARN ] GAME_FAIL worker=1 n=92 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:07.212+02:00 [WARN ] GAME_FAIL worker=3 n=94 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:07.212+02:00 [WARN ] GAME_FAIL worker=2 n=94 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:08.544+02:00 [WARN ] GAME_FAIL worker=0 n=93 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:08.886+02:00 [WARN ] GAME_FAIL worker=1 n=93 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:12.214+02:00 [WARN ] GAME_FAIL worker=3 n=95 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:12.214+02:00 [WARN ] GAME_FAIL worker=2 n=95 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:13.546+02:00 [WARN ] GAME_FAIL worker=0 n=94 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:13.888+02:00 [WARN ] GAME_FAIL worker=1 n=94 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:17.217+02:00 [WARN ] GAME_FAIL worker=3 n=96 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:17.217+02:00 [WARN ] GAME_FAIL worker=2 n=96 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:18.549+02:00 [WARN ] GAME_FAIL worker=0 n=95 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:18.890+02:00 [WARN ] GAME_FAIL worker=1 n=95 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:22.221+02:00 [WARN ] GAME_FAIL worker=3 n=97 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:22.221+02:00 [WARN ] GAME_FAIL worker=2 n=97 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:23.551+02:00 [WARN ] GAME_FAIL worker=0 n=96 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:23.896+02:00 [WARN ] GAME_FAIL worker=1 n=96 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:27.223+02:00 [WARN ] GAME_FAIL worker=2 n=98 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:27.224+02:00 [WARN ] GAME_FAIL worker=3 n=98 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:28.553+02:00 [WARN ] GAME_FAIL worker=0 n=97 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:28.900+02:00 [WARN ] GAME_FAIL worker=1 n=97 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:32.225+02:00 [WARN ] GAME_FAIL worker=2 n=99 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:32.226+02:00 [WARN ] GAME_FAIL worker=3 n=99 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:33.902+02:00 [WARN ] GAME_FAIL worker=1 n=98 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 00:59:47.589+02:00 [INFO ] GAME_SUBMITTED worker=0 n=98 id=1574c87b286a988e67974361588e073524e2bc784ccbefd78965af10e892dca2 total_submit_ms=14034 deposit_a=1 deposit_b=1 create=16 join=0 turn_a=1 turn_b=0 withdraw=1
+2026-09-26 00:59:47.593+02:00 [INFO ] GAME_FINISHED worker=0 n=98 id=1574c87b286a988e67974361588e073524e2bc784ccbefd78965af10e892dca2 state=First finish_wait_ms=4 game_ms=14039
+2026-09-26 00:59:51.248+02:00 [INFO ] GAME_SUBMITTED worker=2 n=100 id=54cb74d6c8f70656e93b240c6c9d17cbce21bbf8078fcdf651fb4029c7ec463e total_submit_ms=14022 deposit_a=0 deposit_b=0 create=1 join=0 turn_a=2 turn_b=2 withdraw=5
+2026-09-26 00:59:51.249+02:00 [INFO ] GAME_SUBMITTED worker=3 n=100 id=b56e1ae923ed41dbaeb471338518a04958ce36144e74038c8deaca08b0dd422d total_submit_ms=14021 deposit_a=0 deposit_b=0 create=0 join=0 turn_a=1 turn_b=2 withdraw=6
+2026-09-26 00:59:51.249+02:00 [INFO ] GAME_FINISHED worker=2 n=100 id=54cb74d6c8f70656e93b240c6c9d17cbce21bbf8078fcdf651fb4029c7ec463e state=First finish_wait_ms=0 game_ms=14023
+2026-09-26 00:59:51.249+02:00 [INFO ] GAME_FINISHED worker=3 n=100 id=b56e1ae923ed41dbaeb471338518a04958ce36144e74038c8deaca08b0dd422d state=First finish_wait_ms=0 game_ms=14022
+2026-09-26 00:59:52.921+02:00 [INFO ] GAME_SUBMITTED worker=1 n=99 id=f0977bb484e208226b807f8822590fb6986614f070049f24722941deea0b270c total_submit_ms=14016 deposit_a=2 deposit_b=0 create=0 join=0 turn_a=1 turn_b=0 withdraw=0
+2026-09-26 00:59:52.921+02:00 [INFO ] GAME_FINISHED worker=1 n=99 id=f0977bb484e208226b807f8822590fb6986614f070049f24722941deea0b270c state=First finish_wait_ms=0 game_ms=14016
+2026-09-26 01:00:01.614+02:00 [INFO ] GAME_SUBMITTED worker=0 n=99 id=d3488c5062af981085e94e693a05fe0c5140b76addd07c37d275dcf4a2d9c4e6 total_submit_ms=14019 deposit_a=4 deposit_b=1 create=1 join=1 turn_a=0 turn_b=0 withdraw=0
+2026-09-26 01:00:01.617+02:00 [INFO ] GAME_FINISHED worker=0 n=99 id=d3488c5062af981085e94e693a05fe0c5140b76addd07c37d275dcf4a2d9c4e6 state=First finish_wait_ms=3 game_ms=14023
+2026-09-26 01:00:05.296+02:00 [INFO ] GAME_SUBMITTED worker=2 n=101 id=7c5bf7f8265102551ec59c535df1e1905044eb48aa35be2af61c98d361659465 total_submit_ms=14047 deposit_a=4 deposit_b=1 create=0 join=0 turn_a=1 turn_b=30 withdraw=0
+2026-09-26 01:00:05.297+02:00 [INFO ] GAME_FINISHED worker=2 n=101 id=7c5bf7f8265102551ec59c535df1e1905044eb48aa35be2af61c98d361659465 state=First finish_wait_ms=0 game_ms=14047
+2026-09-26 01:00:05.301+02:00 [INFO ] GAME_SUBMITTED worker=3 n=101 id=1d3c22c8086ae0ef21b6ef73cb3892115e965b489d87d5dd7c810f1e6b9d49b8 total_submit_ms=14051 deposit_a=20 deposit_b=0 create=0 join=0 turn_a=0 turn_b=18 withdraw=1
+2026-09-26 01:00:05.301+02:00 [INFO ] GAME_FINISHED worker=3 n=101 id=1d3c22c8086ae0ef21b6ef73cb3892115e965b489d87d5dd7c810f1e6b9d49b8 state=First finish_wait_ms=0 game_ms=14051
+2026-09-26 01:00:06.963+02:00 [INFO ] GAME_SUBMITTED worker=1 n=100 id=72e7654c836f195b0015df62e3a2262fdd44ac3045ae8787465d5aaf587c079d total_submit_ms=14041 deposit_a=0 deposit_b=0 create=0 join=20 turn_a=3 turn_b=1 withdraw=1
+2026-09-26 01:00:06.964+02:00 [INFO ] GAME_FINISHED worker=1 n=100 id=72e7654c836f195b0015df62e3a2262fdd44ac3045ae8787465d5aaf587c079d state=First finish_wait_ms=1 game_ms=14042
+2026-09-26 01:00:15.634+02:00 [INFO ] GAME_SUBMITTED worker=0 n=100 id=9f6eccd31c2f471547e7796a4b8a69a77cf51bf66bd824c4a2c58f73938a556f total_submit_ms=14016 deposit_a=1 deposit_b=0 create=0 join=0 turn_a=1 turn_b=0 withdraw=1
+2026-09-26 01:00:15.634+02:00 [INFO ] GAME_FINISHED worker=0 n=100 id=9f6eccd31c2f471547e7796a4b8a69a77cf51bf66bd824c4a2c58f73938a556f state=First finish_wait_ms=0 game_ms=14016
+2026-09-26 01:00:19.315+02:00 [INFO ] GAME_SUBMITTED worker=2 n=102 id=c20e87b63656cf850036cb7bb4bbdbca20f752bc873afb64dbb1506d21b45d72 total_submit_ms=14018 deposit_a=0 deposit_b=0 create=2 join=0 turn_a=2 turn_b=1 withdraw=1
+2026-09-26 01:00:19.315+02:00 [INFO ] GAME_FINISHED worker=2 n=102 id=c20e87b63656cf850036cb7bb4bbdbca20f752bc873afb64dbb1506d21b45d72 state=First finish_wait_ms=0 game_ms=14018
+2026-09-26 01:00:19.319+02:00 [INFO ] GAME_SUBMITTED worker=3 n=102 id=3d69ad15f2193d69b8545ba0fe57a3031818b02a1408c267601e19dbbdfc7381 total_submit_ms=14017 deposit_a=0 deposit_b=0 create=2 join=0 turn_a=0 turn_b=2 withdraw=1
+2026-09-26 01:00:19.319+02:00 [INFO ] GAME_FINISHED worker=3 n=102 id=3d69ad15f2193d69b8545ba0fe57a3031818b02a1408c267601e19dbbdfc7381 state=First finish_wait_ms=0 game_ms=14018
+2026-09-26 01:00:20.989+02:00 [INFO ] GAME_SUBMITTED worker=1 n=101 id=3a48bef55969a2a1eb0d289f0c56792f7780803be957c86f6cb459f9bcb79c56 total_submit_ms=14025 deposit_a=9 deposit_b=1 create=1 join=1 turn_a=2 turn_b=1 withdraw=0
+2026-09-26 01:00:20.990+02:00 [INFO ] GAME_FINISHED worker=1 n=101 id=3a48bef55969a2a1eb0d289f0c56792f7780803be957c86f6cb459f9bcb79c56 state=First finish_wait_ms=0 game_ms=14025
+2026-09-26 01:00:29.660+02:00 [INFO ] GAME_SUBMITTED worker=0 n=101 id=c6c3ddb0dcc7dfd418dd5dd3621cd23a7bb9d68515a9638f1059425546137dc2 total_submit_ms=14025 deposit_a=0 deposit_b=2 create=0 join=1 turn_a=1 turn_b=5 withdraw=1
+2026-09-26 01:00:29.660+02:00 [INFO ] GAME_FINISHED worker=0 n=101 id=c6c3ddb0dcc7dfd418dd5dd3621cd23a7bb9d68515a9638f1059425546137dc2 state=First finish_wait_ms=0 game_ms=14026
+2026-09-26 01:00:33.402+02:00 [INFO ] GAME_SUBMITTED worker=3 n=103 id=ebb1da2475414a29ebe312444c0a56621fffa71e9de6025b4b5359dcee07ece3 total_submit_ms=14082 deposit_a=1 deposit_b=1 create=7 join=0 turn_a=1 turn_b=3 withdraw=58
+2026-09-26 01:00:33.412+02:00 [INFO ] GAME_SUBMITTED worker=2 n=103 id=d0f29c4c8e0075a89250ef36e34a30705be14d247d37b8b7e391f3703f7f3d0a total_submit_ms=14096 deposit_a=1 deposit_b=0 create=5 join=0 turn_a=1 turn_b=8 withdraw=68
+2026-09-26 01:00:34.407+02:00 [INFO ] GAME_FINISHED worker=3 n=103 id=ebb1da2475414a29ebe312444c0a56621fffa71e9de6025b4b5359dcee07ece3 state=First finish_wait_ms=1004 game_ms=15087
+2026-09-26 01:00:34.413+02:00 [INFO ] GAME_FINISHED worker=2 n=103 id=d0f29c4c8e0075a89250ef36e34a30705be14d247d37b8b7e391f3703f7f3d0a state=First finish_wait_ms=1001 game_ms=15097
+2026-09-26 01:00:35.026+02:00 [INFO ] GAME_SUBMITTED worker=1 n=102 id=17b6f1d95ce9252160ab613f1bf04b4df1e87ca50de316cd8f0bef2d44e656ee total_submit_ms=14036 deposit_a=2 deposit_b=10 create=1 join=8 turn_a=0 turn_b=2 withdraw=0
+2026-09-26 01:00:35.027+02:00 [INFO ] GAME_FINISHED worker=1 n=102 id=17b6f1d95ce9252160ab613f1bf04b4df1e87ca50de316cd8f0bef2d44e656ee state=First finish_wait_ms=0 game_ms=14037
+2026-09-26 01:00:43.724+02:00 [INFO ] GAME_SUBMITTED worker=0 n=102 id=aed668d0047235c4e6e4abd5460e8962e8711425238cc99d88982bf0cc3aefa5 total_submit_ms=14063 deposit_a=2 deposit_b=31 create=5 join=3 turn_a=0 turn_b=9 withdraw=3
+2026-09-26 01:00:44.734+02:00 [INFO ] GAME_FINISHED worker=0 n=102 id=aed668d0047235c4e6e4abd5460e8962e8711425238cc99d88982bf0cc3aefa5 state=First finish_wait_ms=1009 game_ms=15073
+2026-09-26 01:00:46.475+02:00 [WARN ] GAME_FAIL worker=2 n=104 after_ms=12061 err=withdraw: transaction submission failed after retries
+2026-09-26 01:00:46.478+02:00 [WARN ] GAME_FAIL worker=3 n=104 after_ms=12070 err=withdraw: transaction submission failed after retries
+2026-09-26 01:00:46.774+02:00 [WARN ] GAME_FAIL worker=0 n=103 after_ms=2039 err=deposit B: deposit submission failed after retries
+2026-09-26 01:00:49.149+02:00 [INFO ] GAME_SUBMITTED worker=1 n=103 id=9dc7766de06517c4de1840e800ece41d9832301b274c84daf8f2c8913dd90bfe total_submit_ms=14122 deposit_a=24 deposit_b=8 create=1 join=6 turn_a=58 turn_b=3 withdraw=5
+2026-09-26 01:00:51.159+02:00 [INFO ] GAME_FINISHED worker=1 n=103 id=9dc7766de06517c4de1840e800ece41d9832301b274c84daf8f2c8913dd90bfe state=First finish_wait_ms=2010 game_ms=16132
+2026-09-26 01:00:53.182+02:00 [WARN ] GAME_FAIL worker=1 n=104 after_ms=2022 err=deposit B: deposit submission failed after retries
+2026-09-26 01:01:05.521+02:00 [INFO ] GAME_SUBMITTED worker=3 n=105 id=b1ceb6b4ca3df8c6787128ed6b2bbf68a4f9131b6567404e28046284a1c80da9 total_submit_ms=14042 deposit_a=4 deposit_b=1 create=7 join=2 turn_a=1 turn_b=14 withdraw=2
+2026-09-26 01:01:05.529+02:00 [INFO ] GAME_SUBMITTED worker=2 n=105 id=70bb5c425a75d0b921005401bff10280be8d58f9f9e43c38c16b0fc2bf8ffb36 total_submit_ms=14054 deposit_a=10 deposit_b=1 create=14 join=2 turn_a=12 turn_b=2 withdraw=1
+2026-09-26 01:01:05.819+02:00 [INFO ] GAME_SUBMITTED worker=0 n=104 id=be7a1b7c9b0327d81c27d25eba8991b6086f072dc527fad64eb6e50a0867b1ae total_submit_ms=14043 deposit_a=1 deposit_b=12 create=1 join=1 turn_a=4 turn_b=1 withdraw=8
+2026-09-26 01:01:08.531+02:00 [INFO ] GAME_FINISHED worker=3 n=105 id=b1ceb6b4ca3df8c6787128ed6b2bbf68a4f9131b6567404e28046284a1c80da9 state=First finish_wait_ms=3009 game_ms=17052
+2026-09-26 01:01:08.547+02:00 [INFO ] GAME_FINISHED worker=2 n=105 id=70bb5c425a75d0b921005401bff10280be8d58f9f9e43c38c16b0fc2bf8ffb36 state=First finish_wait_ms=3017 game_ms=17071
+2026-09-26 01:01:08.837+02:00 [INFO ] GAME_FINISHED worker=0 n=104 id=be7a1b7c9b0327d81c27d25eba8991b6086f072dc527fad64eb6e50a0867b1ae state=First finish_wait_ms=3018 game_ms=17061
+2026-09-26 01:01:12.301+02:00 [INFO ] GAME_SUBMITTED worker=1 n=105 id=e512182409b3ce4a61c9ff69b16dd742454207da8e2a4a4cae919fb3031035d8 total_submit_ms=14117 deposit_a=0 deposit_b=28 create=55 join=1 turn_a=5 turn_b=6 withdraw=4
+2026-09-26 01:01:12.301+02:00 [INFO ] GAME_FINISHED worker=1 n=105 id=e512182409b3ce4a61c9ff69b16dd742454207da8e2a4a4cae919fb3031035d8 state=First finish_wait_ms=0 game_ms=14118
+2026-09-26 01:01:22.717+02:00 [INFO ] GAME_SUBMITTED worker=3 n=106 id=09991b2d421ee396c67847c5a729bed90a094a0ac15e83425e4f273781359ec7 total_submit_ms=14186 deposit_a=54 deposit_b=14 create=2 join=52 turn_a=13 turn_b=20 withdraw=16
+2026-09-26 01:01:22.761+02:00 [INFO ] GAME_SUBMITTED worker=2 n=106 id=f19a86802ad818319091d8c7e7fa384d60c7dc8b57e51d401bbc034fd7ebce22 total_submit_ms=14214 deposit_a=30 deposit_b=6 create=16 join=76 turn_a=22 turn_b=36 withdraw=13
+2026-09-26 01:01:22.926+02:00 [INFO ] GAME_SUBMITTED worker=0 n=105 id=41b22deea65478553b94a44e8d9f3f5d357ede5234181dc4f3e2eba23d8ddd41 total_submit_ms=14088 deposit_a=16 deposit_b=26 create=9 join=5 turn_a=3 turn_b=9 withdraw=7
+2026-09-26 01:01:22.926+02:00 [INFO ] GAME_FINISHED worker=0 n=105 id=41b22deea65478553b94a44e8d9f3f5d357ede5234181dc4f3e2eba23d8ddd41 state=First finish_wait_ms=0 game_ms=14088
+2026-09-26 01:01:23.721+02:00 [INFO ] GAME_FINISHED worker=3 n=106 id=09991b2d421ee396c67847c5a729bed90a094a0ac15e83425e4f273781359ec7 state=First finish_wait_ms=1003 game_ms=15190
+2026-09-26 01:01:23.768+02:00 [INFO ] GAME_FINISHED worker=2 n=106 id=f19a86802ad818319091d8c7e7fa384d60c7dc8b57e51d401bbc034fd7ebce22 state=First finish_wait_ms=1006 game_ms=15220
+2026-09-26 01:01:26.441+02:00 [INFO ] GAME_SUBMITTED worker=1 n=106 id=8f690fb22744d62ebdc1b4a32c1adf9f7a3932a78fea0c5e16ee2b10864b629f total_submit_ms=14140 deposit_a=7 deposit_b=20 create=7 join=8 turn_a=2 turn_b=80 withdraw=0
+2026-09-26 01:01:27.443+02:00 [INFO ] GAME_FINISHED worker=1 n=106 id=8f690fb22744d62ebdc1b4a32c1adf9f7a3932a78fea0c5e16ee2b10864b629f state=First finish_wait_ms=1001 game_ms=15141
+2026-09-26 01:01:31.758+02:00 [WARN ] GAME_FAIL worker=3 n=107 after_ms=8037 err=turn A: transaction submission failed after retries
+2026-09-26 01:01:31.805+02:00 [WARN ] GAME_FAIL worker=2 n=107 after_ms=8037 err=turn A: transaction submission failed after retries
+2026-09-26 01:01:32.965+02:00 [WARN ] GAME_FAIL worker=0 n=106 after_ms=10038 err=turn B: transaction submission failed after retries
+2026-09-26 01:01:33.477+02:00 [WARN ] GAME_FAIL worker=1 n=107 after_ms=6033 err=join game: transaction submission failed after retries
+2026-09-26 01:01:36.776+02:00 [WARN ] GAME_FAIL worker=3 n=108 after_ms=17 err=deposit A: deposit submission failed after retries
+2026-09-26 01:01:36.808+02:00 [WARN ] GAME_FAIL worker=2 n=108 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:01:40.045+02:00 [WARN ] GAME_FAIL worker=0 n=107 after_ms=2078 err=deposit B: deposit submission failed after retries
+2026-09-26 01:01:40.489+02:00 [WARN ] GAME_FAIL worker=1 n=108 after_ms=2008 err=deposit B: deposit submission failed after retries
+2026-09-26 01:01:43.810+02:00 [WARN ] GAME_FAIL worker=3 n=109 after_ms=2032 err=deposit B: deposit submission failed after retries
+2026-09-26 01:01:43.816+02:00 [WARN ] GAME_FAIL worker=2 n=109 after_ms=2006 err=deposit B: deposit submission failed after retries
+2026-09-26 01:01:45.048+02:00 [WARN ] GAME_FAIL worker=0 n=108 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:01:45.493+02:00 [WARN ] GAME_FAIL worker=1 n=109 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:01:48.813+02:00 [WARN ] GAME_FAIL worker=3 n=110 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:01:48.822+02:00 [WARN ] GAME_FAIL worker=2 n=110 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:01:50.124+02:00 [WARN ] GAME_FAIL worker=0 n=109 after_ms=71 err=deposit A: deposit submission failed after retries
+2026-09-26 01:01:50.537+02:00 [WARN ] GAME_FAIL worker=1 n=110 after_ms=42 err=deposit A: deposit submission failed after retries
+2026-09-26 01:01:53.827+02:00 [WARN ] GAME_FAIL worker=3 n=111 after_ms=12 err=deposit A: deposit submission failed after retries
+2026-09-26 01:01:53.849+02:00 [WARN ] GAME_FAIL worker=2 n=111 after_ms=26 err=deposit A: deposit submission failed after retries
+2026-09-26 01:01:57.136+02:00 [WARN ] GAME_FAIL worker=0 n=110 after_ms=2011 err=deposit B: deposit submission failed after retries
+2026-09-26 01:01:57.553+02:00 [WARN ] GAME_FAIL worker=1 n=111 after_ms=2011 err=deposit B: deposit submission failed after retries
+2026-09-26 01:02:00.854+02:00 [WARN ] GAME_FAIL worker=3 n=112 after_ms=2025 err=deposit B: deposit submission failed after retries
+2026-09-26 01:02:00.904+02:00 [WARN ] GAME_FAIL worker=2 n=112 after_ms=2053 err=deposit B: deposit submission failed after retries
+2026-09-26 01:02:02.138+02:00 [WARN ] GAME_FAIL worker=0 n=111 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:02.556+02:00 [WARN ] GAME_FAIL worker=1 n=112 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:05.869+02:00 [WARN ] GAME_FAIL worker=3 n=113 after_ms=13 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:05.907+02:00 [WARN ] GAME_FAIL worker=2 n=113 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:07.141+02:00 [WARN ] GAME_FAIL worker=0 n=112 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:07.580+02:00 [WARN ] GAME_FAIL worker=1 n=113 after_ms=22 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:10.873+02:00 [WARN ] GAME_FAIL worker=3 n=114 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:10.934+02:00 [WARN ] GAME_FAIL worker=2 n=114 after_ms=25 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:12.154+02:00 [WARN ] GAME_FAIL worker=0 n=113 after_ms=12 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:12.588+02:00 [WARN ] GAME_FAIL worker=1 n=114 after_ms=6 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:15.919+02:00 [WARN ] GAME_FAIL worker=3 n=115 after_ms=41 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:15.946+02:00 [WARN ] GAME_FAIL worker=2 n=115 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:17.165+02:00 [WARN ] GAME_FAIL worker=0 n=114 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:17.608+02:00 [WARN ] GAME_FAIL worker=1 n=115 after_ms=17 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:20.974+02:00 [WARN ] GAME_FAIL worker=3 n=116 after_ms=53 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:20.984+02:00 [WARN ] GAME_FAIL worker=2 n=116 after_ms=37 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:22.168+02:00 [WARN ] GAME_FAIL worker=0 n=115 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:22.621+02:00 [WARN ] GAME_FAIL worker=1 n=116 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:25.976+02:00 [WARN ] GAME_FAIL worker=3 n=117 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:25.987+02:00 [WARN ] GAME_FAIL worker=2 n=117 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:27.172+02:00 [WARN ] GAME_FAIL worker=0 n=116 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:27.624+02:00 [WARN ] GAME_FAIL worker=1 n=117 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:30.990+02:00 [WARN ] GAME_FAIL worker=3 n=118 after_ms=10 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:30.990+02:00 [WARN ] GAME_FAIL worker=2 n=118 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:32.188+02:00 [WARN ] GAME_FAIL worker=0 n=117 after_ms=15 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:32.651+02:00 [WARN ] GAME_FAIL worker=1 n=118 after_ms=25 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:36.022+02:00 [WARN ] GAME_FAIL worker=3 n=119 after_ms=28 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:36.022+02:00 [WARN ] GAME_FAIL worker=2 n=119 after_ms=28 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:37.198+02:00 [WARN ] GAME_FAIL worker=0 n=118 after_ms=8 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:37.668+02:00 [WARN ] GAME_FAIL worker=1 n=119 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:41.027+02:00 [WARN ] GAME_FAIL worker=2 n=120 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:41.027+02:00 [WARN ] GAME_FAIL worker=3 n=120 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:42.214+02:00 [WARN ] GAME_FAIL worker=0 n=119 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:42.704+02:00 [WARN ] GAME_FAIL worker=1 n=120 after_ms=31 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:46.064+02:00 [WARN ] GAME_FAIL worker=3 n=121 after_ms=35 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:46.064+02:00 [WARN ] GAME_FAIL worker=2 n=121 after_ms=35 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:47.219+02:00 [WARN ] GAME_FAIL worker=0 n=120 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:47.728+02:00 [WARN ] GAME_FAIL worker=1 n=121 after_ms=22 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:51.079+02:00 [WARN ] GAME_FAIL worker=3 n=122 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:51.079+02:00 [WARN ] GAME_FAIL worker=2 n=122 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:52.222+02:00 [WARN ] GAME_FAIL worker=0 n=121 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:52.773+02:00 [WARN ] GAME_FAIL worker=1 n=122 after_ms=40 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:56.082+02:00 [WARN ] GAME_FAIL worker=3 n=123 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:56.082+02:00 [WARN ] GAME_FAIL worker=2 n=123 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:57.249+02:00 [WARN ] GAME_FAIL worker=0 n=122 after_ms=26 err=deposit A: deposit submission failed after retries
+2026-09-26 01:02:57.933+02:00 [WARN ] GAME_FAIL worker=1 n=123 after_ms=158 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:01.098+02:00 [WARN ] GAME_FAIL worker=2 n=124 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:01.098+02:00 [WARN ] GAME_FAIL worker=3 n=124 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:02.253+02:00 [WARN ] GAME_FAIL worker=0 n=123 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:02.947+02:00 [WARN ] GAME_FAIL worker=1 n=124 after_ms=13 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:06.124+02:00 [WARN ] GAME_FAIL worker=2 n=125 after_ms=24 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:06.125+02:00 [WARN ] GAME_FAIL worker=3 n=125 after_ms=25 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:07.255+02:00 [WARN ] GAME_FAIL worker=0 n=124 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:07.950+02:00 [WARN ] GAME_FAIL worker=1 n=125 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:11.139+02:00 [WARN ] GAME_FAIL worker=2 n=126 after_ms=13 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:11.139+02:00 [WARN ] GAME_FAIL worker=3 n=126 after_ms=13 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:12.266+02:00 [WARN ] GAME_FAIL worker=0 n=125 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:12.964+02:00 [WARN ] GAME_FAIL worker=1 n=126 after_ms=12 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:16.144+02:00 [WARN ] GAME_FAIL worker=3 n=127 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:16.144+02:00 [WARN ] GAME_FAIL worker=2 n=127 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:17.275+02:00 [WARN ] GAME_FAIL worker=0 n=126 after_ms=8 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:17.968+02:00 [WARN ] GAME_FAIL worker=1 n=127 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:21.204+02:00 [WARN ] GAME_FAIL worker=3 n=128 after_ms=58 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:21.206+02:00 [WARN ] GAME_FAIL worker=2 n=128 after_ms=60 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:22.281+02:00 [WARN ] GAME_FAIL worker=0 n=127 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:22.974+02:00 [WARN ] GAME_FAIL worker=1 n=128 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:26.208+02:00 [WARN ] GAME_FAIL worker=3 n=129 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:26.211+02:00 [WARN ] GAME_FAIL worker=2 n=129 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:27.284+02:00 [WARN ] GAME_FAIL worker=0 n=128 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:27.990+02:00 [WARN ] GAME_FAIL worker=1 n=129 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:31.210+02:00 [WARN ] GAME_FAIL worker=3 n=130 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:31.213+02:00 [WARN ] GAME_FAIL worker=2 n=130 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:32.286+02:00 [WARN ] GAME_FAIL worker=0 n=129 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:33.008+02:00 [WARN ] GAME_FAIL worker=1 n=130 after_ms=16 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:36.215+02:00 [WARN ] GAME_FAIL worker=3 n=131 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:36.217+02:00 [WARN ] GAME_FAIL worker=2 n=131 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:38.013+02:00 [WARN ] GAME_FAIL worker=1 n=131 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:39.302+02:00 [WARN ] GAME_FAIL worker=0 n=130 after_ms=2014 err=deposit B: deposit submission failed after retries
+2026-09-26 01:03:41.228+02:00 [WARN ] GAME_FAIL worker=2 n=132 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:41.230+02:00 [WARN ] GAME_FAIL worker=3 n=132 after_ms=13 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:43.034+02:00 [WARN ] GAME_FAIL worker=1 n=132 after_ms=19 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:44.308+02:00 [WARN ] GAME_FAIL worker=0 n=131 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:46.235+02:00 [WARN ] GAME_FAIL worker=3 n=133 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:46.235+02:00 [WARN ] GAME_FAIL worker=2 n=133 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:48.039+02:00 [WARN ] GAME_FAIL worker=1 n=133 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:49.312+02:00 [WARN ] GAME_FAIL worker=0 n=132 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:51.236+02:00 [WARN ] GAME_FAIL worker=3 n=134 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:51.239+02:00 [WARN ] GAME_FAIL worker=2 n=134 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:53.044+02:00 [WARN ] GAME_FAIL worker=1 n=134 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:54.322+02:00 [WARN ] GAME_FAIL worker=0 n=133 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:56.247+02:00 [WARN ] GAME_FAIL worker=3 n=135 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:56.249+02:00 [WARN ] GAME_FAIL worker=2 n=135 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:58.055+02:00 [WARN ] GAME_FAIL worker=1 n=135 after_ms=10 err=deposit A: deposit submission failed after retries
+2026-09-26 01:03:59.341+02:00 [WARN ] GAME_FAIL worker=0 n=134 after_ms=19 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:01.259+02:00 [WARN ] GAME_FAIL worker=2 n=136 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:01.261+02:00 [WARN ] GAME_FAIL worker=3 n=136 after_ms=12 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:03.072+02:00 [WARN ] GAME_FAIL worker=1 n=136 after_ms=16 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:04.359+02:00 [WARN ] GAME_FAIL worker=0 n=135 after_ms=16 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:06.341+02:00 [WARN ] GAME_FAIL worker=3 n=137 after_ms=78 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:06.341+02:00 [WARN ] GAME_FAIL worker=2 n=137 after_ms=80 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:08.088+02:00 [WARN ] GAME_FAIL worker=1 n=137 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:09.389+02:00 [WARN ] GAME_FAIL worker=0 n=136 after_ms=29 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:11.353+02:00 [WARN ] GAME_FAIL worker=3 n=138 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:11.358+02:00 [WARN ] GAME_FAIL worker=2 n=138 after_ms=15 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:13.135+02:00 [WARN ] GAME_FAIL worker=1 n=138 after_ms=45 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:14.396+02:00 [WARN ] GAME_FAIL worker=0 n=137 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:16.356+02:00 [WARN ] GAME_FAIL worker=3 n=139 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:16.363+02:00 [WARN ] GAME_FAIL worker=2 n=139 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:18.140+02:00 [WARN ] GAME_FAIL worker=1 n=139 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:19.400+02:00 [WARN ] GAME_FAIL worker=0 n=138 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:21.365+02:00 [WARN ] GAME_FAIL worker=3 n=140 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:21.366+02:00 [WARN ] GAME_FAIL worker=2 n=140 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:23.142+02:00 [WARN ] GAME_FAIL worker=1 n=140 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:24.404+02:00 [WARN ] GAME_FAIL worker=0 n=139 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:26.384+02:00 [WARN ] GAME_FAIL worker=2 n=141 after_ms=17 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:26.384+02:00 [WARN ] GAME_FAIL worker=3 n=141 after_ms=17 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:28.155+02:00 [WARN ] GAME_FAIL worker=1 n=141 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:29.444+02:00 [WARN ] GAME_FAIL worker=0 n=140 after_ms=38 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:31.392+02:00 [WARN ] GAME_FAIL worker=3 n=142 after_ms=6 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:31.392+02:00 [WARN ] GAME_FAIL worker=2 n=142 after_ms=6 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:33.158+02:00 [WARN ] GAME_FAIL worker=1 n=142 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:34.455+02:00 [WARN ] GAME_FAIL worker=0 n=141 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:36.402+02:00 [WARN ] GAME_FAIL worker=3 n=143 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:36.402+02:00 [WARN ] GAME_FAIL worker=2 n=143 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:38.166+02:00 [WARN ] GAME_FAIL worker=1 n=143 after_ms=6 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:39.458+02:00 [WARN ] GAME_FAIL worker=0 n=142 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:41.409+02:00 [WARN ] GAME_FAIL worker=2 n=144 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:41.409+02:00 [WARN ] GAME_FAIL worker=3 n=144 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:43.170+02:00 [WARN ] GAME_FAIL worker=1 n=144 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:44.522+02:00 [WARN ] GAME_FAIL worker=0 n=143 after_ms=61 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:46.411+02:00 [WARN ] GAME_FAIL worker=3 n=145 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:46.411+02:00 [WARN ] GAME_FAIL worker=2 n=145 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:48.202+02:00 [WARN ] GAME_FAIL worker=1 n=145 after_ms=26 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:49.531+02:00 [WARN ] GAME_FAIL worker=0 n=144 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:51.433+02:00 [WARN ] GAME_FAIL worker=2 n=146 after_ms=21 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:51.433+02:00 [WARN ] GAME_FAIL worker=3 n=146 after_ms=21 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:53.223+02:00 [WARN ] GAME_FAIL worker=1 n=146 after_ms=17 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:54.545+02:00 [WARN ] GAME_FAIL worker=0 n=145 after_ms=12 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:56.457+02:00 [WARN ] GAME_FAIL worker=2 n=147 after_ms=22 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:56.550+02:00 [WARN ] GAME_FAIL worker=3 n=147 after_ms=115 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:58.234+02:00 [WARN ] GAME_FAIL worker=1 n=147 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 01:04:59.572+02:00 [WARN ] GAME_FAIL worker=0 n=146 after_ms=26 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:01.497+02:00 [WARN ] GAME_FAIL worker=2 n=148 after_ms=38 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:01.566+02:00 [WARN ] GAME_FAIL worker=3 n=148 after_ms=15 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:03.239+02:00 [WARN ] GAME_FAIL worker=1 n=148 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:04.582+02:00 [WARN ] GAME_FAIL worker=0 n=147 after_ms=8 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:06.510+02:00 [WARN ] GAME_FAIL worker=2 n=149 after_ms=12 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:06.597+02:00 [WARN ] GAME_FAIL worker=3 n=149 after_ms=29 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:08.245+02:00 [WARN ] GAME_FAIL worker=1 n=149 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:09.585+02:00 [WARN ] GAME_FAIL worker=0 n=148 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:11.514+02:00 [WARN ] GAME_FAIL worker=2 n=150 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:11.602+02:00 [WARN ] GAME_FAIL worker=3 n=150 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:13.250+02:00 [WARN ] GAME_FAIL worker=1 n=150 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:14.622+02:00 [WARN ] GAME_FAIL worker=0 n=149 after_ms=35 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:16.535+02:00 [WARN ] GAME_FAIL worker=2 n=151 after_ms=19 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:16.604+02:00 [WARN ] GAME_FAIL worker=3 n=151 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:18.255+02:00 [WARN ] GAME_FAIL worker=1 n=151 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:21.609+02:00 [WARN ] GAME_FAIL worker=3 n=152 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:21.651+02:00 [WARN ] GAME_FAIL worker=0 n=150 after_ms=2027 err=deposit B: deposit submission failed after retries
+2026-09-26 01:05:23.262+02:00 [WARN ] GAME_FAIL worker=1 n=152 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:23.604+02:00 [WARN ] GAME_FAIL worker=2 n=152 after_ms=2065 err=deposit B: deposit submission failed after retries
+2026-09-26 01:05:26.613+02:00 [WARN ] GAME_FAIL worker=3 n=153 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:26.664+02:00 [WARN ] GAME_FAIL worker=0 n=151 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:28.282+02:00 [WARN ] GAME_FAIL worker=1 n=153 after_ms=19 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:28.628+02:00 [WARN ] GAME_FAIL worker=2 n=153 after_ms=22 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:31.621+02:00 [WARN ] GAME_FAIL worker=3 n=154 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:31.677+02:00 [WARN ] GAME_FAIL worker=0 n=152 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:33.297+02:00 [WARN ] GAME_FAIL worker=1 n=154 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:33.630+02:00 [WARN ] GAME_FAIL worker=2 n=154 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:36.684+02:00 [WARN ] GAME_FAIL worker=0 n=153 after_ms=6 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:38.306+02:00 [WARN ] GAME_FAIL worker=1 n=155 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:38.642+02:00 [WARN ] GAME_FAIL worker=2 n=155 after_ms=10 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:38.642+02:00 [WARN ] GAME_FAIL worker=3 n=155 after_ms=2017 err=deposit B: deposit submission failed after retries
+2026-09-26 01:05:41.691+02:00 [WARN ] GAME_FAIL worker=0 n=154 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:43.647+02:00 [WARN ] GAME_FAIL worker=3 n=156 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:45.331+02:00 [WARN ] GAME_FAIL worker=1 n=156 after_ms=2023 err=deposit B: deposit submission failed after retries
+2026-09-26 01:05:45.680+02:00 [WARN ] GAME_FAIL worker=2 n=156 after_ms=2037 err=deposit B: deposit submission failed after retries
+2026-09-26 01:05:46.696+02:00 [WARN ] GAME_FAIL worker=0 n=155 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:48.665+02:00 [WARN ] GAME_FAIL worker=3 n=157 after_ms=15 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:50.339+02:00 [WARN ] GAME_FAIL worker=1 n=157 after_ms=6 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:50.690+02:00 [WARN ] GAME_FAIL worker=2 n=157 after_ms=8 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:53.670+02:00 [WARN ] GAME_FAIL worker=3 n=158 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:53.741+02:00 [WARN ] GAME_FAIL worker=0 n=156 after_ms=2043 err=deposit B: deposit submission failed after retries
+2026-09-26 01:05:55.391+02:00 [WARN ] GAME_FAIL worker=1 n=158 after_ms=51 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:55.694+02:00 [WARN ] GAME_FAIL worker=2 n=158 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:58.677+02:00 [WARN ] GAME_FAIL worker=3 n=159 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:05:58.744+02:00 [WARN ] GAME_FAIL worker=0 n=157 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:00.397+02:00 [WARN ] GAME_FAIL worker=1 n=159 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:00.696+02:00 [WARN ] GAME_FAIL worker=2 n=159 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:03.715+02:00 [WARN ] GAME_FAIL worker=3 n=160 after_ms=33 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:03.756+02:00 [WARN ] GAME_FAIL worker=0 n=158 after_ms=10 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:05.400+02:00 [WARN ] GAME_FAIL worker=1 n=160 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:05.702+02:00 [WARN ] GAME_FAIL worker=2 n=160 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:08.726+02:00 [WARN ] GAME_FAIL worker=3 n=161 after_ms=11 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:08.858+02:00 [WARN ] GAME_FAIL worker=0 n=159 after_ms=100 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:10.409+02:00 [WARN ] GAME_FAIL worker=1 n=161 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:10.707+02:00 [WARN ] GAME_FAIL worker=2 n=161 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:13.734+02:00 [WARN ] GAME_FAIL worker=3 n=162 after_ms=6 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:13.866+02:00 [WARN ] GAME_FAIL worker=0 n=160 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:15.416+02:00 [WARN ] GAME_FAIL worker=1 n=162 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:15.716+02:00 [WARN ] GAME_FAIL worker=2 n=162 after_ms=7 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:18.739+02:00 [WARN ] GAME_FAIL worker=3 n=163 after_ms=4 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:18.892+02:00 [WARN ] GAME_FAIL worker=0 n=161 after_ms=24 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:20.758+02:00 [WARN ] GAME_FAIL worker=2 n=163 after_ms=40 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:22.439+02:00 [WARN ] GAME_FAIL worker=1 n=163 after_ms=2022 err=deposit B: deposit submission failed after retries
+2026-09-26 01:06:25.762+02:00 [WARN ] GAME_FAIL worker=3 n=164 after_ms=2019 err=deposit B: deposit submission failed after retries
+2026-09-26 01:06:25.908+02:00 [WARN ] GAME_FAIL worker=0 n=162 after_ms=2013 err=deposit B: deposit submission failed after retries
+2026-09-26 01:06:27.443+02:00 [WARN ] GAME_FAIL worker=1 n=164 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:27.767+02:00 [WARN ] GAME_FAIL worker=2 n=164 after_ms=2008 err=deposit B: deposit submission failed after retries
+2026-09-26 01:06:30.791+02:00 [WARN ] GAME_FAIL worker=3 n=165 after_ms=27 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:30.922+02:00 [WARN ] GAME_FAIL worker=0 n=163 after_ms=12 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:32.459+02:00 [WARN ] GAME_FAIL worker=1 n=165 after_ms=14 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:32.774+02:00 [WARN ] GAME_FAIL worker=2 n=165 after_ms=6 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:35.796+02:00 [WARN ] GAME_FAIL worker=3 n=166 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:35.951+02:00 [WARN ] GAME_FAIL worker=0 n=164 after_ms=27 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:37.461+02:00 [WARN ] GAME_FAIL worker=1 n=166 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:37.784+02:00 [WARN ] GAME_FAIL worker=2 n=166 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:40.799+02:00 [WARN ] GAME_FAIL worker=3 n=167 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:40.958+02:00 [WARN ] GAME_FAIL worker=0 n=165 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:42.492+02:00 [WARN ] GAME_FAIL worker=1 n=167 after_ms=29 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:42.799+02:00 [WARN ] GAME_FAIL worker=2 n=167 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:45.804+02:00 [WARN ] GAME_FAIL worker=3 n=168 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:45.960+02:00 [WARN ] GAME_FAIL worker=0 n=166 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:47.499+02:00 [WARN ] GAME_FAIL worker=1 n=168 after_ms=6 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:47.804+02:00 [WARN ] GAME_FAIL worker=2 n=168 after_ms=3 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:50.816+02:00 [WARN ] GAME_FAIL worker=3 n=169 after_ms=10 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:50.971+02:00 [WARN ] GAME_FAIL worker=0 n=167 after_ms=9 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:52.510+02:00 [WARN ] GAME_FAIL worker=1 n=169 after_ms=8 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:52.806+02:00 [WARN ] GAME_FAIL worker=2 n=169 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:55.823+02:00 [WARN ] GAME_FAIL worker=3 n=170 after_ms=5 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:55.973+02:00 [WARN ] GAME_FAIL worker=0 n=168 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:57.515+02:00 [WARN ] GAME_FAIL worker=1 n=170 after_ms=2 err=deposit A: deposit submission failed after retries
+2026-09-26 01:06:57.809+02:00 [WARN ] GAME_FAIL worker=2 n=170 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:07:00.827+02:00 [WARN ] GAME_FAIL worker=3 n=171 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:07:00.975+02:00 [WARN ] GAME_FAIL worker=0 n=169 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:07:02.529+02:00 [WARN ] GAME_FAIL worker=1 n=171 after_ms=12 err=deposit A: deposit submission failed after retries
+2026-09-26 01:07:02.812+02:00 [WARN ] GAME_FAIL worker=2 n=171 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:07:05.830+02:00 [WARN ] GAME_FAIL worker=3 n=172 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:07:05.978+02:00 [WARN ] GAME_FAIL worker=0 n=170 after_ms=1 err=deposit A: deposit submission failed after retries
+2026-09-26 01:07:07.531+02:00 [WARN ] GAME_FAIL worker=1 n=172 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 01:07:07.814+02:00 [WARN ] GAME_FAIL worker=2 n=172 after_ms=0 err=deposit A: deposit submission failed after retries
+2026-09-26 01:07:24.846+02:00 [INFO ] GAME_SUBMITTED worker=3 n=173 id=4c3e96b2c74480a9a56915457bb26d59b4d764c2dfb11b3bba6240d331406725 total_submit_ms=14014 deposit_a=1 deposit_b=0 create=0 join=0 turn_a=0 turn_b=1 withdraw=0
+2026-09-26 01:07:25.003+02:00 [INFO ] GAME_SUBMITTED worker=0 n=171 id=5245a1883ed58bb4a0c70fc67b936a9ce705b08c4fc8767d024bd514c1c1e7c8 total_submit_ms=14023 deposit_a=2 deposit_b=1 create=0 join=5 turn_a=0 turn_b=3 withdraw=1
+2026-09-26 01:07:26.560+02:00 [INFO ] GAME_SUBMITTED worker=1 n=173 id=3c0c1d0ab30c06814bf2cd14a68eadcbd6eb49ac5fe4c7e3ac78ed88daff4586 total_submit_ms=14028 deposit_a=0 deposit_b=0 create=11 join=3 turn_a=2 turn_b=0 withdraw=0
+2026-09-26 01:07:26.834+02:00 [INFO ] GAME_SUBMITTED worker=2 n=173 id=71b843e9f6b05fdcf6aaf3855fd9b5d15a6604673c0aa3d6a2429427ca1f1c31 total_submit_ms=14019 deposit_a=2 deposit_b=0 create=1 join=0 turn_a=0 turn_b=2 withdraw=2
+2026-09-26 01:07:27.850+02:00 [INFO ] GAME_FINISHED worker=3 n=173 id=4c3e96b2c74480a9a56915457bb26d59b4d764c2dfb11b3bba6240d331406725 state=First finish_wait_ms=3003 game_ms=17018
+2026-09-26 01:07:28.009+02:00 [INFO ] GAME_FINISHED worker=0 n=171 id=5245a1883ed58bb4a0c70fc67b936a9ce705b08c4fc8767d024bd514c1c1e7c8 state=First finish_wait_ms=3006 game_ms=17029
+2026-09-26 01:07:29.563+02:00 [INFO ] GAME_FINISHED worker=1 n=173 id=3c0c1d0ab30c06814bf2cd14a68eadcbd6eb49ac5fe4c7e3ac78ed88daff4586 state=First finish_wait_ms=3003 game_ms=17031
+2026-09-26 01:07:30.841+02:00 [INFO ] GAME_FINISHED worker=2 n=173 id=71b843e9f6b05fdcf6aaf3855fd9b5d15a6604673c0aa3d6a2429427ca1f1c31 state=First finish_wait_ms=4007 game_ms=18027
+2026-09-26 01:07:41.870+02:00 [INFO ] GAME_SUBMITTED worker=3 n=174 id=1cc487f45824341d31896a8429ad7689e8f28ae0f17d2f8d0e025360c8e5d76c total_submit_ms=14019 deposit_a=4 deposit_b=3 create=0 join=0 turn_a=0 turn_b=1 withdraw=1
+2026-09-26 01:07:42.028+02:00 [INFO ] GAME_SUBMITTED worker=0 n=172 id=c3dfeab5d0d27a63f4711430116993d12edb02aac5813ec0644f71c8629f4ed2 total_submit_ms=14018 deposit_a=1 deposit_b=0 create=1 join=2 turn_a=0 turn_b=0 withdraw=0
+2026-09-26 01:07:43.577+02:00 [INFO ] GAME_SUBMITTED worker=1 n=174 id=9dbb8086078015713f2910901a2328b879eb252a3028043964be0dc95889a02d total_submit_ms=14013 deposit_a=0 deposit_b=0 create=1 join=0 turn_a=1 turn_b=0 withdraw=0
+2026-09-26 01:07:43.873+02:00 [INFO ] GAME_FINISHED worker=3 n=174 id=1cc487f45824341d31896a8429ad7689e8f28ae0f17d2f8d0e025360c8e5d76c state=First finish_wait_ms=2003 game_ms=16022
+2026-09-26 01:07:44.031+02:00 [INFO ] GAME_FINISHED worker=0 n=172 id=c3dfeab5d0d27a63f4711430116993d12edb02aac5813ec0644f71c8629f4ed2 state=First finish_wait_ms=2003 game_ms=16021
+2026-09-26 01:07:44.871+02:00 [INFO ] GAME_SUBMITTED worker=2 n=174 id=0b871c1217d46a5569c137cb3ee6ffcfd7ddd8b55f48d368fe3757677fd38dd8 total_submit_ms=14029 deposit_a=0 deposit_b=4 create=1 join=1 turn_a=1 turn_b=2 withdraw=9
+2026-09-26 01:07:46.582+02:00 [INFO ] GAME_FINISHED worker=1 n=174 id=9dbb8086078015713f2910901a2328b879eb252a3028043964be0dc95889a02d state=First finish_wait_ms=3005 game_ms=17018
+2026-09-26 01:07:47.875+02:00 [INFO ] GAME_FINISHED worker=2 n=174 id=0b871c1217d46a5569c137cb3ee6ffcfd7ddd8b55f48d368fe3757677fd38dd8 state=First finish_wait_ms=3003 game_ms=17033
+2026-09-26 01:07:57.891+02:00 [INFO ] GAME_SUBMITTED worker=3 n=175 id=41d77403e8841610d784bad0d00e4843cdb21b641f5f8fa9a0bf9283e726cf82 total_submit_ms=14017 deposit_a=0 deposit_b=0 create=0 join=0 turn_a=6 turn_b=0 withdraw=1
+2026-09-26 01:07:58.048+02:00 [INFO ] GAME_SUBMITTED worker=0 n=173 id=e2be69e9f5135e1f8b9c39dfa2ddb08971a80e87b52664c5088bb35f53480914 total_submit_ms=14017 deposit_a=1 deposit_b=0 create=0 join=1 turn_a=2 turn_b=1 withdraw=1
+2026-09-26 01:07:59.894+02:00 [INFO ] GAME_FINISHED worker=3 n=175 id=41d77403e8841610d784bad0d00e4843cdb21b641f5f8fa9a0bf9283e726cf82 state=First finish_wait_ms=2003 game_ms=16020
+2026-09-26 01:08:00.051+02:00 [INFO ] GAME_FINISHED worker=0 n=173 id=e2be69e9f5135e1f8b9c39dfa2ddb08971a80e87b52664c5088bb35f53480914 state=First finish_wait_ms=2002 game_ms=16020
+2026-09-26 01:08:00.598+02:00 [INFO ] GAME_SUBMITTED worker=1 n=175 id=fce1208fa418d2c8641671911766dc90203a902d184e0ebed3d3988f28c46165 total_submit_ms=14016 deposit_a=1 deposit_b=0 create=0 join=2 turn_a=1 turn_b=0 withdraw=0
+2026-09-26 01:08:01.895+02:00 [INFO ] GAME_SUBMITTED worker=2 n=175 id=a090c5bb7d98f362082385b604eb03d71f056ab0a7c18cd76170f169a628c277 total_submit_ms=14020 deposit_a=0 deposit_b=1 create=6 join=1 turn_a=1 turn_b=1 withdraw=1
+2026-09-26 01:08:04.607+02:00 [INFO ] GAME_FINISHED worker=1 n=175 id=fce1208fa418d2c8641671911766dc90203a902d184e0ebed3d3988f28c46165 state=First finish_wait_ms=4008 game_ms=18024
+2026-09-26 01:08:04.900+02:00 [INFO ] GAME_FINISHED worker=2 n=175 id=a090c5bb7d98f362082385b604eb03d71f056ab0a7c18cd76170f169a628c277 state=First finish_wait_ms=3004 game_ms=17025
+2026-09-26 01:08:13.910+02:00 [INFO ] GAME_SUBMITTED worker=3 n=176 id=7341a7bdcc257ec90cdcd63caeab9fc44c886b10f1e85f3437db5e325a676442 total_submit_ms=14015 deposit_a=1 deposit_b=0 create=0 join=2 turn_a=0 turn_b=0 withdraw=1
+2026-09-26 01:08:14.065+02:00 [INFO ] GAME_SUBMITTED worker=0 n=174 id=5becd7b60fca2e9f182636f515b21af48a4cdd0605a8cf74afc3476de466a3a6 total_submit_ms=14014 deposit_a=0 deposit_b=0 create=1 join=1 turn_a=1 turn_b=0 withdraw=0
+2026-09-26 01:08:18.625+02:00 [INFO ] GAME_SUBMITTED worker=1 n=176 id=5c5db790c517985f977522df8d31eddd8dd684036199dabcddaf39039a358f5c total_submit_ms=14017 deposit_a=1 deposit_b=1 create=3 join=0 turn_a=0 turn_b=0 withdraw=1
+2026-09-26 01:08:18.917+02:00 [INFO ] GAME_SUBMITTED worker=2 n=176 id=455bd67576d178b0aff0658c48ee916b30a4c56ff0ff7e01222b166cec8a8d1c total_submit_ms=14016 deposit_a=0 deposit_b=0 create=1 join=0 turn_a=0 turn_b=1 withdraw=3
+2026-09-26 01:08:18.918+02:00 [INFO ] GAME_FINISHED worker=3 n=176 id=7341a7bdcc257ec90cdcd63caeab9fc44c886b10f1e85f3437db5e325a676442 state=First finish_wait_ms=5008 game_ms=19023
+2026-09-26 01:08:19.073+02:00 [INFO ] GAME_FINISHED worker=0 n=174 id=5becd7b60fca2e9f182636f515b21af48a4cdd0605a8cf74afc3476de466a3a6 state=First finish_wait_ms=5007 game_ms=19021
+2026-09-26 01:08:21.631+02:00 [INFO ] GAME_FINISHED worker=1 n=176 id=5c5db790c517985f977522df8d31eddd8dd684036199dabcddaf39039a358f5c state=First finish_wait_ms=3006 game_ms=17023
+2026-09-26 01:08:21.924+02:00 [INFO ] GAME_FINISHED worker=2 n=176 id=455bd67576d178b0aff0658c48ee916b30a4c56ff0ff7e01222b166cec8a8d1c state=First finish_wait_ms=3007 game_ms=17024
+2026-09-26 01:08:32.953+02:00 [INFO ] GAME_SUBMITTED worker=3 n=177 id=f136fdef0773bd9a649ae3f60f4ab5ac485bd8fb50eb9e1e2b6a256eea4f87b0 total_submit_ms=14035 deposit_a=7 deposit_b=0 create=1 join=2 turn_a=3 turn_b=5 withdraw=0
+2026-09-26 01:08:33.087+02:00 [INFO ] GAME_SUBMITTED worker=0 n=175 id=f44e8c7a0dfe676ad9656aaf02cfdf7ce883298d055dd476a26347e9b0c764df total_submit_ms=14014 deposit_a=1 deposit_b=0 create=0 join=0 turn_a=0 turn_b=0 withdraw=0
+2026-09-26 01:08:35.652+02:00 [INFO ] GAME_SUBMITTED worker=1 n=177 id=a50aefcf00575b58ec4066a36afd270cfa6663ec85f7e141bb91c074802bf0d8 total_submit_ms=14020 deposit_a=1 deposit_b=0 create=2 join=4 turn_a=0 turn_b=0 withdraw=1
+2026-09-26 01:08:35.940+02:00 [INFO ] GAME_SUBMITTED worker=2 n=177 id=36d4c796f010f41ca8067cd92d790c8cfdb55dbf218b1fb4dd1954816ff2b35f total_submit_ms=14015 deposit_a=0 deposit_b=2 create=0 join=0 turn_a=1 turn_b=0 withdraw=1
+2026-09-26 01:08:35.958+02:00 [INFO ] GAME_FINISHED worker=3 n=177 id=f136fdef0773bd9a649ae3f60f4ab5ac485bd8fb50eb9e1e2b6a256eea4f87b0 state=First finish_wait_ms=3005 game_ms=17040
+2026-09-26 01:08:36.091+02:00 [INFO ] GAME_FINISHED worker=0 n=175 id=f44e8c7a0dfe676ad9656aaf02cfdf7ce883298d055dd476a26347e9b0c764df state=First finish_wait_ms=3004 game_ms=17018
+2026-09-26 01:08:39.658+02:00 [INFO ] GAME_FINISHED worker=1 n=177 id=a50aefcf00575b58ec4066a36afd270cfa6663ec85f7e141bb91c074802bf0d8 state=First finish_wait_ms=4006 game_ms=18027
+2026-09-26 01:08:39.946+02:00 [INFO ] GAME_FINISHED worker=2 n=177 id=36d4c796f010f41ca8067cd92d790c8cfdb55dbf218b1fb4dd1954816ff2b35f state=First finish_wait_ms=4006 game_ms=18021
+2026-09-26 01:08:49.978+02:00 [INFO ] GAME_SUBMITTED worker=3 n=178 id=d17591b61eb26c994d3c1a0010d53edb4b10ad13e98deffe96571e08b94364ad total_submit_ms=14019 deposit_a=1 deposit_b=1 create=1 join=0 turn_a=3 turn_b=1 withdraw=1
+2026-09-26 01:08:50.116+02:00 [INFO ] GAME_SUBMITTED worker=0 n=176 id=e2c4f203d22dd1eb7a817c4c6245b7daa41d488345fba050d645bd016fbb7bfc total_submit_ms=14024 deposit_a=0 deposit_b=0 create=0 join=4 turn_a=0 turn_b=0 withdraw=7
+2026-09-26 01:08:53.672+02:00 [INFO ] GAME_SUBMITTED worker=1 n=178 id=01fb71657b7f6ba4d643786d6cb9046370fa4081982eb9f176d416a107b74505 total_submit_ms=14013 deposit_a=0 deposit_b=0 create=1 join=1 turn_a=0 turn_b=0 withdraw=0
+2026-09-26 01:08:53.959+02:00 [INFO ] GAME_SUBMITTED worker=2 n=178 id=d442829eaf4d2d8be12cd3dc1acf6339da2b033ada73182a2c2c50ba5bf9200c total_submit_ms=14013 deposit_a=0 deposit_b=1 create=1 join=1 turn_a=1 turn_b=1 withdraw=1
+2026-09-26 01:08:54.987+02:00 [INFO ] GAME_FINISHED worker=3 n=178 id=d17591b61eb26c994d3c1a0010d53edb4b10ad13e98deffe96571e08b94364ad state=First finish_wait_ms=5008 game_ms=19028
+2026-09-26 01:08:55.127+02:00 [INFO ] GAME_FINISHED worker=0 n=176 id=e2c4f203d22dd1eb7a817c4c6245b7daa41d488345fba050d645bd016fbb7bfc state=First finish_wait_ms=5011 game_ms=19036
+2026-09-26 01:08:57.679+02:00 [INFO ] GAME_FINISHED worker=1 n=178 id=01fb71657b7f6ba4d643786d6cb9046370fa4081982eb9f176d416a107b74505 state=First finish_wait_ms=4006 game_ms=18020
+2026-09-26 01:08:57.966+02:00 [INFO ] GAME_FINISHED worker=2 n=178 id=d442829eaf4d2d8be12cd3dc1acf6339da2b033ada73182a2c2c50ba5bf9200c state=First finish_wait_ms=4006 game_ms=18019
+2026-09-26 01:09:09.010+02:00 [INFO ] GAME_SUBMITTED worker=3 n=179 id=caaa2ff9b3efa91dd6bdaa84614f065587dae53760bed1204865d7555e6abb4a total_submit_ms=14023 deposit_a=1 deposit_b=8 create=1 join=0 turn_a=1 turn_b=1 withdraw=1
+2026-09-26 01:09:09.154+02:00 [INFO ] GAME_SUBMITTED worker=0 n=177 id=c6ca68d0edef1ae61d4fc228ed97ce545bbf0315daf3d3b98e1755462cac7161 total_submit_ms=14026 deposit_a=7 deposit_b=1 create=1 join=0 turn_a=1 turn_b=3 withdraw=1
+2026-09-26 01:09:11.697+02:00 [INFO ] GAME_SUBMITTED worker=1 n=179 id=eca43c36f9f67d6627c76311e48aa0870e4e0cf3c716c5d4843c52bd8ad4a281 total_submit_ms=14017 deposit_a=1 deposit_b=0 create=0 join=1 turn_a=1 turn_b=1 withdraw=3
+2026-09-26 01:09:11.982+02:00 [INFO ] GAME_SUBMITTED worker=2 n=179 id=059cb5219baf86bde0df0189bbf13ea2187bfef771ff0b34f83518f505c7787d total_submit_ms=14016 deposit_a=1 deposit_b=0 create=1 join=1 turn_a=0 turn_b=1 withdraw=1
+2026-09-26 01:09:13.015+02:00 [INFO ] GAME_FINISHED worker=3 n=179 id=caaa2ff9b3efa91dd6bdaa84614f065587dae53760bed1204865d7555e6abb4a state=First finish_wait_ms=4004 game_ms=18027
+2026-09-26 01:09:13.163+02:00 [INFO ] GAME_FINISHED worker=0 n=177 id=c6ca68d0edef1ae61d4fc228ed97ce545bbf0315daf3d3b98e1755462cac7161 state=First finish_wait_ms=4009 game_ms=18035
+2026-09-26 01:09:16.705+02:00 [INFO ] GAME_FINISHED worker=1 n=179 id=eca43c36f9f67d6627c76311e48aa0870e4e0cf3c716c5d4843c52bd8ad4a281 state=First finish_wait_ms=5008 game_ms=19026
+2026-09-26 01:09:16.994+02:00 [INFO ] GAME_FINISHED worker=2 n=179 id=059cb5219baf86bde0df0189bbf13ea2187bfef771ff0b34f83518f505c7787d state=First finish_wait_ms=5011 game_ms=19028
+2026-09-26 01:09:27.048+02:00 [INFO ] GAME_SUBMITTED worker=3 n=180 id=ff4d51c81369a7e641cfe9486c3ff3e5adbbbfa41083984f2c7973ec083f5361 total_submit_ms=14033 deposit_a=1 deposit_b=0 create=0 join=2 turn_a=5 turn_b=1 withdraw=13
+2026-09-26 01:09:27.206+02:00 [INFO ] GAME_SUBMITTED worker=0 n=178 id=2266737c170cfc9094da07616b0125beebea0913736fb1da198aff8cf841dd07 total_submit_ms=14042 deposit_a=1 deposit_b=3 create=9 join=3 turn_a=4 turn_b=4 withdraw=3
+2026-09-26 01:09:30.212+02:00 [INFO ] GAME_FINISHED worker=0 n=178 id=2266737c170cfc9094da07616b0125beebea0913736fb1da198aff8cf841dd07 state=First finish_wait_ms=3005 game_ms=17048
+2026-09-26 01:09:30.752+02:00 [INFO ] GAME_SUBMITTED worker=1 n=180 id=4fa7609628560b3f593131517c93c980b2b7d1e473f88a5b7003a707e707fe81 total_submit_ms=14046 deposit_a=1 deposit_b=0 create=1 join=1 turn_a=3 turn_b=13 withdraw=15
+2026-09-26 01:09:31.053+02:00 [INFO ] GAME_SUBMITTED worker=2 n=180 id=d577acff795f4441df4eaaebf957e23f52716198c0d18d841f0c6dd59d807f8b total_submit_ms=14058 deposit_a=3 deposit_b=0 create=5 join=10 turn_a=26 turn_b=1 withdraw=0
+2026-09-26 01:09:31.067+02:00 [INFO ] GAME_FINISHED worker=3 n=180 id=ff4d51c81369a7e641cfe9486c3ff3e5adbbbfa41083984f2c7973ec083f5361 state=First finish_wait_ms=4018 game_ms=18052
+2026-09-26 01:09:34.758+02:00 [INFO ] GAME_FINISHED worker=1 n=180 id=4fa7609628560b3f593131517c93c980b2b7d1e473f88a5b7003a707e707fe81 state=First finish_wait_ms=4006 game_ms=18052
+2026-09-26 01:09:35.064+02:00 [INFO ] GAME_FINISHED worker=2 n=180 id=d577acff795f4441df4eaaebf957e23f52716198c0d18d841f0c6dd59d807f8b state=First finish_wait_ms=4011 game_ms=18069

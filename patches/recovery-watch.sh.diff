@@ -1,0 +1,13 @@
+--- /workspace/tn10-break-test-2026-09-25/scripts/recovery-watch.sh.bak-2355	2026-09-25 23:53:31.835833396 +0200
++++ /workspace/tn10-break-test-2026-09-25/scripts/recovery-watch.sh	2026-09-25 23:53:31.843833366 +0200
+@@ -5,6 +5,10 @@
+ while sleep 10; do
+   l=$(tail -1 $S); e=$(echo "$l" | jq -r '.event // empty'); o=$(echo "$l" | jq -r '.offered_tps // 9999')
+   if [ "$e" = pause ] || [ "$e" = stopped ]; then why=$e; break; fi
++  # round3 23:55: bursts drop RATE_MAX 60000->1000 and the mempool taper/90k brake can zero the rate for a while:
++  # not "storm stopped". Ignore low offered while a burst is active, within 120 s after a burst ends, or while mempool > 40k.
++  mp=$(tail -1 $D/logs/monitor.jsonl | jq -r '.n0.mempool // 0'); ba=$(stat -c %Y /tmp/tps-burst.active 2>/dev/null || echo 0)
++  if [ -e /tmp/tps-burst.active ] || [ $(( $(date +%s) - $(stat -c %Y /tmp/tps-burst.lastend 2>/dev/null || echo 0) )) -lt 120 ] || [ "${mp:-0}" -gt 40000 ] 2>/dev/null; then low=0; continue; fi
+   if [ "${o%.*}" -lt 100 ] 2>/dev/null; then low=$((low+10)); else low=0; fi
+   [ $low -ge 60 ] && { why="offered<100 60s (funds out?)"; break; }
+ done

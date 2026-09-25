@@ -1,0 +1,11 @@
+--- /workspace/tn10-break-test-2026-09-25/scripts/tps-supervisor.py.bak-2352	2026-09-25 23:52:28.076072525 +0200
++++ /workspace/tn10-break-test-2026-09-25/scripts/tps-supervisor.py	2026-09-25 23:52:28.080072510 +0200
+@@ -25,7 +25,7 @@
+ JP = {n: {"n0": 18210, "n1": 18220}[n] for n in os.environ.get("STORM_NODES", "n0 n1").split()}  # 2026-09-25 21:33: n0 only (n1 data wiped for disk)
+ NODE_CMD = {n: ["/workspace/artifacts/kaspa-tn10/bin/kaspad", "--testnet", "--netsuffix=10", f"--appdir=/tmp/kaspa-data-tn10-{n}", f"--logdir=/tmp/kaspa-logs-tn10-{n}",
+                f"--listen=0.0.0.0:{p}1", f"--rpclisten=127.0.0.1:{p}0", f"--rpclisten-borsh=127.0.0.1:{b}", f"--rpclisten-json=127.0.0.1:{j}",
+-               "--ram-scale=0.1", "--async-threads=4", "--outpeers=6", "--maxinpeers=24", "--rpcmaxclients=64", "--disable-upnp", f"--addpeer=127.0.0.1:{o}"]
++               "--ram-scale=0.1", "--async-threads=4", "--outpeers=6", "--maxinpeers=24", "--rpcmaxclients=64", "--disable-upnp", "--utxoindex", f"--addpeer=127.0.0.1:{o}"]
+             for n, p, b, j, o in (("n0", "1621", 17210, 18210, 16221), ("n1", "1622", 17220, 18220, 16211)) if n in JP}
+ W = []  # (tag, argv, env)
+ for k in range(8):

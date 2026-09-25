@@ -1,0 +1,11 @@
+2026-09-25T23:52:39+02:00 pid=3992792 cmd: /workspace/artifacts/kaspa-tn10/bin/kaspad --testnet --netsuffix=10 --appdir=/tmp/kaspa-data-tn10-n0 --logdir=/tmp/kaspa-logs-tn10-n0 --listen=0.0.0.0:16211 --rpclisten=127.0.0.1:16210 --rpclisten-borsh=127.0.0.1:17210 --rpclisten-json=127.0.0.1:18210 --ram-scale=0.1 --async-threads=4 --outpeers=6 --maxinpeers=24 --rpcmaxclients=64 --disable-upnp --addpeer=127.0.0.1:16221
+2026-09-25T23:52:39+02:00 SIGINT sent
+2026-09-25T23:52:41+02:00 exited after 1.508 s
+2026-09-25T23:52:41+02:00 started new pid=424709 (pid file updated)
+2026-09-26T00:11:17+02:00 RPC up after 1115.599s (synced=0 sink_age=1117.6 daa=580413739)
+2026-09-26T00:11:18+02:00 waiting: synced=0 sink_age=1118.7 daa=580413739
+2026-09-26T00:11:34+02:00 waiting: synced=0 sink_age=786.1 daa=580416229
+2026-09-26T00:11:37+02:00 isSynced after 1136.456s (sink_age=651.1)
+2026-09-26T00:11:51+02:00 waiting: synced=1 sink_age=50.9 daa=580421944
+2026-09-26T00:11:52+02:00 at tip (sink_age<5s) after 1150.850s, daa=580422315
+2026-09-26T00:11:52+02:00 summary: shutdown_s=1.508 rpc_up_s=1115.599 synced_s=1136.456 tip_s=1150.850

@@ -1,0 +1,28 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index 876d619..63d752f 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -3,6 +3,7 @@ default-members = [
+   "core/*",
+   "examples/tn10-flow",
+   "examples/tn10-runtime",
++  "examples/grok-desk-runner",
+   "l1/*",
+   "node/*",
+   "runner",
+@@ -22,6 +23,7 @@ default-members = [
+   "zk/backend/risc0/test-suite",
+ ]
+ exclude = [
++  "zk/backend/risc0/grok-deskfloor",
+   "zk/backend/risc0/transaction-processor",
+   "zk/backend/risc0/transaction-processor-with-exits",
+   "zk/backend/risc0/batch-processor",
+@@ -32,6 +34,7 @@ members = [
+   "core/*",
+   "examples/tn10-flow",
+   "examples/tn10-runtime",
++  "examples/grok-desk-runner",
+   "l1/*",
+   "node/*",
+   "runner",

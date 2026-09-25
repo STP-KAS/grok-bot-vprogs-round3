@@ -1,0 +1,76 @@
+2026-09-26 00:42:44.607+02:00 [INFO ] connected to ws://127.0.0.1:17210
+2026-09-26 00:42:44.607+02:00 [INFO ] lane id=130597584 subnetwork=07c8c2d000000000000000000000000000000000 mode=Fresh
+2026-09-26 00:42:44.608+02:00 [INFO ] bootstrapping dev-pins covenant; issuer address kaspatest:qp6fdn7grzykw7mqkfw60w2gezhthp7py4gm7uq0ng6erq9j2zju2rayqwmgx
+2026-09-26 00:42:44.610+02:00 [INFO ] covenant 32bde57f36bbb162c625eefdd02a5fe7f2637f4a46cfdbdddda2049c48865b32 bootstrapped (tx 62a413243885be927e2417d6dd4979730aa0d9c146bcf87fae4454d60fbd67c5)
+2026-09-26 00:42:44.851+02:00 [INFO ] DA server listening on http://127.0.0.1:9880
+== ttd node: lane=130597584 ==
+watch RUST_LOG trace for vprogs_node_framework and vprogs_zk_vm
+2026-09-26 00:42:44.854+02:00 [INFO ] L1 bridge connected to ws://127.0.0.1:17210
+2026-09-26 00:42:44.854+02:00 [INFO ] L1 bridge: seeding from explicit block 8c3550e82ddbedf6d9c22983906d39abf2b1677d796f732763af8ef412a25367
+2026-09-26 00:42:44.857+02:00 [INFO ] L1 bridge: lane holds no live entry at anchor 8c3550e82ddbedf6d9c22983906d39abf2b1677d796f732763af8ef412a25367; keeping the zero seed
+2026-09-26 00:42:46.017+02:00 [INFO ] L1 bridge: reorg detected, 1 blocks removed, rolling back to id 228 (blue score depth: 3, filter threshold: Some(3))
+2026-09-26 00:42:46.017+02:00 [INFO ] exit indexer: rollback to floor 228 reverted 0 journal entries
+2026-09-26 00:42:46.017+02:00 [INFO ] exit indexer: rollback to floor 228 reverted 0 journal entries
+2026-09-26 00:42:57.681+02:00 [INFO ] L1 bridge: reorg detected, 2 blocks removed, rolling back to id 294 (blue score depth: 6, filter threshold: Some(9))
+2026-09-26 00:42:57.682+02:00 [INFO ] exit indexer: rollback to floor 294 reverted 0 journal entries
+2026-09-26 00:42:57.682+02:00 [INFO ] exit indexer: rollback to floor 294 reverted 0 journal entries
+2026-09-26 00:43:14.217+02:00 [INFO ] L1 bridge: reorg detected, 1 blocks removed, rolling back to id 401 (blue score depth: 3, filter threshold: Some(12))
+2026-09-26 00:43:14.218+02:00 [INFO ] exit indexer: rollback to floor 401 reverted 0 journal entries
+2026-09-26 00:43:14.218+02:00 [INFO ] exit indexer: rollback to floor 401 reverted 0 journal entries
+2026-09-26 00:43:14.303+02:00 [INFO ] L1 bridge: reorg detected, 1 blocks removed, rolling back to id 401 (blue score depth: 3, filter threshold: Some(15))
+2026-09-26 00:43:14.303+02:00 [INFO ] exit indexer: rollback to floor 401 reverted 0 journal entries
+2026-09-26 00:43:14.303+02:00 [INFO ] exit indexer: rollback to floor 401 reverted 0 journal entries
+2026-09-26 00:44:49.462+02:00 [WARN ] guest rejected tx f72ddbfdc208f53e20193019b2c5fb43b76fd27f5ce0ac1f12255d5e0eff87c3: Decode("turn: mover not a live user resource")
+2026-09-26 00:44:49.472+02:00 [WARN ] guest rejected tx 39047c86b4ca9566de57ef6908f5dddd5a36e3dbb213bbc62ff235aaa3faf08e: Decode("create_game: creator not a live user resource")
+2026-09-26 00:44:49.476+02:00 [WARN ] guest rejected tx 19d7e0a5a3f8014ee4883a169508847f8373c10975b000dcce38cd72e24bdae8: Decode("turn: mover not a live user resource")
+2026-09-26 00:44:49.483+02:00 [WARN ] guest rejected tx 6fcda40bb2d17496658df6c220734c6f14d9abaebcac1b02c4ad6a579c6748c7: Decode("create_game: creator not a live user resource")
+2026-09-26 00:44:49.500+02:00 [WARN ] guest rejected tx 5a94e996ecd43eac82839b099d8981d00e20dd0a5e1c8c9ff61f403a724df156: Decode("withdraw: not a live user resource")
+2026-09-26 00:44:49.506+02:00 [WARN ] guest rejected tx 2bb69856b75c0bf86788cd15d2bb826cdbdc885f8c098f0d913233c5df6050de: Decode("join_game: joiner not a live user resource")
+2026-09-26 00:44:49.540+02:00 [WARN ] guest rejected tx 94fda31d343793c2381cd200b5b8ecf9bf6aa5411ffbcbe976e555eaab083a8b: Decode("turn: mover not a live user resource")
+2026-09-26 00:44:49.541+02:00 [WARN ] guest rejected tx cf3436ad6f0386886e11e6ad815ec4dc8ac55a25a7a19cf5ae1176cd95e6a0d9: Decode("create_game: creator not a live user resource")
+2026-09-26 00:44:49.573+02:00 [WARN ] guest rejected tx 2fea05719f4222ec0bfb745e957fb46fd44b614410db0acb7458d82177785009: Decode("join_game: joiner not a live user resource")
+2026-09-26 00:44:49.576+02:00 [WARN ] guest rejected tx 98dfbe05cc25883c22742e8b869291e693f44454a78bb2de71870e93a4d99688: Decode("join_game: joiner not a live user resource")
+2026-09-26 00:44:49.576+02:00 [WARN ] guest rejected tx ffefebaaafed694f66941bab487f5ef1b1bdb9e5797b002f7a8e926d71986391: Decode("create_game: creator not a live user resource")
+2026-09-26 00:44:49.652+02:00 [WARN ] guest rejected tx 5b057107411fa9c7b0685d36c98a6433ef927ea1e2ec9795c8a9b8a73d553192: Decode("join_game: joiner not a live user resource")
+2026-09-26 00:44:54.449+02:00 [WARN ] guest rejected tx 211e311e75fcb244a8bce9731835a51823e730aead690da7ba1941a35b698d11: Decode("create_game: creator not a live user resource")
+2026-09-26 00:44:58.864+02:00 [WARN ] guest rejected tx 5d86d010b84dea359e4d021c47ce8980f8a6b4db8f1226f7c70eed639c031535: Decode("create_game: creator not a live user resource")
+2026-09-26 00:44:58.882+02:00 [WARN ] guest rejected tx fae9ce4e5f3989537219667ff1b9d3902676dd562d0446e1d191e40ad3fb66f6: Decode("turn: mover not a live user resource")
+2026-09-26 00:44:58.919+02:00 [WARN ] guest rejected tx 3369d934e7ec01632c83528c035be2d15e7a2a77457b7b657c618f9519cbec78: Decode("withdraw: not a live user resource")
+2026-09-26 00:44:58.951+02:00 [WARN ] guest rejected tx eb6bb27f20cc74dea7da06d7bde8d737a073533e3628b34163f30a0a48da1228: Decode("turn: mover not a live user resource")
+2026-09-26 00:44:58.984+02:00 [WARN ] guest rejected tx f0a57ca60688fa7489f00609d384943415e2296d93af34578932f557029e338c: Decode("create_game: creator not a live user resource")
+2026-09-26 00:44:59.037+02:00 [WARN ] guest rejected tx 7103ab35502a05294f5066c3764a6a9254a339ea92f88e6a8a8950b80903fd28: Decode("join_game: joiner not a live user resource")
+2026-09-26 00:45:04.076+02:00 [WARN ] guest rejected tx 8e3ab26bd3a305af83485318d152d3204e555c01836bf03724b3b096464ad5c8: Decode("create_game: creator not a live user resource")
+2026-09-26 00:45:04.080+02:00 [WARN ] guest rejected tx 9b72dfb0ee068d31ca945e4ed1c6b6d9834af3275b9e88cb1ec02f943370a63b: Decode("turn: mover not a live user resource")
+2026-09-26 00:45:04.115+02:00 [WARN ] guest rejected tx 5837125f5e773dd492287a21854872387c446c887d06459d9bd4d03bfea72709: Decode("turn: mover not a live user resource")
+2026-09-26 00:45:04.146+02:00 [WARN ] guest rejected tx ffbf1d6b07d63d813c73edbb1b539583241cf2dd45fc39fc8d627156aa6bea09: Decode("create_game: creator not a live user resource")
+2026-09-26 00:45:04.178+02:00 [WARN ] guest rejected tx ee95efa2543499d0d22d596bb7815358812b16b2da00ba617632976952336920: Decode("join_game: joiner not a live user resource")
+2026-09-26 00:46:50.108+02:00 [INFO ] L1 bridge: reorg detected, 2 blocks removed, rolling back to id 1629 (blue score depth: 3, filter threshold: Some(18))
+2026-09-26 00:46:50.114+02:00 [INFO ] exit indexer: rollback to floor 1629 reverted 0 journal entries
+2026-09-26 00:46:50.114+02:00 [INFO ] exit indexer: rollback to floor 1629 reverted 0 journal entries
+2026-09-26 00:56:08.015+02:00 [INFO ] L1 bridge: reorg detected, 2 blocks removed, rolling back to id 3956 (blue score depth: 4, filter threshold: Some(22))
+2026-09-26 00:56:08.016+02:00 [INFO ] exit indexer: rollback to floor 3956 reverted 0 journal entries
+2026-09-26 00:56:08.016+02:00 [INFO ] exit indexer: rollback to floor 3956 reverted 0 journal entries
+2026-09-26 00:56:08.122+02:00 [INFO ] L1 bridge: reorg detected, 1 blocks removed, rolling back to id 3956 (blue score depth: 2, filter threshold: Some(24))
+2026-09-26 00:56:08.122+02:00 [INFO ] exit indexer: rollback to floor 3956 reverted 0 journal entries
+2026-09-26 00:56:08.123+02:00 [INFO ] exit indexer: rollback to floor 3956 reverted 0 journal entries
+2026-09-26 00:56:08.768+02:00 [INFO ] L1 bridge: reorg detected, 2 blocks removed, rolling back to id 3956 (blue score depth: 4, filter threshold: Some(28))
+2026-09-26 00:56:08.769+02:00 [INFO ] exit indexer: rollback to floor 3956 reverted 0 journal entries
+2026-09-26 00:56:08.769+02:00 [INFO ] exit indexer: rollback to floor 3956 reverted 0 journal entries
+2026-09-26 01:06:12.058+02:00 [INFO ] L1 bridge: reorg detected, 1 blocks removed, rolling back to id 6041 (blue score depth: 5, filter threshold: Some(33))
+2026-09-26 01:06:12.063+02:00 [INFO ] exit indexer: rollback to floor 6041 reverted 0 journal entries
+2026-09-26 01:06:12.064+02:00 [INFO ] exit indexer: rollback to floor 6041 reverted 0 journal entries
+2026-09-26 01:06:12.193+02:00 [INFO ] L1 bridge: reorg detected, 1 blocks removed, rolling back to id 6041 (blue score depth: 7, filter threshold: Some(40))
+2026-09-26 01:06:12.194+02:00 [INFO ] exit indexer: rollback to floor 6041 reverted 0 journal entries
+2026-09-26 01:06:12.194+02:00 [INFO ] exit indexer: rollback to floor 6041 reverted 0 journal entries
+2026-09-26 01:06:12.756+02:00 [INFO ] L1 bridge: reorg detected, 1 blocks removed, rolling back to id 6041 (blue score depth: 5, filter threshold: Some(45))
+2026-09-26 01:06:12.758+02:00 [INFO ] exit indexer: rollback to floor 6041 reverted 0 journal entries
+2026-09-26 01:06:12.758+02:00 [INFO ] exit indexer: rollback to floor 6041 reverted 0 journal entries
+2026-09-26 01:06:14.544+02:00 [INFO ] L1 bridge: reorg detected, 1 blocks removed, rolling back to id 6041 (blue score depth: 7, filter threshold: Some(52))
+2026-09-26 01:06:14.545+02:00 [INFO ] exit indexer: rollback to floor 6041 reverted 0 journal entries
+2026-09-26 01:06:14.545+02:00 [INFO ] exit indexer: rollback to floor 6041 reverted 0 journal entries
+2026-09-26 01:06:14.712+02:00 [INFO ] L1 bridge: reorg detected, 3 blocks removed, rolling back to id 6041 (blue score depth: 13, filter threshold: Some(65))
+2026-09-26 01:06:14.716+02:00 [INFO ] exit indexer: rollback to floor 6041 reverted 0 journal entries
+2026-09-26 01:06:14.716+02:00 [INFO ] exit indexer: rollback to floor 6041 reverted 0 journal entries
+2026-09-26 01:06:14.938+02:00 [INFO ] L1 bridge: reorg detected, 1 blocks removed, rolling back to id 6041 (blue score depth: 7, filter threshold: Some(72))
+2026-09-26 01:06:14.938+02:00 [INFO ] exit indexer: rollback to floor 6041 reverted 0 journal entries
+2026-09-26 01:06:14.938+02:00 [INFO ] exit indexer: rollback to floor 6041 reverted 0 journal entries

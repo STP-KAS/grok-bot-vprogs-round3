@@ -1,0 +1,34 @@
+[package]
+edition = "2021"
+name    = "grok-desk-runner"
+publish = false
+version = "0.1.0"
+
+# Our own load runner (round 3, 2026-09-26) for our own vprog `grok-deskfloor`: starts the vprogs
+# runner engine in exec mode on a fresh lane with our guest ELF, then issues many concurrent lane
+# moves from several funded issuer keys and logs one line per submit / failure. The executed side is
+# read from the engine's own `vprogs_zk_vm` trace ("executed: ... data=<hex>", last 8 bytes = tag).
+
+[[bin]]
+name = "grok-desk-runner"
+path = "src/main.rs"
+
+[dependencies]
+vprogs-runner                      = { workspace = true }
+vprogs-core-test-utils             = { workspace = true }
+vprogs-core-types                  = { workspace = true }
+vprogs-l1-wallet                   = { workspace = true }
+vprogs-zk-backend-risc0-test-suite = { workspace = true }
+
+kaspa-addresses      = { workspace = true }
+kaspa-consensus-core = { workspace = true }
+kaspa-core           = { workspace = true }
+kaspa-hashes         = { workspace = true }
+kaspa-rpc-core       = { workspace = true }
+kaspa-wrpc-client    = { workspace = true }
+
+fastrand   = { workspace = true }
+log        = { workspace = true }
+secp256k1  = { workspace = true }
+serde_json = { workspace = true }
+tokio      = { workspace = true, features = ["rt-multi-thread", "macros", "time", "sync"] }

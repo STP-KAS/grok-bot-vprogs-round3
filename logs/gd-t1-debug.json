@@ -1,0 +1,110 @@
+{
+ "run": {
+  "started": "2026-09-26 00:19:49.771+02:00 [INFO ] RUN started lane=469533308 covenant=b79866c852c4fad209d4a2a6607825f0bc2f8903ec2ee2aecbeaf021053281d5 startup_ms=3551",
+  "t0": 1790374789.771
+ },
+ "submitted": 375,
+ "executed_tags": 355,
+ "fails": {
+  "nofund|": 167
+ },
+ "by_kind": {
+  "bad": {
+   "n": 19,
+   "executed": 0,
+   "not_executed": 19,
+   "lat_p50_s": null,
+   "lat_p90_s": null,
+   "lat_p99_s": null,
+   "lat_max_s": null,
+   "submit_ms_p50": 13,
+   "submit_ms_p99": 82,
+   "build_ms_p50": 51,
+   "build_ms_p99": 176
+  },
+  "credit": {
+   "n": 174,
+   "executed": 174,
+   "not_executed": 0,
+   "lat_p50_s": 25.25,
+   "lat_p90_s": 37.13,
+   "lat_p99_s": 43.88,
+   "lat_max_s": 43.97,
+   "submit_ms_p50": 11,
+   "submit_ms_p99": 78,
+   "build_ms_p50": 22,
+   "build_ms_p99": 190
+  },
+  "debit": {
+   "n": 104,
+   "executed": 103,
+   "not_executed": 1,
+   "lat_p50_s": 26.03,
+   "lat_p90_s": 38.44,
+   "lat_p99_s": 43.94,
+   "lat_max_s": 44.91,
+   "submit_ms_p50": 11,
+   "submit_ms_p99": 98,
+   "build_ms_p50": 24,
+   "build_ms_p99": 158
+  },
+  "floor": {
+   "n": 18,
+   "executed": 18,
+   "not_executed": 0,
+   "lat_p50_s": 25.91,
+   "lat_p90_s": 39.79,
+   "lat_p99_s": 45.01,
+   "lat_max_s": 45.01,
+   "submit_ms_p50": 11,
+   "submit_ms_p99": 42,
+   "build_ms_p50": 24,
+   "build_ms_p99": 149
+  },
+  "move": {
+   "n": 60,
+   "executed": 60,
+   "not_executed": 0,
+   "lat_p50_s": 24.57,
+   "lat_p90_s": 38.74,
+   "lat_p99_s": 44.87,
+   "lat_max_s": 44.87,
+   "submit_ms_p50": 11,
+   "submit_ms_p99": 58,
+   "build_ms_p50": 20,
+   "build_ms_p99": 134
+  }
+ },
+ "by_phase": {
+  "base": {
+   "n": 259,
+   "executed": 259,
+   "not_executed": 0,
+   "lat_p50_s": 25.04,
+   "lat_p90_s": 39.79,
+   "lat_p99_s": 44.87,
+   "lat_max_s": 45.01,
+   "submit_ms_p50": 13,
+   "submit_ms_p99": 98,
+   "build_ms_p50": 26,
+   "build_ms_p99": 190
+  },
+  "post-burst": {
+   "n": 97,
+   "executed": 96,
+   "not_executed": 1,
+   "lat_p50_s": 27.86,
+   "lat_p90_s": 38.1,
+   "lat_p99_s": 40.31,
+   "lat_max_s": 40.31,
+   "submit_ms_p50": 7,
+   "submit_ms_p99": 53,
+   "build_ms_p50": 17,
+   "build_ms_p99": 77
+  }
+ },
+ "submit_window_s": 58.7,
+ "submitted_per_s": 6.39,
+ "executed_per_s": 5.71,
+ "note": "kind=bad is an intentional impossible debit (must never execute). debit/floor/move may be legitimately rejected by the guest floor rule."
+}

@@ -1,0 +1,14 @@
+2026-09-26 00:44:47.463+02:00 [WARN ] GAME_FAIL worker=1 n=1 after_ms=10 err=turn A: transaction submission failed after retries
+2026-09-26 00:44:47.463+02:00 [WARN ] GAME_FAIL worker=0 n=1 after_ms=10 err=turn B: transaction submission failed after retries
+2026-09-26 00:44:47.465+02:00 [WARN ] GAME_FAIL worker=2 n=1 after_ms=12 err=turn A: transaction submission failed after retries
+2026-09-26 00:44:47.467+02:00 [INFO ] GAME_SUBMITTED worker=3 n=1 id=c530f6fff82c8dc3d3a4dccedcd19bed9c64c4b853770f1cebbc236506d40a55 total_submit_ms=14 deposit_a=1 deposit_b=1 create=0 join=0 turn_a=1 turn_b=0 withdraw=0
+2026-09-26 00:44:52.466+02:00 [WARN ] GAME_FAIL worker=0 n=2 after_ms=2 err=deposit B: deposit submission failed after retries
+2026-09-26 00:44:52.470+02:00 [WARN ] GAME_FAIL worker=2 n=2 after_ms=4 err=create game: transaction submission failed after retries
+2026-09-26 00:44:52.470+02:00 [WARN ] GAME_FAIL worker=1 n=2 after_ms=6 err=join game: transaction submission failed after retries
+2026-09-26 00:44:57.473+02:00 [WARN ] GAME_FAIL worker=0 n=3 after_ms=6 err=create game: transaction submission failed after retries
+2026-09-26 00:44:57.484+02:00 [WARN ] GAME_FAIL worker=1 n=3 after_ms=13 err=join game: transaction submission failed after retries
+2026-09-26 00:44:57.491+02:00 [INFO ] GAME_SUBMITTED worker=2 n=3 id=e8324955f2624571d7b9eec32f7e6885fcce39c179687e895e93b21fbfbc23dc total_submit_ms=20 deposit_a=0 deposit_b=0 create=2 join=6 turn_a=0 turn_b=0 withdraw=0
+2026-09-26 00:45:02.481+02:00 [WARN ] GAME_FAIL worker=0 n=4 after_ms=6 err=join game: transaction submission failed after retries
+2026-09-26 00:45:02.498+02:00 [WARN ] GAME_FAIL worker=1 n=4 after_ms=12 err=withdraw: transaction submission failed after retries
+2026-09-26 00:45:07.487+02:00 [WARN ] GAME_FAIL worker=0 n=5 after_ms=5 err=create game: transaction submission failed after retries
+2026-09-26 00:45:07.502+02:00 [WARN ] GAME_FAIL worker=1 n=5 after_ms=2 err=deposit B: deposit submission failed after retries

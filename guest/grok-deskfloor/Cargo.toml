@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name    = "grok-deskfloor"
+version = "0.1.0"
+
+# Our own vprog (round 3, 2026-09-26): a "desk floor" account guest.
+# Each resource = one desk account: [balance u64 | floor u64 | ops u64 | last_tag u64] (32 bytes, LE).
+# ix_data[0] = op, ix_data[1..9] = amount u64 LE, ix_data[9..17] = move tag u64 LE (written to last_tag,
+# lets the load runner match each executed move to its submit time from the vprogs_zk_vm trace line):
+#   0 = SetFloor(amount)       on resource 0 (only while balance >= amount)
+#   1 = Credit(amount)         on resource 0
+#   2 = Debit(amount)          on resource 0, rejected (guest error 2) if balance - amount < floor
+#   3 = Move(amount)           resource 0 -> resource 1, rejected (guest error 3) if it breaks the source floor
+#   4 = MoveBack(amount)       resource 1 -> resource 0, same rule (access list is sorted by id, runner picks direction)
+# Anything else -> guest error 1. Every successful op bumps `ops` on each touched resource.
+
+[dependencies]
+risc0-zkvm = { version = "3.0", default-features = false, features = ["std"] }
+vprogs-zk-abi = { path = "../../../abi", default-features = false }
+vprogs-zk-backend-risc0-api = { path = "../api", default-features = false, features = [
+  "guest",
+] }

@@ -1,0 +1,121 @@
+2026-09-26 01:00:25.996+02:00 [INFO ] lane id=1147054488 subnetwork=445ea99800000000000000000000000000000000 mode=Fresh
+2026-09-26 01:00:25.998+02:00 [INFO ] bootstrapping dev-pins covenant; issuer address kaspatest:qqclpyyvg4s9zz999m9f2a6h09gc6kv6lgscx47cks0wn5wd8x7dw3l2h8n8q
+2026-09-26 01:00:26.000+02:00 [INFO ] covenant 2111e67167edfbf7b5563448da47d208d3e18fae95859b48dc5141d3d07c1cc5 bootstrapped (tx b973069645a9eff8a3e881459486d494f1649fae7453f4e6b82470c11d77d19c)
+2026-09-26 01:00:26.316+02:00 [INFO ] RUN started lane=1147054488 covenant=2111e67167edfbf7b5563448da47d208d3e18fae95859b48dc5141d3d07c1cc5 startup_ms=320
+2026-09-26 01:00:26.318+02:00 [INFO ] L1 bridge connected to ws://127.0.0.1:17210
+2026-09-26 01:00:26.318+02:00 [INFO ] L1 bridge: seeding from explicit block bd6e6b92cf9435b01c2c7660887c91a842cccdc8f5682c7c540f7ad26e53aefc
+2026-09-26 01:00:26.353+02:00 [INFO ] MOVE tag=844424930131969 kind=credit issuer=3 txid=88f3b898796f8af717f22773d32efdf21ecd082f7819e982b26989be97b00012 build_ms=5 submit_ms=0 t_ms=1790377226353
+2026-09-26 01:00:26.447+02:00 [INFO ] MOVE tag=1407374883553281 kind=credit issuer=5 txid=11c9ce79b83655f178d6871966b0558d97791be74e3f2b9d5bbc15304d654ccc build_ms=1 submit_ms=0 t_ms=1790377226447
+2026-09-26 01:00:26.543+02:00 [INFO ] MOVE tag=3377699720527873 kind=credit issuer=12 txid=f0f1ac849b51b97ecce7a634108a1895a872e6d00ec4a234dd3839a38a6e713e build_ms=1 submit_ms=0 t_ms=1790377226543
+2026-09-26 01:00:26.550+02:00 [INFO ] MOVE tag=844424930131970 kind=debit issuer=3 txid=2a0bf7cc61052d28e7ff4df960682c7c8129e0dd002162b0efc78901bfc4157a build_ms=1 submit_ms=0 t_ms=1790377226550
+2026-09-26 01:00:26.567+02:00 [INFO ] MOVE tag=1 kind=debit issuer=0 txid=bddf8f2bde9ad9a3bb7eed22fcbc603b892328d61ebbb297a472d5bf0b625a8b build_ms=3 submit_ms=0 t_ms=1790377226567
+2026-09-26 01:00:26.617+02:00 [INFO ] MOVE tag=4222124650659841 kind=move issuer=15 txid=df3b12c0fc2a52c4bd5b85e82a218e28002b9c54337c1465142e67084a6c022b build_ms=2 submit_ms=0 t_ms=1790377226617
+2026-09-26 01:00:26.680+02:00 [INFO ] MOVE tag=1407374883553282 kind=move issuer=5 txid=7afd96ca5db630e84f780431889d211e214b63fe6efea71b956f11b039357e3d build_ms=31 submit_ms=1 t_ms=1790377226680
+2026-09-26 01:00:26.700+02:00 [INFO ] MOVE tag=2814749767106561 kind=floor issuer=10 txid=7d87b7189f37e0273f198a5c9b4625bf1cc548b0bf7df8e26a5090b31c9541a3 build_ms=3 submit_ms=8 t_ms=1790377226700
+2026-09-26 01:00:26.751+02:00 [INFO ] MOVE tag=562949953421313 kind=credit issuer=2 txid=61fccd3c6285fa17f8ae47bc19cfbb4763b3f46e7da6da81c9725482e5b9ff8f build_ms=8 submit_ms=5 t_ms=1790377226751
+2026-09-26 01:00:26.757+02:00 [INFO ] MOVE tag=3377699720527874 kind=debit issuer=12 txid=83c077a7e59901553a6983fa1f115960f74677076eacfb0e71cf2fd12c0b0df9 build_ms=9 submit_ms=1 t_ms=1790377226757
+2026-09-26 01:00:26.757+02:00 [INFO ] MOVE tag=844424930131971 kind=debit issuer=3 txid=1eff3d18e1d62ec19fadb2557ed8546c942eaf6f834f513e760fd54b385f8386 build_ms=3 submit_ms=1 t_ms=1790377226757
+2026-09-26 01:00:26.766+02:00 [INFO ] MOVE tag=2 kind=move issuer=0 txid=f848b3f1878f26eed341e8c1ae9873c460d0a1190d19f1fad0f93e2fd0412a54 build_ms=1 submit_ms=0 t_ms=1790377226766
+2026-09-26 01:00:26.797+02:00 [INFO ] MOVE tag=1970324836974593 kind=debit issuer=7 txid=e3ee34c8247c0ad1db5d4d691ff6acc4bd37973e3d555f538e2f5a6954cd6683 build_ms=1 submit_ms=0 t_ms=1790377226797
+2026-09-26 01:00:26.809+02:00 [INFO ] MOVE tag=3940649673949185 kind=bad issuer=14 txid=b382d22b52e2e5acf740abb2fcd8179c3d45505772e8377fb6490ae8f3fbf601 build_ms=2 submit_ms=0 t_ms=1790377226809
+2026-09-26 01:00:26.818+02:00 [INFO ] MOVE tag=4222124650659842 kind=debit issuer=15 txid=266435eebba42752f78bd98f4ca718717f46144129e073cb0f959d09417c8593 build_ms=2 submit_ms=0 t_ms=1790377226818
+2026-09-26 01:00:26.852+02:00 [INFO ] MOVE tag=1407374883553283 kind=credit issuer=5 txid=4eb7219faaa72e70576ee1dd89e7d0a26654b31961affa4d5307c148cbe64337 build_ms=3 submit_ms=0 t_ms=1790377226852
+2026-09-26 01:00:26.870+02:00 [INFO ] MOVE tag=281474976710657 kind=credit issuer=1 txid=2a3b996efa8ec76fa06b3cee79979af7ced1b7e717da6e346d3b434cab06df46 build_ms=1 submit_ms=3 t_ms=1790377226870
+2026-09-26 01:00:26.891+02:00 [INFO ] MOVE tag=2814749767106562 kind=credit issuer=10 txid=9864301a150ac55c38b1ac2deee77f49680bee0b9a118687448ee18d42b8e0ac build_ms=1 submit_ms=0 t_ms=1790377226891
+2026-09-26 01:00:26.942+02:00 [INFO ] MOVE tag=562949953421314 kind=debit issuer=2 txid=63d3873a979bf79d3b6115c79eac2b6fecd3532a6389362b476af1042312e5cc build_ms=3 submit_ms=0 t_ms=1790377226942
+2026-09-26 01:00:26.952+02:00 [INFO ] MOVE tag=3377699720527875 kind=debit issuer=12 txid=9939ba8453901fb1bdc97429505bfb14d91b0c7da2f91988b2e7c886eb5f79d0 build_ms=4 submit_ms=1 t_ms=1790377226952
+2026-09-26 01:00:26.953+02:00 [INFO ] MOVE tag=844424930131972 kind=credit issuer=3 txid=959d3a406ce205efb1121afc51d1df719c9ed6b40a155f569c040eb0feac1469 build_ms=1 submit_ms=0 t_ms=1790377226953
+2026-09-26 01:00:27.017+02:00 [INFO ] MOVE tag=3 kind=credit issuer=0 txid=3af04fc0aacc4ea4bd809df3d1c79983814538bb67dbfe632000a3d5974fd69c build_ms=4 submit_ms=45 t_ms=1790377227017
+2026-09-26 01:00:27.024+02:00 [INFO ] MOVE tag=3940649673949186 kind=debit issuer=14 txid=efcd809f868a186f3bd637d3f3f86d67b6b3efed28a87722e47308937d1d2064 build_ms=15 submit_ms=2 t_ms=1790377227024
+2026-09-26 01:00:27.025+02:00 [INFO ] MOVE tag=1970324836974594 kind=debit issuer=7 txid=2abbd0f3391d177971d36cba703cb8c388f1832290e411b511f0255af4d80561 build_ms=25 submit_ms=3 t_ms=1790377227025
+2026-09-26 01:00:27.048+02:00 [INFO ] MOVE tag=1688849860263937 kind=debit issuer=6 txid=b3f6bfac4af764c175fc2b87282e1b43f259c1c70b0d15eef47f7132bd5b9fe6 build_ms=35 submit_ms=25 t_ms=1790377227048
+2026-09-26 01:00:27.048+02:00 [INFO ] MOVE tag=4222124650659843 kind=bad issuer=15 txid=902e35fd5c5f823882dfd0f1f3c81eeed267642c1f1f746a463a6c401c6f86b5 build_ms=8 submit_ms=22 t_ms=1790377227048
+2026-09-26 01:00:27.051+02:00 [INFO ] MOVE tag=3659174697238529 kind=credit issuer=13 txid=ef3fcc6fbc29f8fe9bcdc7190e7bf0f1e333b5e7c20ff798a0808851fc9e7956 build_ms=2 submit_ms=0 t_ms=1790377227051
+2026-09-26 01:00:27.070+02:00 [INFO ] MOVE tag=1407374883553284 kind=credit issuer=5 txid=bc31f39efcd7deafe93446d0241eee4ce47cf73ac7d8bbc9324a114c25cab3f9 build_ms=2 submit_ms=19 t_ms=1790377227070
+2026-09-26 01:00:27.094+02:00 [INFO ] MOVE tag=281474976710658 kind=credit issuer=1 txid=41bbba831d9486b5d8365e9ee1762fad67ddf6911cc98347c6eacaaf878e0e7e build_ms=24 submit_ms=0 t_ms=1790377227094
+2026-09-26 01:00:27.138+02:00 [INFO ] MOVE tag=2814749767106563 kind=bad issuer=10 txid=983da5e3a50fae402326aa0972ec97f4329cb00592f325dcfd7df282f4cdbc7d build_ms=1 submit_ms=44 t_ms=1790377227138
+2026-09-26 01:00:27.141+02:00 [INFO ] MOVE tag=562949953421315 kind=debit issuer=2 txid=6d111e91519ead866754673bc92fb3b8c834b59dcf1c7cc00820a9c6dfa36c4e build_ms=1 submit_ms=0 t_ms=1790377227141
+2026-09-26 01:00:27.150+02:00 [INFO ] MOVE tag=3377699720527876 kind=credit issuer=12 txid=5b2d6c0bdaae3255fe2f6c5287fce7e2218332c4bd2106ade86b4f5afd18fc35 build_ms=2 submit_ms=0 t_ms=1790377227150
+2026-09-26 01:00:27.150+02:00 [INFO ] MOVE tag=2251799813685249 kind=credit issuer=8 txid=ebdbbef5c528dfb39ad391b304d1f764bcba715f1ba536ffb73330e1fca676c5 build_ms=2 submit_ms=0 t_ms=1790377227150
+2026-09-26 01:00:27.154+02:00 [INFO ] MOVE tag=844424930131973 kind=credit issuer=3 txid=c4d10df80b6799d3a71eef52a56f25493f4806075075c6b41560d4e73966fbe2 build_ms=0 submit_ms=0 t_ms=1790377227154
+...
+2026-09-26 01:00:36.318+02:00 [INFO ] STATS issued=753 per_s=75.3 fail_build=0 fail_nofund=0 fail_submit=0 rate_target=80
+2026-09-26 01:00:46.321+02:00 [INFO ] STATS issued=1519 per_s=76.6 fail_build=0 fail_nofund=0 fail_submit=0 rate_target=80
+2026-09-26 01:00:56.323+02:00 [INFO ] STATS issued=2303 per_s=78.4 fail_build=0 fail_nofund=0 fail_submit=0 rate_target=80
+2026-09-26 01:01:06.323+02:00 [INFO ] STATS issued=3089 per_s=78.6 fail_build=0 fail_nofund=0 fail_submit=0 rate_target=80
+2026-09-26 01:01:16.324+02:00 [INFO ] STATS issued=3852 per_s=76.3 fail_build=0 fail_nofund=0 fail_submit=0 rate_target=80
+2026-09-26 01:01:26.325+02:00 [INFO ] STATS issued=4601 per_s=74.9 fail_build=0 fail_nofund=0 fail_submit=0 rate_target=80
+2026-09-26 01:01:36.327+02:00 [INFO ] STATS issued=5338 per_s=73.7 fail_build=0 fail_nofund=26 fail_submit=0 rate_target=80
+2026-09-26 01:01:46.329+02:00 [INFO ] STATS issued=5771 per_s=43.3 fail_build=0 fail_nofund=152 fail_submit=0 rate_target=80
+2026-09-26 01:01:56.330+02:00 [INFO ] STATS issued=6152 per_s=38.1 fail_build=0 fail_nofund=312 fail_submit=0 rate_target=80
+2026-09-26 01:02:06.331+02:00 [INFO ] STATS issued=6464 per_s=31.2 fail_build=0 fail_nofund=497 fail_submit=0 rate_target=80
+2026-09-26 01:02:16.332+02:00 [INFO ] STATS issued=6790 per_s=32.6 fail_build=0 fail_nofund=679 fail_submit=0 rate_target=80
+2026-09-26 01:02:26.333+02:00 [INFO ] STATS issued=7086 per_s=29.6 fail_build=0 fail_nofund=874 fail_submit=0 rate_target=80
+2026-09-26 01:02:36.336+02:00 [INFO ] STATS issued=7367 per_s=28.1 fail_build=0 fail_nofund=1062 fail_submit=0 rate_target=80
+2026-09-26 01:02:46.337+02:00 [INFO ] STATS issued=7655 per_s=28.8 fail_build=0 fail_nofund=1257 fail_submit=0 rate_target=80
+2026-09-26 01:02:56.338+02:00 [INFO ] STATS issued=7930 per_s=27.5 fail_build=0 fail_nofund=1461 fail_submit=0 rate_target=80
+2026-09-26 01:03:06.341+02:00 [INFO ] STATS issued=8248 per_s=31.8 fail_build=0 fail_nofund=1637 fail_submit=0 rate_target=80
+2026-09-26 01:03:16.342+02:00 [INFO ] STATS issued=8543 per_s=29.5 fail_build=0 fail_nofund=1830 fail_submit=0 rate_target=80
+2026-09-26 01:03:26.344+02:00 [INFO ] STATS issued=8839 per_s=29.6 fail_build=0 fail_nofund=2021 fail_submit=0 rate_target=80
+2026-09-26 01:03:36.344+02:00 [INFO ] STATS issued=9123 per_s=28.4 fail_build=0 fail_nofund=2219 fail_submit=0 rate_target=80
+2026-09-26 01:03:46.346+02:00 [INFO ] STATS issued=9465 per_s=34.2 fail_build=0 fail_nofund=2395 fail_submit=0 rate_target=80
+2026-09-26 01:03:56.347+02:00 [INFO ] STATS issued=9723 per_s=25.8 fail_build=0 fail_nofund=2602 fail_submit=0 rate_target=80
+2026-09-26 01:04:06.349+02:00 [INFO ] STATS issued=10029 per_s=30.6 fail_build=0 fail_nofund=2765 fail_submit=0 rate_target=80
+2026-09-26 01:04:16.349+02:00 [INFO ] STATS issued=10330 per_s=30.1 fail_build=0 fail_nofund=2958 fail_submit=0 rate_target=80
+2026-09-26 01:04:26.354+02:00 [INFO ] STATS issued=10630 per_s=30.0 fail_build=0 fail_nofund=3150 fail_submit=0 rate_target=80
+2026-09-26 01:04:36.355+02:00 [INFO ] STATS issued=11009 per_s=37.9 fail_build=0 fail_nofund=3304 fail_submit=0 rate_target=80
+2026-09-26 01:04:46.356+02:00 [INFO ] STATS issued=11232 per_s=22.3 fail_build=0 fail_nofund=3530 fail_submit=0 rate_target=80
+2026-09-26 01:04:56.357+02:00 [INFO ] STATS issued=11553 per_s=32.1 fail_build=0 fail_nofund=3715 fail_submit=0 rate_target=80
+2026-09-26 01:05:06.360+02:00 [INFO ] STATS issued=11894 per_s=34.1 fail_build=0 fail_nofund=3885 fail_submit=0 rate_target=80
+2026-09-26 01:05:16.361+02:00 [INFO ] STATS issued=12123 per_s=22.9 fail_build=0 fail_nofund=4103 fail_submit=0 rate_target=80
+2026-09-26 01:05:26.378+02:00 [INFO ] STATS issued=12434 per_s=31.1 fail_build=0 fail_nofund=4294 fail_submit=0 rate_target=80
+2026-09-26 01:05:36.378+02:00 [INFO ] STATS issued=12692 per_s=25.8 fail_build=0 fail_nofund=4498 fail_submit=0 rate_target=80
+2026-09-26 01:05:46.379+02:00 [INFO ] STATS issued=12931 per_s=23.9 fail_build=0 fail_nofund=4710 fail_submit=0 rate_target=80
+2026-09-26 01:05:56.380+02:00 [INFO ] STATS issued=13176 per_s=24.5 fail_build=0 fail_nofund=4924 fail_submit=0 rate_target=80
+2026-09-26 01:06:06.382+02:00 [INFO ] STATS issued=13465 per_s=28.9 fail_build=0 fail_nofund=5118 fail_submit=0 rate_target=80
+2026-09-26 01:06:16.384+02:00 [INFO ] STATS issued=13761 per_s=29.6 fail_build=0 fail_nofund=5270 fail_submit=0 rate_target=80
+2026-09-26 01:06:26.385+02:00 [INFO ] STATS issued=14045 per_s=28.4 fail_build=0 fail_nofund=5475 fail_submit=0 rate_target=80
+2026-09-26 01:06:36.385+02:00 [INFO ] STATS issued=14322 per_s=27.7 fail_build=0 fail_nofund=5672 fail_submit=0 rate_target=80
+2026-09-26 01:06:46.386+02:00 [INFO ] STATS issued=14647 per_s=32.5 fail_build=0 fail_nofund=5851 fail_submit=0 rate_target=80
+...
+2026-09-26 01:01:34.634+02:00 [WARN ] MOVEFAIL tag=3377699720528203 kind=debit issuer=12 stage=nofund in_flight=24
+2026-09-26 01:01:34.800+02:00 [WARN ] MOVEFAIL tag=3659174697238857 kind=floor issuer=13 stage=nofund in_flight=25
+2026-09-26 01:01:34.807+02:00 [WARN ] MOVEFAIL tag=562949953421643 kind=credit issuer=2 stage=nofund in_flight=26
+2026-09-26 01:01:34.834+02:00 [WARN ] MOVEFAIL tag=1407374883553612 kind=move issuer=5 stage=nofund in_flight=24
+2026-09-26 01:01:34.840+02:00 [WARN ] MOVEFAIL tag=3096224743817544 kind=debit issuer=11 stage=nofund in_flight=26
+2026-09-26 01:01:34.945+02:00 [WARN ] MOVEFAIL tag=1125899906842953 kind=debit issuer=4 stage=nofund in_flight=25
+2026-09-26 01:01:35.005+02:00 [WARN ] MOVEFAIL tag=844424930132301 kind=credit issuer=3 stage=nofund in_flight=27
+2026-09-26 01:01:35.148+02:00 [WARN ] MOVEFAIL tag=3377699720528204 kind=debit issuer=12 stage=nofund in_flight=24
+2026-09-26 01:01:35.232+02:00 [WARN ] MOVEFAIL tag=3940649673949516 kind=bad issuer=14 stage=nofund in_flight=24
+2026-09-26 01:01:35.311+02:00 [WARN ] MOVEFAIL tag=562949953421644 kind=move issuer=2 stage=nofund in_flight=26
+2026-09-26 01:01:35.318+02:00 [WARN ] MOVEFAIL tag=4222124650660175 kind=debit issuer=15 stage=nofund in_flight=23
+2026-09-26 01:01:35.509+02:00 [WARN ] MOVEFAIL tag=3659174697238859 kind=credit issuer=13 stage=nofund in_flight=25
+2026-09-26 01:01:35.537+02:00 [WARN ] MOVEFAIL tag=335 kind=debit issuer=0 stage=nofund in_flight=25
+2026-09-26 01:01:35.634+02:00 [WARN ] MOVEFAIL tag=1970324836974927 kind=floor issuer=7 stage=nofund in_flight=24
+2026-09-26 01:01:35.671+02:00 [WARN ] MOVEFAIL tag=2251799813685580 kind=credit issuer=8 stage=nofund in_flight=24
+2026-09-26 01:01:35.675+02:00 [WARN ] MOVEFAIL tag=281474976710990 kind=debit issuer=1 stage=nofund in_flight=24
+2026-09-26 01:01:35.737+02:00 [WARN ] MOVEFAIL tag=3940649673949517 kind=debit issuer=14 stage=nofund in_flight=24
+2026-09-26 01:01:35.747+02:00 [WARN ] MOVEFAIL tag=3096224743817547 kind=move issuer=11 stage=nofund in_flight=26
+2026-09-26 01:01:35.808+02:00 [WARN ] MOVEFAIL tag=2814749767106897 kind=floor issuer=10 stage=nofund in_flight=25
+2026-09-26 01:01:35.821+02:00 [WARN ] MOVEFAIL tag=4222124650660176 kind=credit issuer=15 stage=nofund in_flight=23
+...
+2026-09-26 01:06:52.321+02:00 [WARN ] MOVEFAIL tag=4222124650661137 kind=debit issuer=15 stage=nofund in_flight=22
+2026-09-26 01:06:52.321+02:00 [INFO ] MOVE tag=3096224743818511 kind=move issuer=11 txid=e966cbffb5d8a37aa8d464e4b7ea4aa3a0f26b36ba4efad344d8179bf143c80f build_ms=13 submit_ms=5 t_ms=1790377612321
+2026-09-26 01:06:52.321+02:00 [INFO ] MOVE tag=1688849860265237 kind=credit issuer=6 txid=20aac165b91a9ef81c2c690d213fa610553d22a8d53af137157a998f09274eb9 build_ms=8 submit_ms=0 t_ms=1790377612321
+2026-09-26 01:06:52.336+02:00 [INFO ] MOVE tag=3659174697239825 kind=move issuer=13 txid=fac8a6f1566a751e917e6f849063e85049d894c6ae040d2912e1cf10112fbc94 build_ms=13 submit_ms=1 t_ms=1790377612336
+2026-09-26 01:06:52.339+02:00 [INFO ] MOVE tag=2251799813686541 kind=debit issuer=8 txid=21740d8ba7a149b256b37d5942b489b88de7fb44b703259e51eadd427c867143 build_ms=3 submit_ms=1 t_ms=1790377612339
+2026-09-26 01:06:52.344+02:00 [WARN ] MOVEFAIL tag=1407374883554582 kind=credit issuer=5 stage=nofund in_flight=22
+2026-09-26 01:06:52.372+02:00 [WARN ] MOVEFAIL tag=2814749767107867 kind=move issuer=10 stage=nofund in_flight=23
+2026-09-26 01:06:52.380+02:00 [INFO ] MOVE tag=1301 kind=move issuer=0 txid=6485ad8bb12008da2a3666ff1ccf81c650250c6ecb548cd3ac01899d58d6cd11 build_ms=6 submit_ms=3 t_ms=1790377612380
+2026-09-26 01:06:52.423+02:00 [INFO ] MOVE tag=3940649673950485 kind=move issuer=14 txid=c4aeb5a09d3d3926ac42d5fc44a8381adf66916fd2b7e9d6ac52c8ce5361573c build_ms=45 submit_ms=0 t_ms=1790377612423
+2026-09-26 01:06:52.478+02:00 [INFO ] MOVE tag=844424930133285 kind=floor issuer=3 txid=e0efe22fa776e8bc818e5185aac209c38eaa24eff6956b5a6677adb7f2a41662 build_ms=6 submit_ms=1 t_ms=1790377612478
+2026-09-26 01:06:52.482+02:00 [WARN ] MOVEFAIL tag=3377699720529174 kind=move issuer=12 stage=nofund in_flight=21
+2026-09-26 01:06:52.483+02:00 [WARN ] MOVEFAIL tag=1970324836975899 kind=credit issuer=7 stage=nofund in_flight=22
+2026-09-26 01:06:52.508+02:00 [WARN ] MOVEFAIL tag=3096224743818512 kind=debit issuer=11 stage=nofund in_flight=23
+2026-09-26 01:06:52.519+02:00 [WARN ] MOVEFAIL tag=1688849860265238 kind=bad issuer=6 stage=nofund in_flight=23
+2026-09-26 01:06:52.532+02:00 [INFO ] MOVE tag=3659174697239826 kind=floor issuer=13 txid=a05c9b32d7736105118eb31b170459af13dfa435f5aa90e5bf07404fa3a8bba8 build_ms=4 submit_ms=5 t_ms=1790377612532
+2026-09-26 01:06:52.539+02:00 [WARN ] activity funding failed: candidate UTXOs bring 591502 sompi but funding requires 624494
+2026-09-26 01:06:52.539+02:00 [WARN ] MOVEFAIL tag=2251799813686542 kind=debit issuer=8 stage=nofund in_flight=20
+2026-09-26 01:06:52.554+02:00 [WARN ] activity funding failed: candidate UTXOs bring 563897 sompi but funding requires 607875
+2026-09-26 01:06:52.554+02:00 [WARN ] MOVEFAIL tag=2533274790397198 kind=debit issuer=9 stage=nofund in_flight=21
+2026-09-26 01:06:52.610+02:00 [WARN ] MOVEFAIL tag=281474976711965 kind=move issuer=1 stage=nofund in_flight=22

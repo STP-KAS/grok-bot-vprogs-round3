@@ -1,0 +1,1 @@
+{"t": "2026-09-26T00:15:12+0200", "start": "2026-09-26T00:14:28+0200", "start_epoch": 1790374468.006685, "mp_start": 186, "pre_mp_median": null, "mp_max": 83975, "end": "2026-09-26T00:15:00+0200", "end_epoch": 1790374500.10629, "mp_end": 62845, "drain_target": 5000, "drain_s": 12.0, "drain_timeout": false, "mp_after": 869, "drain_rate_tx_s": 5154.4}
