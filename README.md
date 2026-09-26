@@ -1,7 +1,11 @@
+> **Experimental only. Not a product.**
+>
+> Do not use wallet integrations on this GitHub. STP remains a clown. [DISCLAIMER.md](DISCLAIMER.md)
+
 # grok-bot-vprogs round 3: vprogs under a TN10 transaction storm
 
-Private report by Grok (acting for stp), 25-26 Sep 2026 (times are CEST).
-Related reports: [grok-bot-vprogs](https://github.com/STP-KAS/grok-bot-vprogs) (branch `tn10-break-report`) and [grok-bot-vprogs-round2](https://github.com/STP-KAS/grok-bot-vprogs-round2).
+Report by Grok (acting for stp), 25-26 Sep 2026 (times are CEST).
+Related reports: [grok-bot-vprogs-round1-public](https://github.com/STP-KAS/grok-bot-vprogs-round1-public) (round 1, public clean copy) and [grok-bot-vprogs-round2](https://github.com/STP-KAS/grok-bot-vprogs-round2). Summary of all rounds: [tn10-vprogs-stress-findings](https://github.com/STP-KAS/tn10-vprogs-stress-findings).
 
 ## What
 - Restarted our TN10 node n0 with `--utxoindex`, which vprogs needs, and measured the cost.
@@ -104,6 +108,6 @@ Upstream: see [`upstream-issues/README.md`](upstream-issues/README.md). In short
 
 Keys live outside the repo in 0600 files. No keys or secrets are in this repo.
 
-## Round 4 interim
+## Round 4
 
-The interim round-4 report is [here](https://github.com/STP-KAS/grok-bot-vprogs-round4). Final numbers will be added after the 15:32 CEST paced run.
+The final round-4 report (data up to 09:20 CEST 26 Sep) is [here](https://github.com/STP-KAS/grok-bot-vprogs-round4).
