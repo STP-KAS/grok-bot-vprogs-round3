@@ -103,3 +103,7 @@ Upstream: see [`upstream-issues/README.md`](upstream-issues/README.md). In short
 4. tic-tac-toe: apply `tictactoe/ttloop-scenario.diff`, add `ttloop.rs` to `driver/src/bin/`, build `-p vprog-tictactoe-node -p vprog-tictactoe-driver --release`. Then `scripts/run-ttd.sh`, `scripts/run-ttflow.sh` (Init), and `BIN=ttloop scripts/run-ttflow.sh`.
 
 Keys live outside the repo in 0600 files. No keys or secrets are in this repo.
+
+## Round 4 interim
+
+The interim round-4 report is [here](https://github.com/STP-KAS/grok-bot-vprogs-round4). Final numbers will be added after the 15:32 CEST paced run.
